@@ -1,0 +1,17 @@
+IO cells
+DOC: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/documents/tpfn40lpgv2od3_120a
+LIB: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/timing_power_noise/NLDM/tpfn40lpgv2od3_120a
+VERILOG: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a
+
+Standard cell library
+DOC: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/documents/tcbn40lpbwp_200a
+LIB: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/timing_power_noise/NLDM/tcbn40lpbwp_200a
+VERILOG: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tcbn40lpbwp_200a
+
+Analog IO cells
+DOC: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/documents/tpan40lpgv2od3_120a
+LIB: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/timing_power_noise/NLDM/tpan40lpgv2od3_120a
+VERILOG: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpan40lpgv2od3_120a
+
+Application notes
+/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Documentation/application_notes

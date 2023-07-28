@@ -1,0 +1,188 @@
+Archive member included to satisfy reference by file (symbol)
+
+../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+                              CMakeFiles/bootloader.dir/src/main.cpp.o (Code_ram::write(unsigned long, unsigned long) const)
+../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+                              CMakeFiles/bootloader.dir/src/main.cpp.o (Gpio::get_pin(unsigned char) const)
+../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+                              CMakeFiles/bootloader.dir/src/main.cpp.o (Uart::is_receiver_ready() const)
+../libs/libdrivers/liblibdrivers.a(common.cpp.o)
+                              ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o) (get_reg_bits(unsigned long volatile*, unsigned long, unsigned char, unsigned long))
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+boot_rom         0x0000000000000000 0x0000000000004000
+data_ram         0x0000000040000000 0x0000000000004000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD CMakeFiles/bootloader.dir/crt0.S.o
+LOAD CMakeFiles/bootloader.dir/src/main.cpp.o
+LOAD ../libs/libmisc/liblibmisc.a
+LOAD ../libs/libdrivers/liblibdrivers.a
+                0x0000000040004000                _stack_start = (ORIGIN (data_ram) + LENGTH (data_ram))
+START GROUP
+LOAD /opt/riscv/bin/../lib/gcc/riscv32-unknown-elf/10.0.0/../../../../riscv32-unknown-elf/lib/libc.a
+LOAD /opt/riscv/bin/../lib/gcc/riscv32-unknown-elf/10.0.0/../../../../riscv32-unknown-elf/lib/libgloss.a
+LOAD /opt/riscv/bin/../lib/gcc/riscv32-unknown-elf/10.0.0/libgcc.a
+LOAD /opt/riscv/bin/../lib/gcc/riscv32-unknown-elf/10.0.0/../../../../riscv32-unknown-elf/lib/libsupc++.a
+END GROUP
+
+.vectors        0x0000000000000000        0x0
+                0x0000000000000000                . = ORIGIN (boot_rom)
+ *(.vectors)
+
+.text           0x0000000000000000      0x59c
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                _stext = .
+ *(.text)
+ .text          0x0000000000000000       0xf8 CMakeFiles/bootloader.dir/crt0.S.o
+ .text          0x00000000000000f8        0x0 CMakeFiles/bootloader.dir/src/main.cpp.o
+ .text          0x00000000000000f8       0x3c ../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+                0x00000000000000f8                Code_ram::Code_ram(unsigned long, unsigned long)
+                0x0000000000000104                Code_ram::read(unsigned long) const
+                0x0000000000000118                Code_ram::write(unsigned long, unsigned long) const
+                0x000000000000012c                Code_ram::get_size() const
+ .text          0x0000000000000134       0x78 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+                0x0000000000000134                Gpio::Gpio(unsigned long)
+                0x000000000000013c                Gpio::set_odr(unsigned long) const
+                0x0000000000000148                Gpio::get_idr() const
+                0x0000000000000154                Gpio::set_pin(unsigned char, bool) const
+                0x000000000000016c                Gpio::get_pin(unsigned char) const
+                0x0000000000000198                Gpio::toggle_pin(unsigned char) const
+ .text          0x00000000000001ac      0x240 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+                0x00000000000001ac                Uart::Uart(unsigned long)
+                0x00000000000001fc                Uart::is_receiver_ready() const
+                0x0000000000000228                Uart::get_rdata() const
+                0x0000000000000254                Uart::read() const
+                0x0000000000000284                Uart::read(char*, int) const
+                0x000000000000032c                Uart::is_transmitter_busy() const
+                0x0000000000000358                Uart::set_wdata(unsigned char) const
+                0x0000000000000370                Uart::write(unsigned char) const
+                0x00000000000003a8                Uart::write(char const*) const
+ .text          0x00000000000003ec       0x60 ../libs/libdrivers/liblibdrivers.a(common.cpp.o)
+                0x00000000000003ec                get_reg_bits(unsigned long volatile*, unsigned long, unsigned char, unsigned long)
+                0x0000000000000404                set_reg_bits(unsigned long volatile*, unsigned long, unsigned char, unsigned long, unsigned long)
+                0x0000000000000430                toggle_reg_bits(unsigned long volatile*, unsigned long, unsigned char, unsigned long)
+ *(.text.*)
+ .text.startup  0x000000000000044c      0x104 CMakeFiles/bootloader.dir/src/main.cpp.o
+                0x000000000000044c                main
+ .text.startup  0x0000000000000550       0x1c ../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+ .text.startup  0x000000000000056c       0x10 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+ .text.startup  0x000000000000057c       0x10 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+                0x000000000000058c                _etext = .
+                0x000000000000058c                __CTOR_LIST__ = .
+                0x000000000000058c        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(.ctors)
+                0x0000000000000590        0x4 LONG 0x0
+                0x0000000000000594                __CTOR_END__ = .
+                0x0000000000000594                __DTOR_LIST__ = .
+                0x0000000000000594        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(.dtors)
+                0x0000000000000598        0x4 LONG 0x0
+                0x000000000000059c                __DTOR_END__ = .
+ *(.lit)
+ *(.shdata)
+                0x000000000000059c                . = ALIGN (0x4)
+                0x000000000000059c                _endtext = .
+
+.init_array     0x000000000000059c        0xc
+                0x000000000000059c                . = ALIGN (0x4)
+                0x000000000000059c                _init_array_start = .
+ *(.init_array*)
+ .init_array    0x000000000000059c        0x4 ../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+ .init_array    0x00000000000005a0        0x4 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+ .init_array    0x00000000000005a4        0x4 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+                0x00000000000005a8                . = ALIGN (0x4)
+                0x00000000000005a8                _init_array_end = .
+
+.rodata         0x00000000000005a8       0x68
+                0x00000000000005a8                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x00000000000005a8       0x65 CMakeFiles/bootloader.dir/src/main.cpp.o
+                0x0000000000000610                . = ALIGN (0x4)
+ *fill*         0x000000000000060d        0x3 
+                0x0000000000000610                _sidata = LOADADDR (.data)
+
+.rela.dyn       0x0000000000000610        0x0
+ .rela.text     0x0000000000000610        0x0 CMakeFiles/bootloader.dir/crt0.S.o
+
+.data           0x0000000040000000        0x0 load address 0x0000000000000610
+                0x0000000040000000                . = ALIGN (0x4)
+                0x0000000040000000                sdata = .
+                0x0000000040000000                _sdata = .
+ *(.data)
+ .data          0x0000000040000000        0x0 CMakeFiles/bootloader.dir/crt0.S.o
+ .data          0x0000000040000000        0x0 CMakeFiles/bootloader.dir/src/main.cpp.o
+ .data          0x0000000040000000        0x0 ../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+ .data          0x0000000040000000        0x0 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+ .data          0x0000000040000000        0x0 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+ .data          0x0000000040000000        0x0 ../libs/libdrivers/liblibdrivers.a(common.cpp.o)
+ *(.data.*)
+ *(.sdata)
+ *(.sdata.*)
+                0x0000000040000000                . = ALIGN (0x4)
+                0x0000000040000000                edata = .
+                0x0000000040000000                _edata = .
+
+.shbss          0x0000000040000000        0x0 load address 0x0000000000000610
+                0x0000000040000000                . = ALIGN (0x4)
+ *(.shbss)
+                0x0000000040000000                . = ALIGN (0x4)
+
+.bss            0x0000000040000000       0x10 load address 0x0000000000000610
+                0x0000000040000000                . = ALIGN (0x4)
+                0x0000000040000000                _bss_start = .
+ *(.bss)
+ .bss           0x0000000040000000        0x0 CMakeFiles/bootloader.dir/crt0.S.o
+ .bss           0x0000000040000000        0x0 CMakeFiles/bootloader.dir/src/main.cpp.o
+ .bss           0x0000000040000000        0x0 ../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+ .bss           0x0000000040000000        0x0 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+ .bss           0x0000000040000000        0x0 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+ .bss           0x0000000040000000        0x0 ../libs/libdrivers/liblibdrivers.a(common.cpp.o)
+ *(.bss.*)
+ *(.sbss)
+ .sbss          0x0000000040000000        0x8 ../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+                0x0000000040000000                code_ram
+ .sbss          0x0000000040000008        0x4 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+                0x0000000040000008                gpio
+ .sbss          0x000000004000000c        0x4 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+                0x000000004000000c                uart
+ *(.sbss.*)
+ *(COMMON)
+                0x0000000040000010                . = ALIGN (0x4)
+                0x0000000040000010                _bss_end = .
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+OUTPUT(bootloader elf32-littleriscv)
+
+.riscv.attributes
+                0x0000000000000000       0x26
+ .riscv.attributes
+                0x0000000000000000       0x24 CMakeFiles/bootloader.dir/crt0.S.o
+ .riscv.attributes
+                0x0000000000000024       0x1c CMakeFiles/bootloader.dir/src/main.cpp.o
+ .riscv.attributes
+                0x0000000000000040       0x1c ../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+ .riscv.attributes
+                0x000000000000005c       0x1c ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+ .riscv.attributes
+                0x0000000000000078       0x1c ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+ .riscv.attributes
+                0x0000000000000094       0x1c ../libs/libdrivers/liblibdrivers.a(common.cpp.o)
+
+.comment        0x0000000000000000       0x2a
+ .comment       0x0000000000000000       0x2a CMakeFiles/bootloader.dir/src/main.cpp.o
+                                         0x2b (size before relaxing)
+ .comment       0x000000000000002a       0x2b ../libs/libdrivers/liblibdrivers.a(code_ram.cpp.o)
+ .comment       0x000000000000002a       0x2b ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+ .comment       0x000000000000002a       0x2b ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+ .comment       0x000000000000002a       0x2b ../libs/libdrivers/liblibdrivers.a(common.cpp.o)

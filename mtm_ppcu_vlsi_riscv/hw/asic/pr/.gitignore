@@ -1,0 +1,9 @@
+.cadence
+ecoTimingDB
+results_pr
+saved
+timingReports
+.mtm_riscv_chip*
+*.log*
+*.cmd
+*.bin

@@ -1,0 +1,10 @@
+core_pkg.sv
+data_bus.sv
+instr_bus.sv
+alu.sv
+core.sv
+cu.sv
+idu.sv
+ifu.sv
+lsu.sv
+rf.sv

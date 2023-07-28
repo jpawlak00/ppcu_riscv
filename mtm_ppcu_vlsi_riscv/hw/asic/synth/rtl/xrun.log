@@ -1,0 +1,176 @@
+xrun: 19.09-s003: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun	19.09-s003: Started on May 24, 2023 at 18:07:09 CEST
+xrun
+	-elaborate
+	netlist.sv
+	-v /cad/dk/PDK_CRN45GS_DGO_11_25/IMEC_RAM_generator/ram/ts1n40lpb4096x32m4m_250a/VERILOG/ts1n40lpb4096x32m4m_250a_tt1p1v25c.v
+	-v /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v
+	-timescale 1ns/1ps
+	+nowarnTRNNOP
+	-clean
+	-top mtm_riscv_chip
+xrun: *N,CLEAN: Removing existing directory ./xcelium.d.
+file: netlist.sv
+	package worklib.core_pkg:sv
+		errors: 0, warnings: 0
+	interface worklib.data_bus:sv
+		errors: 0, warnings: 0
+	interface worklib.instr_bus:sv
+		errors: 0, warnings: 0
+	module worklib.alu:sv
+		errors: 0, warnings: 0
+	module worklib.core:sv
+		errors: 0, warnings: 0
+	module worklib.cu:sv
+		errors: 0, warnings: 0
+	module worklib.idu:sv
+		errors: 0, warnings: 0
+	module worklib.ifu:sv
+		errors: 0, warnings: 0
+	module worklib.lsu:sv
+		errors: 0, warnings: 0
+	module worklib.rf:sv
+		errors: 0, warnings: 0
+	package worklib.gpio_csr:sv
+		errors: 0, warnings: 0
+	module worklib.gpio:sv
+		errors: 0, warnings: 0
+	module worklib.ram:sv
+		errors: 0, warnings: 0
+	module worklib.boot_mem:sv
+		errors: 0, warnings: 0
+	module worklib.boot_rom:sv
+		errors: 0, warnings: 0
+	module worklib.code_ram:sv
+		errors: 0, warnings: 0
+	module worklib.data_ram:sv
+		errors: 0, warnings: 0
+	module worklib.uart_clock_generator:sv
+		errors: 0, warnings: 0
+	package worklib.uart_csr:sv
+		errors: 0, warnings: 0
+	module worklib.uart_receiver:sv
+		errors: 0, warnings: 0
+	module worklib.uart_transmitter:sv
+		errors: 0, warnings: 0
+	module worklib.uart:sv
+		errors: 0, warnings: 0
+	package worklib.memory_map:sv
+		errors: 0, warnings: 0
+	module worklib.data_bus_arbiter:sv
+		errors: 0, warnings: 0
+	module worklib.instr_bus_arbiter:sv
+		errors: 0, warnings: 0
+	module worklib.soc:sv
+		errors: 0, warnings: 0
+	module worklib.mtm_riscv_chip:sv
+		errors: 0, warnings: 0
+	module worklib.pads_in:sv
+		errors: 0, warnings: 0
+	module worklib.pads_out:sv
+		errors: 0, warnings: 0
+	module worklib.pads_pwr:sv
+		errors: 0, warnings: 0
+file: /cad/dk/PDK_CRN45GS_DGO_11_25/IMEC_RAM_generator/ram/ts1n40lpb4096x32m4m_250a/VERILOG/ts1n40lpb4096x32m4m_250a_tt1p1v25c.v
+	module ts1n40lpb4096x32m4m_250a_tt1p1v25c.TS1N40LPB4096X32M4M:v
+		errors: 0, warnings: 0
+file: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v
+	module tpfn40lpgv2od3.PDIDGZ:v
+		errors: 0, warnings: 0
+	module tpfn40lpgv2od3.PDO24CDG:v
+		errors: 0, warnings: 0
+	module tpfn40lpgv2od3.PVDD1DGZ:v
+		errors: 0, warnings: 0
+	module tpfn40lpgv2od3.PVDD2DGZ:v
+		errors: 0, warnings: 0
+	module tpfn40lpgv2od3.PVDD2POC:v
+		errors: 0, warnings: 0
+	module tpfn40lpgv2od3.PVSS3DGZ:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+		Caching library 'tpfn40lpgv2od3' ....... Done
+		Caching library 'ts1n40lpb4096x32m4m_250a_tt1p1v25c' ....... Done
+	Top level design units:
+		core_pkg
+		memory_map
+		gpio_csr
+		uart_csr
+		mtm_riscv_chip
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.uart_receiver:sv <0x0d45ec7e>
+			streams:   8, words:  3962
+		worklib.uart_transmitter:sv <0x2cfc1155>
+			streams:   8, words:  3753
+		worklib.uart_clock_generator:sv <0x608600cf>
+			streams:   4, words:  1756
+		worklib.uart:sv <0x3d2a4981>
+			streams:  35, words: 17904
+		worklib.gpio:sv <0x1469458f>
+			streams:  16, words:  7594
+		worklib.data_ram:sv <0x12b380aa>
+			streams:  10, words:  1950
+		worklib.ram:sv <0x3160eef9>
+			streams:   5, words:  1173
+		worklib.code_ram:sv <0x22518cba>
+			streams:   6, words:  4430
+		worklib.boot_mem:sv <0x68ebfa1c>
+			streams:   1, words: 20482
+		worklib.boot_rom:sv <0x00630656>
+			streams:   5, words:  3322
+		worklib.instr_bus_arbiter:sv <0x3f7da5f8>
+			streams:  10, words:  9298
+		worklib.data_bus_arbiter:sv <0x3bc7b89d>
+			streams:  11, words: 26732
+		worklib.lsu:sv <0x216b2834>
+			streams:  10, words:  9163
+		worklib.alu:sv <0x7025b86b>
+			streams:   2, words:  1502
+		worklib.rf:sv <0x729ea623>
+			streams:   5, words:  2351
+		worklib.cu:sv <0x261588e9>
+			streams:  12, words:  8196
+		worklib.idu:sv <0x06cc33f6>
+			streams:  10, words: 18201
+		worklib.ifu:sv <0x728955c4>
+			streams:  10, words:  5430
+		worklib.core:sv <0x0480aa21>
+			streams:  50, words: 10745
+		worklib.soc:sv <0x59f3827f>
+			streams:   0, words:     0
+		worklib.mtm_riscv_chip:sv <0x5a817583>
+			streams:   8, words:  1575
+		worklib.memory_map:sv <0x5eef3587>
+			streams:  10, words:  4742
+		worklib.gpio_csr:sv <0x251ff624>
+			streams:   2, words:   946
+		worklib.uart_csr:sv <0x4dfce08d>
+			streams:   7, words:  3321
+		ts1n40lpb4096x32m4m_250a_tt1p1v25c.TS1N40LPB4096X32M4M:v <0x1694b8e5>
+			streams:  27, words: 43822
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                51      31
+		Interfaces:              9       2
+		Verilog packages:        4       4
+		Primitives:            254       3
+		Timing outputs:         71      33
+		Registers:             406     286
+		Scalar wires:          165       -
+		Expanded wires:        340      17
+		Vectored wires:         84       -
+		Named events:            4       4
+		Always blocks:          97      88
+		Initial blocks:         25      24
+		Cont. assignments:      23      31
+		Pseudo assignments:     81      77
+		Timing checks:         632     165
+		Assertions:              4       4
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.mtm_riscv_chip:sv
+TOOL:	xrun	19.09-s003: Exiting on May 24, 2023 at 18:07:10 CEST  (total: 00:00:01)

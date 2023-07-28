@@ -1,0 +1,96 @@
+/**
+ * Copyright (C) 2022  AGH University of Science and Technology
+ */
+
+package core_pkg;
+
+
+/**
+ * User defined types
+ */
+
+typedef enum logic [16:0] {
+    LUI = 17'b0000000_000_0110111,
+    AUIPC = 17'b0000000_000_0010111,
+    JAL = 17'b0000000_000_1101111,
+    JALR = 17'b0000000_000_1100111,
+    BEQ = 17'b0000000_000_1100011,
+    BNE = 17'b0000000_001_1100011,
+    BLT = 17'b0000000_100_1100011,
+    BGE = 17'b0000000_101_1100011,
+    BLTU = 17'b0000000_110_1100011,
+    BGEU = 17'b0000000_111_1100011,
+    LB = 17'b0000000_000_0000011,
+    LH = 17'b0000000_001_0000011,
+    LW = 17'b0000000_010_0000011,
+    LBU = 17'b0000000_100_0000011,
+    LHU = 17'b0000000_101_0000011,
+    SB = 17'b0000000_000_0100011,
+    SH = 17'b0000000_001_0100011,
+    SW = 17'b0000000_010_0100011,
+    ADDI = 17'b0000000_000_0010011,
+    SLTI = 17'b0000000_010_0010011,
+    SLTIU = 17'b0000000_011_0010011,
+    XORI = 17'b0000000_100_0010011,
+    ORI = 17'b0000000_110_0010011,
+    ANDI = 17'b0000000_111_0010011,
+    SLLI = 17'b0000000_001_0010011,
+    SRLI = 17'b0000000_101_0010011,
+    SRAI = 17'b0100000_101_0010011,
+    ADD = 17'b0000000_000_0110011,
+    SUB = 17'b0100000_000_0110011,
+    SLL = 17'b0000000_001_0110011,
+    SLT = 17'b0000000_010_0110011,
+    SLTU = 17'b0000000_011_0110011,
+    XOR = 17'b0000000_100_0110011,
+    SRL = 17'b0000000_101_0110011,
+    SRA = 17'b0100000_101_0110011,
+    OR = 17'b0000000_110_0110011,
+    AND = 17'b0000000_111_0110011,
+    INVALID = 17'b1111111_111_1111111
+} instr_t;
+
+typedef enum logic [3:0] {
+    ALU_OP_ADD,
+    ALU_OP_SLT,
+    ALU_OP_SLTU,
+    ALU_OP_AND,
+    ALU_OP_OR,
+    ALU_OP_XOR,
+    ALU_OP_SLL,
+    ALU_OP_SRL,
+    ALU_OP_SUB,
+    ALU_OP_SRA,
+    ALU_OP_INVALID
+} alu_op_t;
+
+typedef enum logic {
+    ALU_A_RF,
+    ALU_A_PC
+} alu_a_src_t;
+
+typedef enum logic [1:0] {
+    ALU_B_RF,
+    ALU_B_IMM,
+    ALU_B_CONST_4
+} alu_b_src_t;
+
+typedef enum logic [1:0] {
+    RF_RD_ALU,
+    RF_RD_LSU,
+    RF_RD_IMM
+} rf_rd_src_t;
+
+typedef enum logic [3:0] {
+    LSU_LOAD_BYTE,
+    LSU_LOAD_BYTE_UNSIGNED,
+    LSU_LOAD_HALF_WORD,
+    LSU_LOAD_HALF_WORD_UNSIGNED,
+    LSU_LOAD_WORD,
+    LSU_STORE_BYTE,
+    LSU_STORE_HALF_WORD,
+    LSU_STORE_WORD,
+    LSU_NONE_OP
+} lsu_op_t;
+
+endpackage

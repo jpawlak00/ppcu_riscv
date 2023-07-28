@@ -1,0 +1,32 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++nowarnTRNNOP
++nowarnDSEM2009
++nowarnDSEMEL
++nowarnZROMCW
+-NOWARN
+TRNNOP
+-timescale
+1ns/1ps
+-NOWARN
+DSEM2009
+-NOWARN
+DSEMEL
+-NOWARN
+ZROMCW
++FSMDEBUG
+-ACCESS
++r
+-XMINITIALIZE
+-XLMODE
+./xcelium.d/run.lnx8664.19.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx8664.19.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.19.09.d/hdl.var
+-WORK
+worklib
+-HASXLMODE
