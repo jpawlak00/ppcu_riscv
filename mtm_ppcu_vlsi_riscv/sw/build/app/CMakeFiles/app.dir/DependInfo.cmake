@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/app/crt0.S" "/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/app/CMakeFiles/app.dir/crt0.S.o"
+  "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/app/crt0.S" "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/app/CMakeFiles/app.dir/crt0.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -20,13 +20,13 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/app/src/main.cpp" "app/CMakeFiles/app.dir/src/main.cpp.o" "gcc" "app/CMakeFiles/app.dir/src/main.cpp.o.d"
+  "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/app/src/main.cpp" "app/CMakeFiles/app.dir/src/main.cpp.o" "gcc" "app/CMakeFiles/app.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc/CMakeFiles/libmisc.dir/DependInfo.cmake"
-  "/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers/CMakeFiles/libdrivers.dir/DependInfo.cmake"
+  "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc/CMakeFiles/libmisc.dir/DependInfo.cmake"
+  "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers/CMakeFiles/libdrivers.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

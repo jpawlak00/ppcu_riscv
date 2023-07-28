@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/app
+# Install script for directory: /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

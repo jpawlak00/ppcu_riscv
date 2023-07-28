@@ -5,13 +5,13 @@
 # compile CXX with /opt/riscv/bin/riscv32-unknown-elf-g++
 ASM_DEFINES = 
 
-ASM_INCLUDES = -I/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include -I/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/include
+ASM_INCLUDES = -I/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include -I/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/include
 
 ASM_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include -I/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/include
+CXX_INCLUDES = -I/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include -I/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/include
 
 CXX_FLAGS =      -fno-common     -fno-exceptions     -fno-non-call-exceptions     -fno-rtti     -fno-use-cxa-atexit     -fvisibility=hidden     -march=rv32i     -mabi=ilp32     -mcmodel=medany     -nostdlib     -Os     -Wall     -Wextra     -Werror      -Wl,-Map=bootloader.map  -std=gnu++2a
 

@@ -53,10 +53,10 @@ RM = /usr/local/cmake-3.23.0-rc2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw
+CMAKE_SOURCE_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build
+CMAKE_BINARY_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build
 
 # Include any dependencies generated for this target.
 include libs/libmisc/CMakeFiles/libmisc.dir/depend.make
@@ -72,16 +72,16 @@ include libs/libmisc/CMakeFiles/libmisc.dir/flags.make
 libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o: libs/libmisc/CMakeFiles/libmisc.dir/flags.make
 libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o: ../libs/libmisc/src/delay.cpp
 libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o: libs/libmisc/CMakeFiles/libmisc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o -MF CMakeFiles/libmisc.dir/src/delay.cpp.o.d -o CMakeFiles/libmisc.dir/src/delay.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/src/delay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o"
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o -MF CMakeFiles/libmisc.dir/src/delay.cpp.o.d -o CMakeFiles/libmisc.dir/src/delay.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/src/delay.cpp
 
 libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libmisc.dir/src/delay.cpp.i"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/src/delay.cpp > CMakeFiles/libmisc.dir/src/delay.cpp.i
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/src/delay.cpp > CMakeFiles/libmisc.dir/src/delay.cpp.i
 
 libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libmisc.dir/src/delay.cpp.s"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/src/delay.cpp -o CMakeFiles/libmisc.dir/src/delay.cpp.s
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/src/delay.cpp -o CMakeFiles/libmisc.dir/src/delay.cpp.s
 
 # Object files for target libmisc
 libmisc_OBJECTS = \
@@ -93,19 +93,19 @@ libmisc_EXTERNAL_OBJECTS =
 libs/libmisc/liblibmisc.a: libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o
 libs/libmisc/liblibmisc.a: libs/libmisc/CMakeFiles/libmisc.dir/build.make
 libs/libmisc/liblibmisc.a: libs/libmisc/CMakeFiles/libmisc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibmisc.a"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && $(CMAKE_COMMAND) -P CMakeFiles/libmisc.dir/cmake_clean_target.cmake
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmisc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibmisc.a"
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && $(CMAKE_COMMAND) -P CMakeFiles/libmisc.dir/cmake_clean_target.cmake
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmisc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/libmisc/CMakeFiles/libmisc.dir/build: libs/libmisc/liblibmisc.a
 .PHONY : libs/libmisc/CMakeFiles/libmisc.dir/build
 
 libs/libmisc/CMakeFiles/libmisc.dir/clean:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && $(CMAKE_COMMAND) -P CMakeFiles/libmisc.dir/cmake_clean.cmake
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc && $(CMAKE_COMMAND) -P CMakeFiles/libmisc.dir/cmake_clean.cmake
 .PHONY : libs/libmisc/CMakeFiles/libmisc.dir/clean
 
 libs/libmisc/CMakeFiles/libmisc.dir/depend:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libmisc /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc/CMakeFiles/libmisc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libmisc /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc/CMakeFiles/libmisc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/libmisc/CMakeFiles/libmisc.dir/depend
 

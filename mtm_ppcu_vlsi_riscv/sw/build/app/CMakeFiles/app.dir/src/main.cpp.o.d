@@ -1,6 +1,6 @@
 app/CMakeFiles/app.dir/src/main.cpp.o: \
- /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/app/src/main.cpp \
- /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include/libdrivers/gpio.hpp \
+ /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/app/src/main.cpp \
+ /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include/libdrivers/gpio.hpp \
  /opt/riscv/riscv32-unknown-elf/include/c++/10.0.0/cstdint \
  /opt/riscv/riscv32-unknown-elf/include/c++/10.0.0/riscv32-unknown-elf/bits/c++config.h \
  /opt/riscv/riscv32-unknown-elf/include/c++/10.0.0/riscv32-unknown-elf/bits/os_defines.h \
@@ -13,5 +13,5 @@ app/CMakeFiles/app.dir/src/main.cpp.o: \
  /opt/riscv/riscv32-unknown-elf/include/_newlib_version.h \
  /opt/riscv/riscv32-unknown-elf/include/sys/_intsup.h \
  /opt/riscv/riscv32-unknown-elf/include/sys/_stdint.h \
- /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include/libdrivers/uart.hpp \
- /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/include/libmisc/delay.hpp
+ /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include/libdrivers/uart.hpp \
+ /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libmisc/include/libmisc/delay.hpp

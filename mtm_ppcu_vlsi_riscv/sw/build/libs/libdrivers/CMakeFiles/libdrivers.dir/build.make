@@ -53,10 +53,10 @@ RM = /usr/local/cmake-3.23.0-rc2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw
+CMAKE_SOURCE_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build
+CMAKE_BINARY_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build
 
 # Include any dependencies generated for this target.
 include libs/libdrivers/CMakeFiles/libdrivers.dir/depend.make
@@ -72,58 +72,58 @@ include libs/libdrivers/CMakeFiles/libdrivers.dir/flags.make
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o: libs/libdrivers/CMakeFiles/libdrivers.dir/flags.make
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o: ../libs/libdrivers/src/common.cpp
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o: libs/libdrivers/CMakeFiles/libdrivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o -MF CMakeFiles/libdrivers.dir/src/common.cpp.o.d -o CMakeFiles/libdrivers.dir/src/common.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o"
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o -MF CMakeFiles/libdrivers.dir/src/common.cpp.o.d -o CMakeFiles/libdrivers.dir/src/common.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/common.cpp
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libdrivers.dir/src/common.cpp.i"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/common.cpp > CMakeFiles/libdrivers.dir/src/common.cpp.i
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/common.cpp > CMakeFiles/libdrivers.dir/src/common.cpp.i
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libdrivers.dir/src/common.cpp.s"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/common.cpp -o CMakeFiles/libdrivers.dir/src/common.cpp.s
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/common.cpp -o CMakeFiles/libdrivers.dir/src/common.cpp.s
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o: libs/libdrivers/CMakeFiles/libdrivers.dir/flags.make
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o: ../libs/libdrivers/src/code_ram.cpp
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o: libs/libdrivers/CMakeFiles/libdrivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o -MF CMakeFiles/libdrivers.dir/src/code_ram.cpp.o.d -o CMakeFiles/libdrivers.dir/src/code_ram.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/code_ram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o"
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o -MF CMakeFiles/libdrivers.dir/src/code_ram.cpp.o.d -o CMakeFiles/libdrivers.dir/src/code_ram.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/code_ram.cpp
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libdrivers.dir/src/code_ram.cpp.i"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/code_ram.cpp > CMakeFiles/libdrivers.dir/src/code_ram.cpp.i
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/code_ram.cpp > CMakeFiles/libdrivers.dir/src/code_ram.cpp.i
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libdrivers.dir/src/code_ram.cpp.s"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/code_ram.cpp -o CMakeFiles/libdrivers.dir/src/code_ram.cpp.s
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/code_ram.cpp -o CMakeFiles/libdrivers.dir/src/code_ram.cpp.s
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o: libs/libdrivers/CMakeFiles/libdrivers.dir/flags.make
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o: ../libs/libdrivers/src/gpio.cpp
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o: libs/libdrivers/CMakeFiles/libdrivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o -MF CMakeFiles/libdrivers.dir/src/gpio.cpp.o.d -o CMakeFiles/libdrivers.dir/src/gpio.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/gpio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o"
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o -MF CMakeFiles/libdrivers.dir/src/gpio.cpp.o.d -o CMakeFiles/libdrivers.dir/src/gpio.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/gpio.cpp
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libdrivers.dir/src/gpio.cpp.i"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/gpio.cpp > CMakeFiles/libdrivers.dir/src/gpio.cpp.i
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/gpio.cpp > CMakeFiles/libdrivers.dir/src/gpio.cpp.i
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libdrivers.dir/src/gpio.cpp.s"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/gpio.cpp -o CMakeFiles/libdrivers.dir/src/gpio.cpp.s
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/gpio.cpp -o CMakeFiles/libdrivers.dir/src/gpio.cpp.s
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o: libs/libdrivers/CMakeFiles/libdrivers.dir/flags.make
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o: ../libs/libdrivers/src/uart.cpp
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o: libs/libdrivers/CMakeFiles/libdrivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o -MF CMakeFiles/libdrivers.dir/src/uart.cpp.o.d -o CMakeFiles/libdrivers.dir/src/uart.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/uart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o"
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o -MF CMakeFiles/libdrivers.dir/src/uart.cpp.o.d -o CMakeFiles/libdrivers.dir/src/uart.cpp.o -c /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/uart.cpp
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libdrivers.dir/src/uart.cpp.i"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/uart.cpp > CMakeFiles/libdrivers.dir/src/uart.cpp.i
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/uart.cpp > CMakeFiles/libdrivers.dir/src/uart.cpp.i
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libdrivers.dir/src/uart.cpp.s"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/uart.cpp -o CMakeFiles/libdrivers.dir/src/uart.cpp.s
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && /opt/riscv/bin/riscv32-unknown-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/src/uart.cpp -o CMakeFiles/libdrivers.dir/src/uart.cpp.s
 
 # Object files for target libdrivers
 libdrivers_OBJECTS = \
@@ -141,19 +141,19 @@ libs/libdrivers/liblibdrivers.a: libs/libdrivers/CMakeFiles/libdrivers.dir/src/g
 libs/libdrivers/liblibdrivers.a: libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o
 libs/libdrivers/liblibdrivers.a: libs/libdrivers/CMakeFiles/libdrivers.dir/build.make
 libs/libdrivers/liblibdrivers.a: libs/libdrivers/CMakeFiles/libdrivers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblibdrivers.a"
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && $(CMAKE_COMMAND) -P CMakeFiles/libdrivers.dir/cmake_clean_target.cmake
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libdrivers.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblibdrivers.a"
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && $(CMAKE_COMMAND) -P CMakeFiles/libdrivers.dir/cmake_clean_target.cmake
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libdrivers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/libdrivers/CMakeFiles/libdrivers.dir/build: libs/libdrivers/liblibdrivers.a
 .PHONY : libs/libdrivers/CMakeFiles/libdrivers.dir/build
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/clean:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && $(CMAKE_COMMAND) -P CMakeFiles/libdrivers.dir/cmake_clean.cmake
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers && $(CMAKE_COMMAND) -P CMakeFiles/libdrivers.dir/cmake_clean.cmake
 .PHONY : libs/libdrivers/CMakeFiles/libdrivers.dir/clean
 
 libs/libdrivers/CMakeFiles/libdrivers.dir/depend:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers /home/student/jpawlak/PROJEKT_JP_2023/git/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers/CMakeFiles/libdrivers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers/CMakeFiles/libdrivers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/libdrivers/CMakeFiles/libdrivers.dir/depend
 
