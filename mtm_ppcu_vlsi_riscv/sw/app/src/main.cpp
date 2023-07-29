@@ -18,7 +18,7 @@ char name_lvl[MAX_NAME_LVL];
 char surname_lvl[MAX_SURNAME_LVL];
 
 static constexpr uint32_t led_mask{0xf};
-int set_reg = 0;  
+int pins = 0;  
 
 void get_levels(char*, char*);
 
@@ -35,25 +35,25 @@ int main()
         //gpio.set_pin(0, 1);                         //sending
         for (int i = 0; i < MAX_SURNAME_LVL; i++)
         {
-            set_reg = 0b0001;
+            pins = 0b0001;
             
             if (i < MAX_SOS_LVL)
             {
-                if (sos_lvl[i] == '1') set_reg += 0b0010;
+                if (sos_lvl[i] == '1') pins += 0b0010;
             }
 
             if (i < MAX_NAME_LVL)
             {
-                if (name_lvl[i] == '1') set_reg += 0b0100;
+                if (name_lvl[i] == '1') pins += 0b0100;
             }
 
-            if (surname_lvl[i] == '1') set_reg += 0b1000;
+            if (surname_lvl[i] == '1') pins += 0b1000;
             
-            gpio.set_odr(set_reg & led_mask);
+            gpio.set_odr(pins & led_mask);
             mdelay(1);
         }
         
-        gpio.set_odr(0b0000 & led_mask);                         // not sending
+        gpio.set_odr(0b0000 & led_mask); // not sending
         return 0;
     }
 }
@@ -85,22 +85,4 @@ void get_levels(char* name, char* name_levels)
         }
     }
 }
-
-
-/*static constexpr uint32_t led_mask{0xf};
-
-int main()
-{
-
-    uart.write("INFO: application started\n");
-    udelay(100);
-
-    while (true) {
-        for (int i = 0; i < 16; ++i) {
-            gpio.set_odr(i & led_mask);
-            udelay(20);
-        }
-  
-    }
-}*/
 

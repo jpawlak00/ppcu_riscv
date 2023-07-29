@@ -17,13 +17,13 @@ DSEMEL
 -NOWARN
 ZROMCW
 -XMINITIALIZE
-rand_2state:194
+rand_2state:840
 -XMHIERARCHY
 tb_mtm_riscv_soc
 +EMGRLOG
-xrun.log.194
+xrun.log.840
 -XLSTIME
-1690645435
+1690660084
 -XLKEEP
 -XLMODE
 ./xcelium.d/run.lnx8664.19.09.d

@@ -3,7 +3,7 @@ Archive member included to satisfy reference by file (symbol)
 ../libs/libmisc/liblibmisc.a(delay.cpp.o)
                               CMakeFiles/app.dir/src/main.cpp.o (mdelay(unsigned long))
 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
-                              CMakeFiles/app.dir/src/main.cpp.o (Gpio::set_pin(unsigned char, bool) const)
+                              CMakeFiles/app.dir/src/main.cpp.o (Gpio::set_odr(unsigned long) const)
 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
                               CMakeFiles/app.dir/src/main.cpp.o (Uart::write(char const*) const)
 ../libs/libdrivers/liblibdrivers.a(common.cpp.o)
@@ -36,7 +36,7 @@ END GROUP
                 0x0000000000010000                . = ORIGIN (code_ram)
  *(.vectors)
 
-.text           0x0000000000010000      0x6bc
+.text           0x0000000000010000      0x698
                 0x0000000000010000                . = ALIGN (0x4)
                 0x0000000000010000                _stext = .
  *(.text)
@@ -70,49 +70,49 @@ END GROUP
  .text          0x00000000000104d8       0x24 /opt/riscv/bin/../lib/gcc/riscv32-unknown-elf/10.0.0/libgcc.a(muldi3.o)
                 0x00000000000104d8                __mulsi3
  *(.text.*)
- .text.startup  0x00000000000104fc      0x190 CMakeFiles/app.dir/src/main.cpp.o
+ .text.startup  0x00000000000104fc      0x16c CMakeFiles/app.dir/src/main.cpp.o
                 0x00000000000104fc                main
- .text.startup  0x000000000001068c       0x10 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
- .text.startup  0x000000000001069c       0x10 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
-                0x00000000000106ac                _etext = .
-                0x00000000000106ac                __CTOR_LIST__ = .
-                0x00000000000106ac        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ .text.startup  0x0000000000010668       0x10 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+ .text.startup  0x0000000000010678       0x10 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+                0x0000000000010688                _etext = .
+                0x0000000000010688                __CTOR_LIST__ = .
+                0x0000000000010688        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
  *(.ctors)
-                0x00000000000106b0        0x4 LONG 0x0
-                0x00000000000106b4                __CTOR_END__ = .
-                0x00000000000106b4                __DTOR_LIST__ = .
-                0x00000000000106b4        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+                0x000000000001068c        0x4 LONG 0x0
+                0x0000000000010690                __CTOR_END__ = .
+                0x0000000000010690                __DTOR_LIST__ = .
+                0x0000000000010690        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
  *(.dtors)
-                0x00000000000106b8        0x4 LONG 0x0
-                0x00000000000106bc                __DTOR_END__ = .
+                0x0000000000010694        0x4 LONG 0x0
+                0x0000000000010698                __DTOR_END__ = .
  *(.lit)
  *(.shdata)
-                0x00000000000106bc                . = ALIGN (0x4)
-                0x00000000000106bc                _endtext = .
+                0x0000000000010698                . = ALIGN (0x4)
+                0x0000000000010698                _endtext = .
 
-.init_array     0x00000000000106bc        0x8
-                0x00000000000106bc                . = ALIGN (0x4)
-                0x00000000000106bc                _init_array_start = .
+.init_array     0x0000000000010698        0x8
+                0x0000000000010698                . = ALIGN (0x4)
+                0x0000000000010698                _init_array_start = .
  *(.init_array*)
- .init_array    0x00000000000106bc        0x4 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
- .init_array    0x00000000000106c0        0x4 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
-                0x00000000000106c4                . = ALIGN (0x4)
-                0x00000000000106c4                _init_array_end = .
+ .init_array    0x0000000000010698        0x4 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+ .init_array    0x000000000001069c        0x4 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+                0x00000000000106a0                . = ALIGN (0x4)
+                0x00000000000106a0                _init_array_end = .
 
-.rodata         0x00000000000106c4       0x1c
-                0x00000000000106c4                . = ALIGN (0x4)
+.rodata         0x00000000000106a0       0x1c
+                0x00000000000106a0                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata.*)
  .rodata.str1.4
-                0x00000000000106c4       0x1b CMakeFiles/app.dir/src/main.cpp.o
-                0x00000000000106e0                . = ALIGN (0x4)
- *fill*         0x00000000000106df        0x1 
-                0x00000000000106e0                _sidata = LOADADDR (.data)
+                0x00000000000106a0       0x1b CMakeFiles/app.dir/src/main.cpp.o
+                0x00000000000106bc                . = ALIGN (0x4)
+ *fill*         0x00000000000106bb        0x1 
+                0x00000000000106bc                _sidata = LOADADDR (.data)
 
-.rela.dyn       0x00000000000106e0        0x0
- .rela.text     0x00000000000106e0        0x0 CMakeFiles/app.dir/crt0.S.o
+.rela.dyn       0x00000000000106bc        0x0
+ .rela.text     0x00000000000106bc        0x0 CMakeFiles/app.dir/crt0.S.o
 
-.data           0x0000000040000000       0x30 load address 0x00000000000106e0
+.data           0x0000000040000000       0x30 load address 0x00000000000106bc
                 0x0000000040000000                . = ALIGN (0x4)
                 0x0000000040000000                sdata = .
                 0x0000000040000000                _sdata = .
@@ -134,12 +134,12 @@ END GROUP
                 0x0000000040000030                edata = .
                 0x0000000040000030                _edata = .
 
-.shbss          0x0000000040000030        0x0 load address 0x0000000000010710
+.shbss          0x0000000040000030        0x0 load address 0x00000000000106ec
                 0x0000000040000030                . = ALIGN (0x4)
  *(.shbss)
                 0x0000000040000030                . = ALIGN (0x4)
 
-.bss            0x0000000040000030       0x88 load address 0x0000000000010710
+.bss            0x0000000040000030       0x8c load address 0x00000000000106ec
                 0x0000000040000030                . = ALIGN (0x4)
                 0x0000000040000030                _bss_start = .
  *(.bss)
@@ -155,14 +155,16 @@ END GROUP
  .bss           0x00000000400000b0        0x0 /opt/riscv/bin/../lib/gcc/riscv32-unknown-elf/10.0.0/libgcc.a(muldi3.o)
  *(.bss.*)
  *(.sbss)
- .sbss          0x00000000400000b0        0x4 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
-                0x00000000400000b0                gpio
- .sbss          0x00000000400000b4        0x4 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
-                0x00000000400000b4                uart
+ .sbss          0x00000000400000b0        0x4 CMakeFiles/app.dir/src/main.cpp.o
+                0x00000000400000b0                pins
+ .sbss          0x00000000400000b4        0x4 ../libs/libdrivers/liblibdrivers.a(gpio.cpp.o)
+                0x00000000400000b4                gpio
+ .sbss          0x00000000400000b8        0x4 ../libs/libdrivers/liblibdrivers.a(uart.cpp.o)
+                0x00000000400000b8                uart
  *(.sbss.*)
  *(COMMON)
-                0x00000000400000b8                . = ALIGN (0x4)
-                0x00000000400000b8                _bss_end = .
+                0x00000000400000bc                . = ALIGN (0x4)
+                0x00000000400000bc                _bss_end = .
 
 .stab
  *(.stab)

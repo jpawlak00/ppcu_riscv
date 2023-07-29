@@ -21,12 +21,12 @@ KMIE_IMPLEMENT_ASIC
 -F
 functional.f
 -l
-xrun.log.194
+xrun.log.840
 -q
 -timescale
 1ns/1ps
 -xminitialize
-rand_2state:194
+rand_2state:840
 +nowarnDSEM2009
 +nowarnDSEMEL
 +nowarnZROMCW
