@@ -17,32 +17,7 @@ char sos_lvl[MAX_SOS_LVL];
 char name_lvl[MAX_NAME_LVL];
 char surname_lvl[MAX_SURNAME_LVL];
 
-void send_morse(uint8_t pin, char name[])
-{
-    gpio.set_pin(0, 1);                     //sending
-    for (int i = 0; name[i] != 0; i++)
-    {
-        if (name[i] == '.')
-        {
-            gpio.set_pin(pin, 1);
-            mdelay(1);
-            gpio.set_pin(pin, 0);
-            mdelay(1);
-        }
-        else if (name[i] == '-')
-        {
-            gpio.set_pin(pin, 1);
-            mdelay(3);
-            gpio.set_pin(pin, 0);
-            mdelay(1);
-        }
-        else if (name[i] == ' ')
-        {
-            mdelay(2);
-        }
-    }
-    gpio.set_pin(0, 0);
-}
+
 
 void get_levels(char* name, char* name_levels)
 {
@@ -79,39 +54,65 @@ int main()
     get_levels(name, name_lvl);
     get_levels(surname, surname_lvl);
 
-    udelay(100);
     while (true)
     {
-        
-        for (int i = 0; i < MAX_SURNAME_LVL; ++i)
+        mdelay(1);
+        gpio.set_pin(0, 1);                         //sending
+        for (int i = 0; i < MAX_SURNAME_LVL; i++)
         {
-            gpio.set_pin(1, 1);
-            if (i == 0)
-            {
-                gpio.set_pin(0, 1);
-            }
-
             if (i < MAX_SOS_LVL)
             {
                 sos_lvl[i] == '1' ? gpio.set_pin(1, 1) : gpio.set_pin(1, 0);
             }
+            else
+            {
+                gpio.set_pin(1, 0);
+            }
+
             if (i < MAX_NAME_LVL)
             {
                 name_lvl[i] == '1' ? gpio.set_pin(2, 1) : gpio.set_pin(2, 0);
             }
+            else
+            {
+                gpio.set_pin(2, 0);
+            }
+
             surname_lvl[i] == '1' ? gpio.set_pin(3, 1) : gpio.set_pin(3, 0);
 
-            if( i == (MAX_SURNAME_LVL - 1))
-            {
-                gpio.set_pin(0, 0);
-            }
-            //udelay(20);
             mdelay(1);
         }
-        
+        gpio.set_pin(0, 0);                         // not sending
+        return 0;
     }
 }
 
+// void send_morse(uint8_t pin, char name[])
+// {
+//     gpio.set_pin(0, 1);                     //sending
+//     for (int i = 0; name[i] != 0; i++)
+//     {
+//         if (name[i] == '.')
+//         {
+//             gpio.set_pin(pin, 1);
+//             mdelay(1);
+//             gpio.set_pin(pin, 0);
+//             mdelay(1);
+//         }
+//         else if (name[i] == '-')
+//         {
+//             gpio.set_pin(pin, 1);
+//             mdelay(3);
+//             gpio.set_pin(pin, 0);
+//             mdelay(1);
+//         }
+//         else if (name[i] == ' ')
+//         {
+//             mdelay(2);
+//         }
+//     }
+//     gpio.set_pin(0, 0);
+// }
 
 // int main()
 // {
@@ -137,6 +138,7 @@ int main()
             gpio.set_odr(i & led_mask);
             udelay(20);
         }
+  
     }
 }*/
 

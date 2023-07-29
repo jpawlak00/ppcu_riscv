@@ -51,7 +51,7 @@ Disassembly of section .text:
 
 000100a4 <bss_clear_loop_end>:
    100a4:	00000297          	auipc	t0,0x0
-   100a8:	70828293          	addi	t0,t0,1800 # 107ac <_sidata>
+   100a8:	63c28293          	addi	t0,t0,1596 # 106e0 <_sidata>
    100ac:	3fff0317          	auipc	t1,0x3fff0
    100b0:	f5430313          	addi	t1,t1,-172 # 40000000 <sos>
    100b4:	3fff0397          	auipc	t2,0x3fff0
@@ -67,9 +67,9 @@ Disassembly of section .text:
 
 000100d4 <data_init_loop_end>:
    100d4:	00000297          	auipc	t0,0x0
-   100d8:	6b428293          	addi	t0,t0,1716 # 10788 <__DTOR_END__>
+   100d8:	5e828293          	addi	t0,t0,1512 # 106bc <__DTOR_END__>
    100dc:	00000317          	auipc	t1,0x0
-   100e0:	6b430313          	addi	t1,t1,1716 # 10790 <_init_array_end>
+   100e0:	5e830313          	addi	t1,t1,1512 # 106c4 <_init_array_end>
    100e4:	0062da63          	bge	t0,t1,100f8 <main_entry>
 
 000100e8 <objects_construction_loop>:
@@ -81,504 +81,451 @@ Disassembly of section .text:
 000100f8 <main_entry>:
    100f8:	00000513          	li	a0,0
    100fc:	00000593          	li	a1,0
-   10100:	4ec000ef          	jal	ra,105ec <main>
+   10100:	3fc000ef          	jal	ra,104fc <main>
 
-00010104 <_Z10send_morsehPc>:
-   10104:	fe010113          	addi	sp,sp,-32
-   10108:	00812c23          	sw	s0,24(sp)
-   1010c:	00912a23          	sw	s1,20(sp)
-   10110:	00058413          	mv	s0,a1
-   10114:	00050493          	mv	s1,a0
-   10118:	00100613          	li	a2,1
-   1011c:	00000593          	li	a1,0
-   10120:	3fff0517          	auipc	a0,0x3fff0
-   10124:	f9050513          	addi	a0,a0,-112 # 400000b0 <gpio>
-   10128:	01212823          	sw	s2,16(sp)
-   1012c:	01312623          	sw	s3,12(sp)
-   10130:	01412423          	sw	s4,8(sp)
-   10134:	01512223          	sw	s5,4(sp)
-   10138:	00112e23          	sw	ra,28(sp)
-   1013c:	02e00993          	li	s3,46
-   10140:	190000ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   10144:	02d00a13          	li	s4,45
-   10148:	02000a93          	li	s5,32
-   1014c:	3fff0917          	auipc	s2,0x3fff0
-   10150:	f6490913          	addi	s2,s2,-156 # 400000b0 <gpio>
-   10154:	00044783          	lbu	a5,0(s0)
-   10158:	06078463          	beqz	a5,101c0 <_Z10send_morsehPc+0xbc>
-   1015c:	03379e63          	bne	a5,s3,10198 <_Z10send_morsehPc+0x94>
-   10160:	00090513          	mv	a0,s2
-   10164:	00100613          	li	a2,1
-   10168:	00048593          	mv	a1,s1
-   1016c:	164000ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   10170:	00100513          	li	a0,1
-   10174:	110000ef          	jal	ra,10284 <_Z6mdelaym>
-   10178:	00090513          	mv	a0,s2
-   1017c:	00000613          	li	a2,0
-   10180:	00048593          	mv	a1,s1
-   10184:	14c000ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   10188:	00100513          	li	a0,1
-   1018c:	0f8000ef          	jal	ra,10284 <_Z6mdelaym>
-   10190:	00140413          	addi	s0,s0,1
-   10194:	fc1ff06f          	j	10154 <_Z10send_morsehPc+0x50>
-   10198:	01479e63          	bne	a5,s4,101b4 <_Z10send_morsehPc+0xb0>
-   1019c:	00090513          	mv	a0,s2
-   101a0:	00100613          	li	a2,1
-   101a4:	00048593          	mv	a1,s1
-   101a8:	128000ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   101ac:	00300513          	li	a0,3
-   101b0:	fc5ff06f          	j	10174 <_Z10send_morsehPc+0x70>
-   101b4:	fd579ee3          	bne	a5,s5,10190 <_Z10send_morsehPc+0x8c>
-   101b8:	00200513          	li	a0,2
-   101bc:	fd1ff06f          	j	1018c <_Z10send_morsehPc+0x88>
-   101c0:	01812403          	lw	s0,24(sp)
-   101c4:	01c12083          	lw	ra,28(sp)
-   101c8:	01412483          	lw	s1,20(sp)
-   101cc:	01012903          	lw	s2,16(sp)
-   101d0:	00c12983          	lw	s3,12(sp)
-   101d4:	00812a03          	lw	s4,8(sp)
-   101d8:	00412a83          	lw	s5,4(sp)
-   101dc:	00000613          	li	a2,0
-   101e0:	00000593          	li	a1,0
-   101e4:	3fff0517          	auipc	a0,0x3fff0
-   101e8:	ecc50513          	addi	a0,a0,-308 # 400000b0 <gpio>
-   101ec:	02010113          	addi	sp,sp,32
-   101f0:	0e00006f          	j	102d0 <_ZNK4Gpio7set_pinEhb>
+00010104 <_Z10get_levelsPcS_>:
+   10104:	00000793          	li	a5,0
+   10108:	02e00813          	li	a6,46
+   1010c:	02d00893          	li	a7,45
+   10110:	02000313          	li	t1,32
+   10114:	03000713          	li	a4,48
+   10118:	03100693          	li	a3,49
+   1011c:	00054603          	lbu	a2,0(a0)
+   10120:	04060863          	beqz	a2,10170 <_Z10get_levelsPcS_+0x6c>
+   10124:	01061c63          	bne	a2,a6,1013c <_Z10get_levelsPcS_+0x38>
+   10128:	00f58633          	add	a2,a1,a5
+   1012c:	00d60023          	sb	a3,0(a2)
+   10130:	00e600a3          	sb	a4,1(a2)
+   10134:	00278793          	addi	a5,a5,2
+   10138:	0200006f          	j	10158 <_Z10get_levelsPcS_+0x54>
+   1013c:	03161263          	bne	a2,a7,10160 <_Z10get_levelsPcS_+0x5c>
+   10140:	00f58633          	add	a2,a1,a5
+   10144:	00d60023          	sb	a3,0(a2)
+   10148:	00d600a3          	sb	a3,1(a2)
+   1014c:	00d60123          	sb	a3,2(a2)
+   10150:	00e601a3          	sb	a4,3(a2)
+   10154:	00478793          	addi	a5,a5,4
+   10158:	00150513          	addi	a0,a0,1
+   1015c:	fc1ff06f          	j	1011c <_Z10get_levelsPcS_+0x18>
+   10160:	fe661ce3          	bne	a2,t1,10158 <_Z10get_levelsPcS_+0x54>
+   10164:	00f58633          	add	a2,a1,a5
+   10168:	00e60023          	sb	a4,0(a2)
+   1016c:	fc5ff06f          	j	10130 <_Z10get_levelsPcS_+0x2c>
+   10170:	00008067          	ret
 
-000101f4 <_Z10get_levelsPcS_>:
-   101f4:	00000793          	li	a5,0
-   101f8:	02e00813          	li	a6,46
-   101fc:	02d00893          	li	a7,45
-   10200:	02000313          	li	t1,32
-   10204:	03000713          	li	a4,48
-   10208:	03100693          	li	a3,49
-   1020c:	00054603          	lbu	a2,0(a0)
-   10210:	04060863          	beqz	a2,10260 <_Z10get_levelsPcS_+0x6c>
-   10214:	01061c63          	bne	a2,a6,1022c <_Z10get_levelsPcS_+0x38>
-   10218:	00f58633          	add	a2,a1,a5
-   1021c:	00d60023          	sb	a3,0(a2)
-   10220:	00e600a3          	sb	a4,1(a2)
-   10224:	00278793          	addi	a5,a5,2
-   10228:	0200006f          	j	10248 <_Z10get_levelsPcS_+0x54>
-   1022c:	03161263          	bne	a2,a7,10250 <_Z10get_levelsPcS_+0x5c>
-   10230:	00f58633          	add	a2,a1,a5
-   10234:	00d60023          	sb	a3,0(a2)
-   10238:	00d600a3          	sb	a3,1(a2)
-   1023c:	00d60123          	sb	a3,2(a2)
-   10240:	00e601a3          	sb	a4,3(a2)
-   10244:	00478793          	addi	a5,a5,4
-   10248:	00150513          	addi	a0,a0,1
-   1024c:	fc1ff06f          	j	1020c <_Z10get_levelsPcS_+0x18>
-   10250:	fe661ce3          	bne	a2,t1,10248 <_Z10get_levelsPcS_+0x54>
-   10254:	00f58633          	add	a2,a1,a5
-   10258:	00e60023          	sb	a4,0(a2)
-   1025c:	fc5ff06f          	j	10220 <_Z10get_levelsPcS_+0x2c>
-   10260:	00008067          	ret
+00010174 <_ZL22execute_10_cycles_loopm>:
+   10174:	00000013          	nop
+   10178:	00000013          	nop
+   1017c:	00000013          	nop
+   10180:	00000013          	nop
+   10184:	00000013          	nop
+   10188:	fff50513          	addi	a0,a0,-1
+   1018c:	fe0514e3          	bnez	a0,10174 <_ZL22execute_10_cycles_loopm>
+   10190:	00008067          	ret
 
-00010264 <_ZL22execute_10_cycles_loopm>:
-   10264:	00000013          	nop
-   10268:	00000013          	nop
-   1026c:	00000013          	nop
-   10270:	00000013          	nop
-   10274:	00000013          	nop
-   10278:	fff50513          	addi	a0,a0,-1
-   1027c:	fe0514e3          	bnez	a0,10264 <_ZL22execute_10_cycles_loopm>
-   10280:	00008067          	ret
+00010194 <_Z6mdelaym>:
+   10194:	000015b7          	lui	a1,0x1
+   10198:	ff010113          	addi	sp,sp,-16
+   1019c:	38858593          	addi	a1,a1,904 # 1388 <_stext-0xec78>
+   101a0:	00112623          	sw	ra,12(sp)
+   101a4:	334000ef          	jal	ra,104d8 <__mulsi3>
+   101a8:	00c12083          	lw	ra,12(sp)
+   101ac:	01010113          	addi	sp,sp,16
+   101b0:	fc5ff06f          	j	10174 <_ZL22execute_10_cycles_loopm>
 
-00010284 <_Z6mdelaym>:
-   10284:	000015b7          	lui	a1,0x1
-   10288:	ff010113          	addi	sp,sp,-16
-   1028c:	38858593          	addi	a1,a1,904 # 1388 <_stext-0xec78>
-   10290:	00112623          	sw	ra,12(sp)
-   10294:	334000ef          	jal	ra,105c8 <__mulsi3>
-   10298:	00c12083          	lw	ra,12(sp)
-   1029c:	01010113          	addi	sp,sp,16
-   102a0:	fc5ff06f          	j	10264 <_ZL22execute_10_cycles_loopm>
+000101b4 <_Z6udelaym>:
+   101b4:	00251793          	slli	a5,a0,0x2
+   101b8:	00a78533          	add	a0,a5,a0
+   101bc:	fb9ff06f          	j	10174 <_ZL22execute_10_cycles_loopm>
 
-000102a4 <_Z6udelaym>:
-   102a4:	00251793          	slli	a5,a0,0x2
-   102a8:	00a78533          	add	a0,a5,a0
-   102ac:	fb9ff06f          	j	10264 <_ZL22execute_10_cycles_loopm>
+000101c0 <_ZN4GpioC1Em>:
+   101c0:	00b52023          	sw	a1,0(a0)
+   101c4:	00008067          	ret
 
-000102b0 <_ZN4GpioC1Em>:
-   102b0:	00b52023          	sw	a1,0(a0)
-   102b4:	00008067          	ret
+000101c8 <_ZNK4Gpio7set_odrEm>:
+   101c8:	00052783          	lw	a5,0(a0)
+   101cc:	00b7a023          	sw	a1,0(a5)
+   101d0:	00008067          	ret
 
-000102b8 <_ZNK4Gpio7set_odrEm>:
-   102b8:	00052783          	lw	a5,0(a0)
-   102bc:	00b7a023          	sw	a1,0(a5)
-   102c0:	00008067          	ret
+000101d4 <_ZNK4Gpio7get_idrEv>:
+   101d4:	00052783          	lw	a5,0(a0)
+   101d8:	0047a503          	lw	a0,4(a5)
+   101dc:	00008067          	ret
 
-000102c4 <_ZNK4Gpio7get_idrEv>:
-   102c4:	00052783          	lw	a5,0(a0)
-   102c8:	0047a503          	lw	a0,4(a5)
-   102cc:	00008067          	ret
+000101e0 <_ZNK4Gpio7set_pinEhb>:
+   101e0:	00052503          	lw	a0,0(a0)
+   101e4:	00060713          	mv	a4,a2
+   101e8:	00100693          	li	a3,1
+   101ec:	00058613          	mv	a2,a1
+   101f0:	00000593          	li	a1,0
+   101f4:	29c0006f          	j	10490 <_Z12set_reg_bitsPVmmhmm>
 
-000102d0 <_ZNK4Gpio7set_pinEhb>:
-   102d0:	00052503          	lw	a0,0(a0)
-   102d4:	00060713          	mv	a4,a2
-   102d8:	00100693          	li	a3,1
-   102dc:	00058613          	mv	a2,a1
-   102e0:	00000593          	li	a1,0
-   102e4:	29c0006f          	j	10580 <_Z12set_reg_bitsPVmmhmm>
+000101f8 <_ZNK4Gpio7get_pinEh>:
+   101f8:	00052503          	lw	a0,0(a0)
+   101fc:	ff010113          	addi	sp,sp,-16
+   10200:	00058613          	mv	a2,a1
+   10204:	00100693          	li	a3,1
+   10208:	00400593          	li	a1,4
+   1020c:	00112623          	sw	ra,12(sp)
+   10210:	268000ef          	jal	ra,10478 <_Z12get_reg_bitsPVmmhm>
+   10214:	00c12083          	lw	ra,12(sp)
+   10218:	00a03533          	snez	a0,a0
+   1021c:	01010113          	addi	sp,sp,16
+   10220:	00008067          	ret
 
-000102e8 <_ZNK4Gpio7get_pinEh>:
-   102e8:	00052503          	lw	a0,0(a0)
-   102ec:	ff010113          	addi	sp,sp,-16
-   102f0:	00058613          	mv	a2,a1
-   102f4:	00100693          	li	a3,1
-   102f8:	00400593          	li	a1,4
-   102fc:	00112623          	sw	ra,12(sp)
-   10300:	268000ef          	jal	ra,10568 <_Z12get_reg_bitsPVmmhm>
+00010224 <_ZNK4Gpio10toggle_pinEh>:
+   10224:	00052503          	lw	a0,0(a0)
+   10228:	00058613          	mv	a2,a1
+   1022c:	00100693          	li	a3,1
+   10230:	00000593          	li	a1,0
+   10234:	2880006f          	j	104bc <_Z15toggle_reg_bitsPVmmhm>
+
+00010238 <_ZN4UartC1Em>:
+   10238:	ff010113          	addi	sp,sp,-16
+   1023c:	00812423          	sw	s0,8(sp)
+   10240:	00050413          	mv	s0,a0
+   10244:	00b42023          	sw	a1,0(s0)
+   10248:	00058513          	mv	a0,a1
+   1024c:	00c00713          	li	a4,12
+   10250:	0ff00693          	li	a3,255
+   10254:	00000613          	li	a2,0
+   10258:	01000593          	li	a1,16
+   1025c:	00112623          	sw	ra,12(sp)
+   10260:	230000ef          	jal	ra,10490 <_Z12set_reg_bitsPVmmhmm>
+   10264:	00042503          	lw	a0,0(s0)
+   10268:	00812403          	lw	s0,8(sp)
+   1026c:	00c12083          	lw	ra,12(sp)
+   10270:	00100713          	li	a4,1
+   10274:	00100693          	li	a3,1
+   10278:	00000613          	li	a2,0
+   1027c:	00000593          	li	a1,0
+   10280:	01010113          	addi	sp,sp,16
+   10284:	20c0006f          	j	10490 <_Z12set_reg_bitsPVmmhmm>
+
+00010288 <_ZNK4Uart17is_receiver_readyEv>:
+   10288:	00052503          	lw	a0,0(a0)
+   1028c:	ff010113          	addi	sp,sp,-16
+   10290:	00100693          	li	a3,1
+   10294:	00000613          	li	a2,0
+   10298:	00400593          	li	a1,4
+   1029c:	00112623          	sw	ra,12(sp)
+   102a0:	1d8000ef          	jal	ra,10478 <_Z12get_reg_bitsPVmmhm>
+   102a4:	00c12083          	lw	ra,12(sp)
+   102a8:	00a03533          	snez	a0,a0
+   102ac:	01010113          	addi	sp,sp,16
+   102b0:	00008067          	ret
+
+000102b4 <_ZNK4Uart9get_rdataEv>:
+   102b4:	00052503          	lw	a0,0(a0)
+   102b8:	ff010113          	addi	sp,sp,-16
+   102bc:	0ff00693          	li	a3,255
+   102c0:	00000613          	li	a2,0
+   102c4:	00c00593          	li	a1,12
+   102c8:	00112623          	sw	ra,12(sp)
+   102cc:	1ac000ef          	jal	ra,10478 <_Z12get_reg_bitsPVmmhm>
+   102d0:	00c12083          	lw	ra,12(sp)
+   102d4:	0ff57513          	andi	a0,a0,255
+   102d8:	01010113          	addi	sp,sp,16
+   102dc:	00008067          	ret
+
+000102e0 <_ZNK4Uart4readEv>:
+   102e0:	ff010113          	addi	sp,sp,-16
+   102e4:	00812423          	sw	s0,8(sp)
+   102e8:	00112623          	sw	ra,12(sp)
+   102ec:	00050413          	mv	s0,a0
+   102f0:	00040513          	mv	a0,s0
+   102f4:	f95ff0ef          	jal	ra,10288 <_ZNK4Uart17is_receiver_readyEv>
+   102f8:	fe050ce3          	beqz	a0,102f0 <_ZNK4Uart4readEv+0x10>
+   102fc:	00040513          	mv	a0,s0
+   10300:	00812403          	lw	s0,8(sp)
    10304:	00c12083          	lw	ra,12(sp)
-   10308:	00a03533          	snez	a0,a0
-   1030c:	01010113          	addi	sp,sp,16
-   10310:	00008067          	ret
+   10308:	01010113          	addi	sp,sp,16
+   1030c:	fa9ff06f          	j	102b4 <_ZNK4Uart9get_rdataEv>
 
-00010314 <_ZNK4Gpio10toggle_pinEh>:
-   10314:	00052503          	lw	a0,0(a0)
-   10318:	00058613          	mv	a2,a1
-   1031c:	00100693          	li	a3,1
-   10320:	00000593          	li	a1,0
-   10324:	2880006f          	j	105ac <_Z15toggle_reg_bitsPVmmhm>
+00010310 <_ZNK4Uart4readEPci>:
+   10310:	fe010113          	addi	sp,sp,-32
+   10314:	00812c23          	sw	s0,24(sp)
+   10318:	00912a23          	sw	s1,20(sp)
+   1031c:	01212823          	sw	s2,16(sp)
+   10320:	01312623          	sw	s3,12(sp)
+   10324:	01512223          	sw	s5,4(sp)
+   10328:	01612023          	sw	s6,0(sp)
+   1032c:	00112e23          	sw	ra,28(sp)
+   10330:	01412423          	sw	s4,8(sp)
+   10334:	00050493          	mv	s1,a0
+   10338:	00058913          	mv	s2,a1
+   1033c:	00060993          	mv	s3,a2
+   10340:	00000413          	li	s0,0
+   10344:	00a00a93          	li	s5,10
+   10348:	00800b13          	li	s6,8
+   1034c:	07345263          	bge	s0,s3,103b0 <_ZNK4Uart4readEPci+0xa0>
+   10350:	00048513          	mv	a0,s1
+   10354:	00890a33          	add	s4,s2,s0
+   10358:	f89ff0ef          	jal	ra,102e0 <_ZNK4Uart4readEv>
+   1035c:	00aa0023          	sb	a0,0(s4)
+   10360:	03551a63          	bne	a0,s5,10394 <_ZNK4Uart4readEPci+0x84>
+   10364:	000a0023          	sb	zero,0(s4)
+   10368:	00000513          	li	a0,0
+   1036c:	01c12083          	lw	ra,28(sp)
+   10370:	01812403          	lw	s0,24(sp)
+   10374:	01412483          	lw	s1,20(sp)
+   10378:	01012903          	lw	s2,16(sp)
+   1037c:	00c12983          	lw	s3,12(sp)
+   10380:	00812a03          	lw	s4,8(sp)
+   10384:	00412a83          	lw	s5,4(sp)
+   10388:	00012b03          	lw	s6,0(sp)
+   1038c:	02010113          	addi	sp,sp,32
+   10390:	00008067          	ret
+   10394:	01651663          	bne	a0,s6,103a0 <_ZNK4Uart4readEPci+0x90>
+   10398:	00040863          	beqz	s0,103a8 <_ZNK4Uart4readEPci+0x98>
+   1039c:	ffe40413          	addi	s0,s0,-2
+   103a0:	00140413          	addi	s0,s0,1
+   103a4:	fa9ff06f          	j	1034c <_ZNK4Uart4readEPci+0x3c>
+   103a8:	fff00413          	li	s0,-1
+   103ac:	ff5ff06f          	j	103a0 <_ZNK4Uart4readEPci+0x90>
+   103b0:	00100513          	li	a0,1
+   103b4:	fb9ff06f          	j	1036c <_ZNK4Uart4readEPci+0x5c>
 
-00010328 <_ZN4UartC1Em>:
-   10328:	ff010113          	addi	sp,sp,-16
-   1032c:	00812423          	sw	s0,8(sp)
-   10330:	00050413          	mv	s0,a0
-   10334:	00b42023          	sw	a1,0(s0)
-   10338:	00058513          	mv	a0,a1
-   1033c:	00c00713          	li	a4,12
-   10340:	0ff00693          	li	a3,255
-   10344:	00000613          	li	a2,0
-   10348:	01000593          	li	a1,16
-   1034c:	00112623          	sw	ra,12(sp)
-   10350:	230000ef          	jal	ra,10580 <_Z12set_reg_bitsPVmmhmm>
-   10354:	00042503          	lw	a0,0(s0)
-   10358:	00812403          	lw	s0,8(sp)
-   1035c:	00c12083          	lw	ra,12(sp)
-   10360:	00100713          	li	a4,1
-   10364:	00100693          	li	a3,1
-   10368:	00000613          	li	a2,0
-   1036c:	00000593          	li	a1,0
-   10370:	01010113          	addi	sp,sp,16
-   10374:	20c0006f          	j	10580 <_Z12set_reg_bitsPVmmhmm>
+000103b8 <_ZNK4Uart19is_transmitter_busyEv>:
+   103b8:	00052503          	lw	a0,0(a0)
+   103bc:	ff010113          	addi	sp,sp,-16
+   103c0:	00100693          	li	a3,1
+   103c4:	00100613          	li	a2,1
+   103c8:	00400593          	li	a1,4
+   103cc:	00112623          	sw	ra,12(sp)
+   103d0:	0a8000ef          	jal	ra,10478 <_Z12get_reg_bitsPVmmhm>
+   103d4:	00c12083          	lw	ra,12(sp)
+   103d8:	00a03533          	snez	a0,a0
+   103dc:	01010113          	addi	sp,sp,16
+   103e0:	00008067          	ret
 
-00010378 <_ZNK4Uart17is_receiver_readyEv>:
-   10378:	00052503          	lw	a0,0(a0)
-   1037c:	ff010113          	addi	sp,sp,-16
-   10380:	00100693          	li	a3,1
-   10384:	00000613          	li	a2,0
-   10388:	00400593          	li	a1,4
-   1038c:	00112623          	sw	ra,12(sp)
-   10390:	1d8000ef          	jal	ra,10568 <_Z12get_reg_bitsPVmmhm>
-   10394:	00c12083          	lw	ra,12(sp)
-   10398:	00a03533          	snez	a0,a0
-   1039c:	01010113          	addi	sp,sp,16
-   103a0:	00008067          	ret
+000103e4 <_ZNK4Uart9set_wdataEh>:
+   103e4:	00052503          	lw	a0,0(a0)
+   103e8:	00058713          	mv	a4,a1
+   103ec:	0ff00693          	li	a3,255
+   103f0:	00000613          	li	a2,0
+   103f4:	00800593          	li	a1,8
+   103f8:	0980006f          	j	10490 <_Z12set_reg_bitsPVmmhmm>
 
-000103a4 <_ZNK4Uart9get_rdataEv>:
-   103a4:	00052503          	lw	a0,0(a0)
-   103a8:	ff010113          	addi	sp,sp,-16
-   103ac:	0ff00693          	li	a3,255
-   103b0:	00000613          	li	a2,0
-   103b4:	00c00593          	li	a1,12
-   103b8:	00112623          	sw	ra,12(sp)
-   103bc:	1ac000ef          	jal	ra,10568 <_Z12get_reg_bitsPVmmhm>
-   103c0:	00c12083          	lw	ra,12(sp)
-   103c4:	0ff57513          	andi	a0,a0,255
-   103c8:	01010113          	addi	sp,sp,16
-   103cc:	00008067          	ret
+000103fc <_ZNK4Uart5writeEh>:
+   103fc:	fe010113          	addi	sp,sp,-32
+   10400:	00812c23          	sw	s0,24(sp)
+   10404:	00112e23          	sw	ra,28(sp)
+   10408:	00050413          	mv	s0,a0
+   1040c:	00040513          	mv	a0,s0
+   10410:	00b12623          	sw	a1,12(sp)
+   10414:	fa5ff0ef          	jal	ra,103b8 <_ZNK4Uart19is_transmitter_busyEv>
+   10418:	00c12583          	lw	a1,12(sp)
+   1041c:	fe0518e3          	bnez	a0,1040c <_ZNK4Uart5writeEh+0x10>
+   10420:	00040513          	mv	a0,s0
+   10424:	01812403          	lw	s0,24(sp)
+   10428:	01c12083          	lw	ra,28(sp)
+   1042c:	02010113          	addi	sp,sp,32
+   10430:	fb5ff06f          	j	103e4 <_ZNK4Uart9set_wdataEh>
 
-000103d0 <_ZNK4Uart4readEv>:
-   103d0:	ff010113          	addi	sp,sp,-16
-   103d4:	00812423          	sw	s0,8(sp)
-   103d8:	00112623          	sw	ra,12(sp)
-   103dc:	00050413          	mv	s0,a0
-   103e0:	00040513          	mv	a0,s0
-   103e4:	f95ff0ef          	jal	ra,10378 <_ZNK4Uart17is_receiver_readyEv>
-   103e8:	fe050ce3          	beqz	a0,103e0 <_ZNK4Uart4readEv+0x10>
-   103ec:	00040513          	mv	a0,s0
-   103f0:	00812403          	lw	s0,8(sp)
-   103f4:	00c12083          	lw	ra,12(sp)
-   103f8:	01010113          	addi	sp,sp,16
-   103fc:	fa9ff06f          	j	103a4 <_ZNK4Uart9get_rdataEv>
+00010434 <_ZNK4Uart5writeEPKc>:
+   10434:	ff010113          	addi	sp,sp,-16
+   10438:	00812423          	sw	s0,8(sp)
+   1043c:	00912223          	sw	s1,4(sp)
+   10440:	00112623          	sw	ra,12(sp)
+   10444:	00050493          	mv	s1,a0
+   10448:	00058413          	mv	s0,a1
+   1044c:	00044583          	lbu	a1,0(s0)
+   10450:	00058a63          	beqz	a1,10464 <_ZNK4Uart5writeEPKc+0x30>
+   10454:	00048513          	mv	a0,s1
+   10458:	00140413          	addi	s0,s0,1
+   1045c:	fa1ff0ef          	jal	ra,103fc <_ZNK4Uart5writeEh>
+   10460:	fedff06f          	j	1044c <_ZNK4Uart5writeEPKc+0x18>
+   10464:	00c12083          	lw	ra,12(sp)
+   10468:	00812403          	lw	s0,8(sp)
+   1046c:	00412483          	lw	s1,4(sp)
+   10470:	01010113          	addi	sp,sp,16
+   10474:	00008067          	ret
 
-00010400 <_ZNK4Uart4readEPci>:
-   10400:	fe010113          	addi	sp,sp,-32
-   10404:	00812c23          	sw	s0,24(sp)
-   10408:	00912a23          	sw	s1,20(sp)
-   1040c:	01212823          	sw	s2,16(sp)
-   10410:	01312623          	sw	s3,12(sp)
-   10414:	01512223          	sw	s5,4(sp)
-   10418:	01612023          	sw	s6,0(sp)
-   1041c:	00112e23          	sw	ra,28(sp)
-   10420:	01412423          	sw	s4,8(sp)
-   10424:	00050493          	mv	s1,a0
-   10428:	00058913          	mv	s2,a1
-   1042c:	00060993          	mv	s3,a2
-   10430:	00000413          	li	s0,0
-   10434:	00a00a93          	li	s5,10
-   10438:	00800b13          	li	s6,8
-   1043c:	07345263          	bge	s0,s3,104a0 <_ZNK4Uart4readEPci+0xa0>
-   10440:	00048513          	mv	a0,s1
-   10444:	00890a33          	add	s4,s2,s0
-   10448:	f89ff0ef          	jal	ra,103d0 <_ZNK4Uart4readEv>
-   1044c:	00aa0023          	sb	a0,0(s4)
-   10450:	03551a63          	bne	a0,s5,10484 <_ZNK4Uart4readEPci+0x84>
-   10454:	000a0023          	sb	zero,0(s4)
-   10458:	00000513          	li	a0,0
-   1045c:	01c12083          	lw	ra,28(sp)
-   10460:	01812403          	lw	s0,24(sp)
-   10464:	01412483          	lw	s1,20(sp)
-   10468:	01012903          	lw	s2,16(sp)
-   1046c:	00c12983          	lw	s3,12(sp)
-   10470:	00812a03          	lw	s4,8(sp)
-   10474:	00412a83          	lw	s5,4(sp)
-   10478:	00012b03          	lw	s6,0(sp)
-   1047c:	02010113          	addi	sp,sp,32
-   10480:	00008067          	ret
-   10484:	01651663          	bne	a0,s6,10490 <_ZNK4Uart4readEPci+0x90>
-   10488:	00040863          	beqz	s0,10498 <_ZNK4Uart4readEPci+0x98>
-   1048c:	ffe40413          	addi	s0,s0,-2
-   10490:	00140413          	addi	s0,s0,1
-   10494:	fa9ff06f          	j	1043c <_ZNK4Uart4readEPci+0x3c>
-   10498:	fff00413          	li	s0,-1
-   1049c:	ff5ff06f          	j	10490 <_ZNK4Uart4readEPci+0x90>
-   104a0:	00100513          	li	a0,1
-   104a4:	fb9ff06f          	j	1045c <_ZNK4Uart4readEPci+0x5c>
+00010478 <_Z12get_reg_bitsPVmmhm>:
+   10478:	ffc5f593          	andi	a1,a1,-4
+   1047c:	00b50533          	add	a0,a0,a1
+   10480:	00052783          	lw	a5,0(a0)
+   10484:	00c7d7b3          	srl	a5,a5,a2
+   10488:	00d7f533          	and	a0,a5,a3
+   1048c:	00008067          	ret
 
-000104a8 <_ZNK4Uart19is_transmitter_busyEv>:
-   104a8:	00052503          	lw	a0,0(a0)
-   104ac:	ff010113          	addi	sp,sp,-16
-   104b0:	00100693          	li	a3,1
-   104b4:	00100613          	li	a2,1
-   104b8:	00400593          	li	a1,4
-   104bc:	00112623          	sw	ra,12(sp)
-   104c0:	0a8000ef          	jal	ra,10568 <_Z12get_reg_bitsPVmmhm>
-   104c4:	00c12083          	lw	ra,12(sp)
-   104c8:	00a03533          	snez	a0,a0
-   104cc:	01010113          	addi	sp,sp,16
-   104d0:	00008067          	ret
+00010490 <_Z12set_reg_bitsPVmmhmm>:
+   10490:	ffc5f593          	andi	a1,a1,-4
+   10494:	00b50533          	add	a0,a0,a1
+   10498:	00052583          	lw	a1,0(a0)
+   1049c:	00c697b3          	sll	a5,a3,a2
+   104a0:	fff7c793          	not	a5,a5
+   104a4:	00e6f6b3          	and	a3,a3,a4
+   104a8:	00b7f7b3          	and	a5,a5,a1
+   104ac:	00c696b3          	sll	a3,a3,a2
+   104b0:	00f6e6b3          	or	a3,a3,a5
+   104b4:	00d52023          	sw	a3,0(a0)
+   104b8:	00008067          	ret
 
-000104d4 <_ZNK4Uart9set_wdataEh>:
-   104d4:	00052503          	lw	a0,0(a0)
-   104d8:	00058713          	mv	a4,a1
-   104dc:	0ff00693          	li	a3,255
-   104e0:	00000613          	li	a2,0
-   104e4:	00800593          	li	a1,8
-   104e8:	0980006f          	j	10580 <_Z12set_reg_bitsPVmmhmm>
+000104bc <_Z15toggle_reg_bitsPVmmhm>:
+   104bc:	ffc5f593          	andi	a1,a1,-4
+   104c0:	00b50533          	add	a0,a0,a1
+   104c4:	00052783          	lw	a5,0(a0)
+   104c8:	00c696b3          	sll	a3,a3,a2
+   104cc:	00f6c6b3          	xor	a3,a3,a5
+   104d0:	00d52023          	sw	a3,0(a0)
+   104d4:	00008067          	ret
 
-000104ec <_ZNK4Uart5writeEh>:
-   104ec:	fe010113          	addi	sp,sp,-32
-   104f0:	00812c23          	sw	s0,24(sp)
-   104f4:	00112e23          	sw	ra,28(sp)
-   104f8:	00050413          	mv	s0,a0
-   104fc:	00040513          	mv	a0,s0
-   10500:	00b12623          	sw	a1,12(sp)
-   10504:	fa5ff0ef          	jal	ra,104a8 <_ZNK4Uart19is_transmitter_busyEv>
-   10508:	00c12583          	lw	a1,12(sp)
-   1050c:	fe0518e3          	bnez	a0,104fc <_ZNK4Uart5writeEh+0x10>
-   10510:	00040513          	mv	a0,s0
-   10514:	01812403          	lw	s0,24(sp)
-   10518:	01c12083          	lw	ra,28(sp)
-   1051c:	02010113          	addi	sp,sp,32
-   10520:	fb5ff06f          	j	104d4 <_ZNK4Uart9set_wdataEh>
+000104d8 <__mulsi3>:
+   104d8:	00050613          	mv	a2,a0
+   104dc:	00000513          	li	a0,0
+   104e0:	0015f693          	andi	a3,a1,1
+   104e4:	00068463          	beqz	a3,104ec <__mulsi3+0x14>
+   104e8:	00c50533          	add	a0,a0,a2
+   104ec:	0015d593          	srli	a1,a1,0x1
+   104f0:	00161613          	slli	a2,a2,0x1
+   104f4:	fe0596e3          	bnez	a1,104e0 <__mulsi3+0x8>
+   104f8:	00008067          	ret
 
-00010524 <_ZNK4Uart5writeEPKc>:
-   10524:	ff010113          	addi	sp,sp,-16
-   10528:	00812423          	sw	s0,8(sp)
-   1052c:	00912223          	sw	s1,4(sp)
-   10530:	00112623          	sw	ra,12(sp)
-   10534:	00050493          	mv	s1,a0
-   10538:	00058413          	mv	s0,a1
-   1053c:	00044583          	lbu	a1,0(s0)
-   10540:	00058a63          	beqz	a1,10554 <_ZNK4Uart5writeEPKc+0x30>
-   10544:	00048513          	mv	a0,s1
-   10548:	00140413          	addi	s0,s0,1
-   1054c:	fa1ff0ef          	jal	ra,104ec <_ZNK4Uart5writeEh>
-   10550:	fedff06f          	j	1053c <_ZNK4Uart5writeEPKc+0x18>
-   10554:	00c12083          	lw	ra,12(sp)
-   10558:	00812403          	lw	s0,8(sp)
-   1055c:	00412483          	lw	s1,4(sp)
-   10560:	01010113          	addi	sp,sp,16
-   10564:	00008067          	ret
+000104fc <main>:
+   104fc:	fd010113          	addi	sp,sp,-48
+   10500:	00000597          	auipc	a1,0x0
+   10504:	1c458593          	addi	a1,a1,452 # 106c4 <_init_array_end>
+   10508:	3fff0517          	auipc	a0,0x3fff0
+   1050c:	bac50513          	addi	a0,a0,-1108 # 400000b4 <uart>
+   10510:	02112623          	sw	ra,44(sp)
+   10514:	02812423          	sw	s0,40(sp)
+   10518:	02912223          	sw	s1,36(sp)
+   1051c:	03212023          	sw	s2,32(sp)
+   10520:	01312e23          	sw	s3,28(sp)
+   10524:	01412c23          	sw	s4,24(sp)
+   10528:	01512a23          	sw	s5,20(sp)
+   1052c:	01612823          	sw	s6,16(sp)
+   10530:	01712623          	sw	s7,12(sp)
+   10534:	f01ff0ef          	jal	ra,10434 <_ZNK4Uart5writeEPKc>
+   10538:	3fff0597          	auipc	a1,0x3fff0
+   1053c:	af858593          	addi	a1,a1,-1288 # 40000030 <_edata>
+   10540:	3fff0517          	auipc	a0,0x3fff0
+   10544:	ac050513          	addi	a0,a0,-1344 # 40000000 <sos>
+   10548:	bbdff0ef          	jal	ra,10104 <_Z10get_levelsPcS_>
+   1054c:	3fff0597          	auipc	a1,0x3fff0
+   10550:	b0458593          	addi	a1,a1,-1276 # 40000050 <name_lvl>
+   10554:	3fff0517          	auipc	a0,0x3fff0
+   10558:	ab850513          	addi	a0,a0,-1352 # 4000000c <name>
+   1055c:	ba9ff0ef          	jal	ra,10104 <_Z10get_levelsPcS_>
+   10560:	3fff0597          	auipc	a1,0x3fff0
+   10564:	b1058593          	addi	a1,a1,-1264 # 40000070 <surname_lvl>
+   10568:	3fff0517          	auipc	a0,0x3fff0
+   1056c:	ab050513          	addi	a0,a0,-1360 # 40000018 <surname>
+   10570:	b95ff0ef          	jal	ra,10104 <_Z10get_levelsPcS_>
+   10574:	00100513          	li	a0,1
+   10578:	c1dff0ef          	jal	ra,10194 <_Z6mdelaym>
+   1057c:	00100613          	li	a2,1
+   10580:	00000593          	li	a1,0
+   10584:	3fff0517          	auipc	a0,0x3fff0
+   10588:	b2c50513          	addi	a0,a0,-1236 # 400000b0 <gpio>
+   1058c:	c55ff0ef          	jal	ra,101e0 <_ZNK4Gpio7set_pinEhb>
+   10590:	00000493          	li	s1,0
+   10594:	01d00993          	li	s3,29
+   10598:	3fff0417          	auipc	s0,0x3fff0
+   1059c:	b1840413          	addi	s0,s0,-1256 # 400000b0 <gpio>
+   105a0:	3fff0b17          	auipc	s6,0x3fff0
+   105a4:	a90b0b13          	addi	s6,s6,-1392 # 40000030 <_edata>
+   105a8:	03100913          	li	s2,49
+   105ac:	3fff0b97          	auipc	s7,0x3fff0
+   105b0:	aa4b8b93          	addi	s7,s7,-1372 # 40000050 <name_lvl>
+   105b4:	3fff0a17          	auipc	s4,0x3fff0
+   105b8:	abca0a13          	addi	s4,s4,-1348 # 40000070 <surname_lvl>
+   105bc:	04000a93          	li	s5,64
+   105c0:	0a99ca63          	blt	s3,s1,10674 <main+0x178>
+   105c4:	009b07b3          	add	a5,s6,s1
+   105c8:	0007c783          	lbu	a5,0(a5)
+   105cc:	00100613          	li	a2,1
+   105d0:	01278463          	beq	a5,s2,105d8 <main+0xdc>
+   105d4:	00000613          	li	a2,0
+   105d8:	00100593          	li	a1,1
+   105dc:	00040513          	mv	a0,s0
+   105e0:	c01ff0ef          	jal	ra,101e0 <_ZNK4Gpio7set_pinEhb>
+   105e4:	009b87b3          	add	a5,s7,s1
+   105e8:	0007c783          	lbu	a5,0(a5)
+   105ec:	09279c63          	bne	a5,s2,10684 <main+0x188>
+   105f0:	00100613          	li	a2,1
+   105f4:	00200593          	li	a1,2
+   105f8:	00040513          	mv	a0,s0
+   105fc:	be5ff0ef          	jal	ra,101e0 <_ZNK4Gpio7set_pinEhb>
+   10600:	009a07b3          	add	a5,s4,s1
+   10604:	0007c783          	lbu	a5,0(a5)
+   10608:	00100613          	li	a2,1
+   1060c:	01278463          	beq	a5,s2,10614 <main+0x118>
+   10610:	00000613          	li	a2,0
+   10614:	00300593          	li	a1,3
+   10618:	00040513          	mv	a0,s0
+   1061c:	bc5ff0ef          	jal	ra,101e0 <_ZNK4Gpio7set_pinEhb>
+   10620:	00100513          	li	a0,1
+   10624:	00148493          	addi	s1,s1,1
+   10628:	b6dff0ef          	jal	ra,10194 <_Z6mdelaym>
+   1062c:	f9549ae3          	bne	s1,s5,105c0 <main+0xc4>
+   10630:	3fff0517          	auipc	a0,0x3fff0
+   10634:	a8050513          	addi	a0,a0,-1408 # 400000b0 <gpio>
+   10638:	00000613          	li	a2,0
+   1063c:	00000593          	li	a1,0
+   10640:	ba1ff0ef          	jal	ra,101e0 <_ZNK4Gpio7set_pinEhb>
+   10644:	02c12083          	lw	ra,44(sp)
+   10648:	02812403          	lw	s0,40(sp)
+   1064c:	02412483          	lw	s1,36(sp)
+   10650:	02012903          	lw	s2,32(sp)
+   10654:	01c12983          	lw	s3,28(sp)
+   10658:	01812a03          	lw	s4,24(sp)
+   1065c:	01412a83          	lw	s5,20(sp)
+   10660:	01012b03          	lw	s6,16(sp)
+   10664:	00c12b83          	lw	s7,12(sp)
+   10668:	00000513          	li	a0,0
+   1066c:	03010113          	addi	sp,sp,48
+   10670:	00008067          	ret
+   10674:	00000613          	li	a2,0
+   10678:	00100593          	li	a1,1
+   1067c:	00040513          	mv	a0,s0
+   10680:	b61ff0ef          	jal	ra,101e0 <_ZNK4Gpio7set_pinEhb>
+   10684:	00000613          	li	a2,0
+   10688:	f6dff06f          	j	105f4 <main+0xf8>
 
-00010568 <_Z12get_reg_bitsPVmmhm>:
-   10568:	ffc5f593          	andi	a1,a1,-4
-   1056c:	00b50533          	add	a0,a0,a1
-   10570:	00052783          	lw	a5,0(a0)
-   10574:	00c7d7b3          	srl	a5,a5,a2
-   10578:	00d7f533          	and	a0,a5,a3
-   1057c:	00008067          	ret
+0001068c <_GLOBAL__sub_I_gpio>:
+   1068c:	c00007b7          	lui	a5,0xc0000
+   10690:	3fff0717          	auipc	a4,0x3fff0
+   10694:	a2f72023          	sw	a5,-1504(a4) # 400000b0 <gpio>
+   10698:	00008067          	ret
 
-00010580 <_Z12set_reg_bitsPVmmhmm>:
-   10580:	ffc5f593          	andi	a1,a1,-4
-   10584:	00b50533          	add	a0,a0,a1
-   10588:	00052583          	lw	a1,0(a0)
-   1058c:	00c697b3          	sll	a5,a3,a2
-   10590:	fff7c793          	not	a5,a5
-   10594:	00e6f6b3          	and	a3,a3,a4
-   10598:	00b7f7b3          	and	a5,a5,a1
-   1059c:	00c696b3          	sll	a3,a3,a2
-   105a0:	00f6e6b3          	or	a3,a3,a5
-   105a4:	00d52023          	sw	a3,0(a0)
-   105a8:	00008067          	ret
+0001069c <_GLOBAL__sub_I_uart>:
+   1069c:	c00015b7          	lui	a1,0xc0001
+   106a0:	3fff0517          	auipc	a0,0x3fff0
+   106a4:	a1450513          	addi	a0,a0,-1516 # 400000b4 <uart>
+   106a8:	b91ff06f          	j	10238 <_ZN4UartC1Em>
 
-000105ac <_Z15toggle_reg_bitsPVmmhm>:
-   105ac:	ffc5f593          	andi	a1,a1,-4
-   105b0:	00b50533          	add	a0,a0,a1
-   105b4:	00052783          	lw	a5,0(a0)
-   105b8:	00c696b3          	sll	a3,a3,a2
-   105bc:	00f6c6b3          	xor	a3,a3,a5
-   105c0:	00d52023          	sw	a3,0(a0)
-   105c4:	00008067          	ret
-
-000105c8 <__mulsi3>:
-   105c8:	00050613          	mv	a2,a0
-   105cc:	00000513          	li	a0,0
-   105d0:	0015f693          	andi	a3,a1,1
-   105d4:	00068463          	beqz	a3,105dc <__mulsi3+0x14>
-   105d8:	00c50533          	add	a0,a0,a2
-   105dc:	0015d593          	srli	a1,a1,0x1
-   105e0:	00161613          	slli	a2,a2,0x1
-   105e4:	fe0596e3          	bnez	a1,105d0 <__mulsi3+0x8>
-   105e8:	00008067          	ret
-
-000105ec <main>:
-   105ec:	fd010113          	addi	sp,sp,-48
-   105f0:	00000597          	auipc	a1,0x0
-   105f4:	1a058593          	addi	a1,a1,416 # 10790 <_init_array_end>
-   105f8:	3fff0517          	auipc	a0,0x3fff0
-   105fc:	abc50513          	addi	a0,a0,-1348 # 400000b4 <uart>
-   10600:	02112623          	sw	ra,44(sp)
-   10604:	02912223          	sw	s1,36(sp)
-   10608:	03212023          	sw	s2,32(sp)
-   1060c:	01312e23          	sw	s3,28(sp)
-   10610:	01612823          	sw	s6,16(sp)
-   10614:	01712623          	sw	s7,12(sp)
-   10618:	02812423          	sw	s0,40(sp)
-   1061c:	01412c23          	sw	s4,24(sp)
-   10620:	01512a23          	sw	s5,20(sp)
-   10624:	01812423          	sw	s8,8(sp)
-   10628:	efdff0ef          	jal	ra,10524 <_ZNK4Uart5writeEPKc>
-   1062c:	3fff0597          	auipc	a1,0x3fff0
-   10630:	a0458593          	addi	a1,a1,-1532 # 40000030 <_edata>
-   10634:	3fff0517          	auipc	a0,0x3fff0
-   10638:	9cc50513          	addi	a0,a0,-1588 # 40000000 <sos>
-   1063c:	bb9ff0ef          	jal	ra,101f4 <_Z10get_levelsPcS_>
-   10640:	3fff0597          	auipc	a1,0x3fff0
-   10644:	a1058593          	addi	a1,a1,-1520 # 40000050 <name_lvl>
-   10648:	3fff0517          	auipc	a0,0x3fff0
-   1064c:	9c450513          	addi	a0,a0,-1596 # 4000000c <name>
-   10650:	ba5ff0ef          	jal	ra,101f4 <_Z10get_levelsPcS_>
-   10654:	3fff0597          	auipc	a1,0x3fff0
-   10658:	a1c58593          	addi	a1,a1,-1508 # 40000070 <surname_lvl>
-   1065c:	3fff0517          	auipc	a0,0x3fff0
-   10660:	9bc50513          	addi	a0,a0,-1604 # 40000018 <surname>
-   10664:	b91ff0ef          	jal	ra,101f4 <_Z10get_levelsPcS_>
-   10668:	06400513          	li	a0,100
-   1066c:	c39ff0ef          	jal	ra,102a4 <_Z6udelaym>
-   10670:	3fff0497          	auipc	s1,0x3fff0
-   10674:	a4048493          	addi	s1,s1,-1472 # 400000b0 <gpio>
-   10678:	3fff0b17          	auipc	s6,0x3fff0
-   1067c:	9b8b0b13          	addi	s6,s6,-1608 # 40000030 <_edata>
-   10680:	03100913          	li	s2,49
-   10684:	3fff0b97          	auipc	s7,0x3fff0
-   10688:	9ccb8b93          	addi	s7,s7,-1588 # 40000050 <name_lvl>
-   1068c:	3fff0997          	auipc	s3,0x3fff0
-   10690:	9e498993          	addi	s3,s3,-1564 # 40000070 <surname_lvl>
-   10694:	00000413          	li	s0,0
-   10698:	01d00c13          	li	s8,29
-   1069c:	03f00a13          	li	s4,63
-   106a0:	04000a93          	li	s5,64
-   106a4:	00100613          	li	a2,1
-   106a8:	00100593          	li	a1,1
-   106ac:	00048513          	mv	a0,s1
-   106b0:	c21ff0ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   106b4:	04041c63          	bnez	s0,1070c <main+0x120>
-   106b8:	00100613          	li	a2,1
-   106bc:	00000593          	li	a1,0
-   106c0:	00048513          	mv	a0,s1
-   106c4:	c0dff0ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   106c8:	008b07b3          	add	a5,s6,s0
-   106cc:	0007c783          	lbu	a5,0(a5)
-   106d0:	00100613          	li	a2,1
-   106d4:	01278463          	beq	a5,s2,106dc <main+0xf0>
-   106d8:	00000613          	li	a2,0
-   106dc:	00100593          	li	a1,1
-   106e0:	00048513          	mv	a0,s1
-   106e4:	bedff0ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   106e8:	008b87b3          	add	a5,s7,s0
-   106ec:	0007c783          	lbu	a5,0(a5)
-   106f0:	00000613          	li	a2,0
-   106f4:	01279463          	bne	a5,s2,106fc <main+0x110>
-   106f8:	00100613          	li	a2,1
-   106fc:	00200593          	li	a1,2
-   10700:	00048513          	mv	a0,s1
-   10704:	bcdff0ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   10708:	0080006f          	j	10710 <main+0x124>
-   1070c:	fa8c5ee3          	bge	s8,s0,106c8 <main+0xdc>
-   10710:	008987b3          	add	a5,s3,s0
-   10714:	0007c783          	lbu	a5,0(a5)
-   10718:	00100613          	li	a2,1
-   1071c:	01278463          	beq	a5,s2,10724 <main+0x138>
-   10720:	00000613          	li	a2,0
-   10724:	00300593          	li	a1,3
-   10728:	00048513          	mv	a0,s1
-   1072c:	ba5ff0ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   10730:	01441a63          	bne	s0,s4,10744 <main+0x158>
-   10734:	00000613          	li	a2,0
-   10738:	00000593          	li	a1,0
-   1073c:	00048513          	mv	a0,s1
-   10740:	b91ff0ef          	jal	ra,102d0 <_ZNK4Gpio7set_pinEhb>
-   10744:	00100513          	li	a0,1
-   10748:	00140413          	addi	s0,s0,1
-   1074c:	b39ff0ef          	jal	ra,10284 <_Z6mdelaym>
-   10750:	f5541ae3          	bne	s0,s5,106a4 <main+0xb8>
-   10754:	f41ff06f          	j	10694 <main+0xa8>
-
-00010758 <_GLOBAL__sub_I_gpio>:
-   10758:	c00007b7          	lui	a5,0xc0000
-   1075c:	3fff0717          	auipc	a4,0x3fff0
-   10760:	94f72a23          	sw	a5,-1708(a4) # 400000b0 <gpio>
-   10764:	00008067          	ret
-
-00010768 <_GLOBAL__sub_I_uart>:
-   10768:	c00015b7          	lui	a1,0xc0001
-   1076c:	3fff0517          	auipc	a0,0x3fff0
-   10770:	94850513          	addi	a0,a0,-1720 # 400000b4 <uart>
-   10774:	bb5ff06f          	j	10328 <_ZN4UartC1Em>
-
-00010778 <__CTOR_LIST__>:
+000106ac <__CTOR_LIST__>:
 	...
 
-00010780 <__CTOR_END__>:
+000106b4 <__CTOR_END__>:
 	...
 
 Disassembly of section .init_array:
 
-00010788 <_init_array_start>:
-   10788:	0758                	addi	a4,sp,900
-   1078a:	0001                	nop
-   1078c:	0768                	addi	a0,sp,908
-   1078e:	0001                	nop
+000106bc <_init_array_start>:
+   106bc:	068c                	addi	a1,sp,832
+   106be:	0001                	nop
+   106c0:	069c                	addi	a5,sp,832
+   106c2:	0001                	nop
 
 Disassembly of section .rodata:
 
-00010790 <.rodata>:
-   10790:	4e49                	li	t3,18
-   10792:	4f46                	lw	t5,80(sp)
-   10794:	203a                	fld	ft0,392(sp)
-   10796:	7061                	c.lui	zero,0xffff8
-   10798:	6c70                	flw	fa2,92(s0)
-   1079a:	6369                	lui	t1,0x1a
-   1079c:	7461                	lui	s0,0xffff8
-   1079e:	6f69                	lui	t5,0x1a
-   107a0:	206e                	fld	ft0,216(sp)
-   107a2:	72617473          	csrrci	s0,0x726,2
-   107a6:	6574                	flw	fa3,76(a0)
-   107a8:	0a64                	addi	s1,sp,284
+000106c4 <.rodata>:
+   106c4:	4e49                	li	t3,18
+   106c6:	4f46                	lw	t5,80(sp)
+   106c8:	203a                	fld	ft0,392(sp)
+   106ca:	7061                	c.lui	zero,0xffff8
+   106cc:	6c70                	flw	fa2,92(s0)
+   106ce:	6369                	lui	t1,0x1a
+   106d0:	7461                	lui	s0,0xffff8
+   106d2:	6f69                	lui	t5,0x1a
+   106d4:	206e                	fld	ft0,216(sp)
+   106d6:	72617473          	csrrci	s0,0x726,2
+   106da:	6574                	flw	fa3,76(a0)
+   106dc:	0a64                	addi	s1,sp,284
 	...
 
 Disassembly of section .data:
@@ -699,7 +646,7 @@ Disassembly of section .debug_line:
   30:	696c                	flw	fa1,84(a0)
   32:	6762                	flw	fa4,24(sp)
   34:	632f6363          	bltu	t5,s2,65a <_stext-0xf9a6>
-  38:	69666e6f          	jal	t3,666ce <_sidata+0x55f22>
+  38:	69666e6f          	jal	t3,666ce <_sidata+0x55fee>
   3c:	69722f67          	0x69722f67
   40:	00766373          	csrrsi	t1,0x7,12
   44:	6d00                	flw	fs0,24(a0)
@@ -709,8 +656,8 @@ Disassembly of section .debug_line:
   4e:	0001                	nop
   50:	0000                	unimp
   52:	0500                	addi	s0,sp,640
-  54:	c802                	sw	zero,16(sp)
-  56:	0105                	addi	sp,sp,1
+  54:	d802                	sw	zero,48(sp)
+  56:	0104                	addi	s1,sp,128
   58:	0300                	addi	s0,sp,384
   5a:	0124                	addi	s1,sp,136
   5c:	04090103          	lb	sp,64(s2)
@@ -744,9 +691,9 @@ Disassembly of section .debug_info:
    a:	0104                	addi	s1,sp,128
    c:	0000                	unimp
    e:	0000                	unimp
-  10:	05c8                	addi	a0,sp,708
+  10:	04d8                	addi	a4,sp,580
   12:	0001                	nop
-  14:	05ec                	addi	a1,sp,716
+  14:	04fc                	addi	a5,sp,588
   16:	0001                	nop
   18:	0000                	unimp
   1a:	0000                	unimp
@@ -781,7 +728,7 @@ Disassembly of section .debug_aranges:
    a:	0004                	0x4
    c:	0000                	unimp
    e:	0000                	unimp
-  10:	05c8                	addi	a0,sp,708
+  10:	04d8                	addi	a4,sp,580
   12:	0001                	nop
   14:	0024                	addi	s1,sp,8
 	...
@@ -811,7 +758,7 @@ Disassembly of section .debug_str:
   3a:	2d766373          	csrrsi	t1,0x2d7,12
   3e:	2d756e67          	0x2d756e67
   42:	6f74                	flw	fa3,92(a4)
-  44:	68636c6f          	jal	s8,366ca <_sidata+0x25f1e>
+  44:	68636c6f          	jal	s8,366ca <_sidata+0x25fea>
   48:	6961                	lui	s2,0x18
   4a:	2f6e                	fld	ft10,216(sp)
   4c:	7562                	flw	fa0,56(sp)
