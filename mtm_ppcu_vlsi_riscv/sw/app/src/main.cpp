@@ -18,7 +18,7 @@ char name_lvl[MAX_NAME_LVL];
 char surname_lvl[MAX_SURNAME_LVL];
 
 static constexpr uint32_t led_mask{0xf};
-int pins = 0;  
+int pins = 0;
 
 void get_levels(char*, char*);
 
@@ -32,7 +32,6 @@ int main()
     while (true)
     {
         mdelay(1);
-        //gpio.set_pin(0, 1);                         //sending
         for (int i = 0; i < MAX_SURNAME_LVL; i++)
         {
             pins = 0b0001;
@@ -52,7 +51,6 @@ int main()
             gpio.set_odr(pins & led_mask);
             mdelay(1);
         }
-        
         gpio.set_odr(0b0000 & led_mask); // not sending
         return 0;
     }
@@ -85,4 +83,3 @@ void get_levels(char* name, char* name_levels)
         }
     }
 }
-

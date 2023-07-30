@@ -17,13 +17,13 @@ DSEMEL
 -NOWARN
 ZROMCW
 -XMINITIALIZE
-rand_2state:479
+rand_2state:184
 -XMHIERARCHY
 tb_mtm_riscv_soc
 +EMGRLOG
-xrun.log.479
+xrun.log.184
 -XLSTIME
-1690668719
+1690734160
 -XLKEEP
 -XLMODE
 ./xcelium.d/run.lnx8664.19.09.d
@@ -37,4 +37,4 @@ xrun
 -XLVERSION
 "TOOL:	xrun(64)	19.09-s003"
 -XLNAME
-./xcelium.d/run.lnx8664.19.09.d/cadence25_29098
+./xcelium.d/run.lnx8664.19.09.d/cadence25_26741
