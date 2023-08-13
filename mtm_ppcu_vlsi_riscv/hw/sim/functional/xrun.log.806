@@ -1,0 +1,285 @@
+xrun: *W,BADPRF: The -linedebug option may have an adverse performance impact.
+xrun: *W,BADPRF: The -xmdebug option may have an adverse performance impact.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+	Top level design units:
+		core_pkg
+		memory_map
+		gpio_csr
+		uart_csr
+		tb_mtm_riscv_soc
+xmelab: *W,COVDNC: Coverage inside Verilog library cells and VHDL vital cells is not enabled by default; if needed, use the set_libcell_scoring command at elaboration.
+        u_mtm_riscv_chip.u_soc.u_code_ram.u_ram.u_TS1N40LPB4096X32M4M.MEMORY);
+                                                                           |
+xmelab: *W,MEMODR (../common/tb_mtm_riscv_soc.sv,77|75): $readmem default memory order incompatible with IEEE1364.
+xmelab: *W,COVFHT: FSM hold transitions (transitions to the current state) are not extracted for any FSM in default mode.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /cad/XCELIUM1909/tools/xcelium/files/xmsimrc
+xcelium> scope -set uart_csr::
+xcelium> scope -set tb_mtm_riscv_soc.u_mtm_riscv_chip.u_soc.u_data_ram
+xcelium> scope -set tb_mtm_riscv_soc.u_mtm_riscv_chip.u_soc.u_data_ram.u_ram
+xcelium> scope -set tb_mtm_riscv_soc.u_mtm_riscv_chip.u_soc.u_data_ram.u_ram.u_TS1N40LPB4096X32M4M
+xcelium> run
+1000000 ns timestamp
+2000000 ns timestamp
+core: INFO: bootloader started
+3000000 ns timestamp
+4000000 ns timestamp
+core: INFO: codeload skipped
+5000000 ns timestamp
+6000000 ns timestamp
+core: INFO: application started
+6228170 ns main: application started
+7000000 ns timestamp
+8000000 ns timestamp
+9000000 ns timestamp
+10000000 ns timestamp
+11000000 ns timestamp
+12000000 ns timestamp
+13000000 ns timestamp
+14000000 ns timestamp
+15000000 ns timestamp
+16000000 ns timestamp
+17000000 ns timestamp
+18000000 ns timestamp
+19000000 ns timestamp
+20000000 ns timestamp
+21000000 ns timestamp
+22000000 ns timestamp
+23000000 ns timestamp
+24000000 ns timestamp
+25000000 ns timestamp
+26000000 ns timestamp
+27000000 ns timestamp
+28000000 ns timestamp
+29000000 ns timestamp
+30000000 ns timestamp
+31000000 ns timestamp
+32000000 ns timestamp
+33000000 ns timestamp
+34000000 ns timestamp
+35000000 ns timestamp
+36000000 ns timestamp
+37000000 ns timestamp
+38000000 ns timestamp
+39000000 ns timestamp
+40000000 ns timestamp
+41000000 ns timestamp
+42000000 ns timestamp
+43000000 ns timestamp
+44000000 ns timestamp
+45000000 ns timestamp
+46000000 ns timestamp
+47000000 ns timestamp
+48000000 ns timestamp
+49000000 ns timestamp
+50000000 ns timestamp
+51000000 ns timestamp
+52000000 ns timestamp
+53000000 ns timestamp
+54000000 ns timestamp
+55000000 ns timestamp
+56000000 ns timestamp
+57000000 ns timestamp
+58000000 ns timestamp
+59000000 ns timestamp
+60000000 ns timestamp
+61000000 ns timestamp
+62000000 ns timestamp
+63000000 ns timestamp
+64000000 ns timestamp
+65000000 ns timestamp
+66000000 ns timestamp
+67000000 ns timestamp
+68000000 ns timestamp
+69000000 ns timestamp
+Simulation complete via $finish(1) at time 69228170 NS + 0
+../common/tb_mtm_riscv_soc.sv:140     $finish;
+xcelium> run
+xmsim: *E,RNFNSH: Cannot continue simulation due to a previous $finish.
+xcelium> ^C
+xcelium> exit
+------------------------------------------------------------------------------
+-- Simlation PASSED. led[3:0] waves OK. SEED=806
+------------------------------------------------------------------------------

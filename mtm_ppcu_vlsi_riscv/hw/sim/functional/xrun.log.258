@@ -1,0 +1,165 @@
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3], .OEN(1b0)));
+                                                 |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,23|49): expecting a right parenthesis (')') [12.3.4(IEEE)].
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3], .OEN(1b0)));
+                                                          |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,23|58): expecting a right parenthesis (')') [12.3.4(IEEE)].
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3], .OEN(1b0)));
+                                                          |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,23|58): expecting a right parenthesis (')') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3], .OEN(1b0)));
+                                                           |
+xmvlog: *E,EXPLPA (./../../asic/rtl/pads_in.v,23|59): expecting a left parenthesis ('(') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3], .OEN(1b0)));
+                                                            |
+xmvlog: *E,EXPSMC (./../../asic/rtl/pads_in.v,23|60): expecting a semicolon (';') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3], .OEN(1b0)));
+                                                             |
+xmvlog: *E,EXPSMC (./../../asic/rtl/pads_in.v,23|61): expecting a semicolon (';') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2], .OEN(1b0)));
+                                                 |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,24|49): expecting a right parenthesis (')') [12.3.4(IEEE)].
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2], .OEN(1b0)));
+                                                          |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,24|58): expecting a right parenthesis (')') [12.3.4(IEEE)].
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2], .OEN(1b0)));
+                                                          |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,24|58): expecting a right parenthesis (')') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2], .OEN(1b0)));
+                                                           |
+xmvlog: *E,EXPLPA (./../../asic/rtl/pads_in.v,24|59): expecting a left parenthesis ('(') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2], .OEN(1b0)));
+                                                            |
+xmvlog: *E,EXPSMC (./../../asic/rtl/pads_in.v,24|60): expecting a semicolon (';') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2], .OEN(1b0)));
+                                                             |
+xmvlog: *E,EXPSMC (./../../asic/rtl/pads_in.v,24|61): expecting a semicolon (';') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1], .OEN(1b0)));
+                                                 |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,25|49): expecting a right parenthesis (')') [12.3.4(IEEE)].
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1], .OEN(1b0)));
+                                                          |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,25|58): expecting a right parenthesis (')') [12.3.4(IEEE)].
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1], .OEN(1b0)));
+                                                          |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,25|58): expecting a right parenthesis (')') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1], .OEN(1b0)));
+                                                           |
+xmvlog: *E,EXPLPA (./../../asic/rtl/pads_in.v,25|59): expecting a left parenthesis ('(') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1], .OEN(1b0)));
+                                                            |
+xmvlog: *E,EXPSMC (./../../asic/rtl/pads_in.v,25|60): expecting a semicolon (';') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1], .OEN(1b0)));
+                                                             |
+xmvlog: *E,EXPSMC (./../../asic/rtl/pads_in.v,25|61): expecting a semicolon (';') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0], .OEN(1b0)));
+                                                 |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,26|49): expecting a right parenthesis (')') [12.3.4(IEEE)].
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0], .OEN(1b0)));
+                                                          |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,26|58): expecting a right parenthesis (')') [12.3.4(IEEE)].
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0], .OEN(1b0)));
+                                                          |
+xmvlog: *E,EXPRPA (./../../asic/rtl/pads_in.v,26|58): expecting a right parenthesis (')') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0], .OEN(1b0)));
+                                                           |
+xmvlog: *E,EXPLPA (./../../asic/rtl/pads_in.v,26|59): expecting a left parenthesis ('(') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0], .OEN(1b0)));
+                                                            |
+xmvlog: *E,EXPSMC (./../../asic/rtl/pads_in.v,26|60): expecting a semicolon (';') [12.1.2][7.1(IEEE)].
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0], .OEN(1b0)));
+                                                             |
+xmvlog: *E,EXPSMC (./../../asic/rtl/pads_in.v,26|61): expecting a semicolon (';') [12.1.2][7.1(IEEE)].
+xmvlog: *W,LIBNOU: Library "/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v" given but not used.
+xmvlog: *W,LIBNOU: Library "/cad/dk/PDK_CRN45GS_DGO_11_25/IMEC_RAM_generator/ram/ts1n40lpb4096x32m4m_250a/VERILOG/ts1n40lpb4096x32m4m_250a_tt1p1v25c.v" given but not used.
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).

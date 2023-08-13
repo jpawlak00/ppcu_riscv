@@ -1,0 +1,1760 @@
+xrun: *W,BADPRF: The -linedebug option may have an adverse performance impact.
+xrun: *W,BADPRF: The -xmdebug option may have an adverse performance impact.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]));
+                 |
+xmelab: *W,CUVWSI (/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/rtl/pads_in.v,23|17): 2 input ports were not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): OEN
+
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]));
+                 |
+xmelab: *W,CUVWSI (/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/rtl/pads_in.v,24|17): 2 input ports were not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): OEN
+
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]));
+                 |
+xmelab: *W,CUVWSI (/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/rtl/pads_in.v,25|17): 2 input ports were not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): OEN
+
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]));
+                 |
+xmelab: *W,CUVWSI (/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/rtl/pads_in.v,26|17): 2 input ports were not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): OEN
+
+PDB02SDGZ u_clk ( .C(clk_core), .PAD(clk));
+              |
+xmelab: *W,CUVWSI (/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/rtl/pads_in.v,27|14): 2 input ports were not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): OEN
+
+PDB02SDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n));
+                |
+xmelab: *W,CUVWSI (/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/rtl/pads_in.v,28|16): 2 input ports were not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): OEN
+
+PDB02SDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso));
+                   |
+xmelab: *W,CUVWSI (/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/rtl/pads_in.v,29|19): 2 input ports were not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): OEN
+
+PDB02SDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin));
+                   |
+xmelab: *W,CUVWSI (/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/rtl/pads_in.v,30|19): 2 input ports were not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): OEN
+
+	Top level design units:
+		core_pkg
+		memory_map
+		gpio_csr
+		uart_csr
+		tb_mtm_riscv_soc
+xmelab: *W,COVDNC: Coverage inside Verilog library cells and VHDL vital cells is not enabled by default; if needed, use the set_libcell_scoring command at elaboration.
+        u_mtm_riscv_chip.u_soc.u_code_ram.u_ram.u_TS1N40LPB4096X32M4M.MEMORY);
+                                                                           |
+xmelab: *W,MEMODR (../common/tb_mtm_riscv_soc.sv,77|75): $readmem default memory order incompatible with IEEE1364.
+xmelab: *W,COVFHT: FSM hold transitions (transitions to the current state) are not extracted for any FSM in default mode.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmsim: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /cad/XCELIUM1909/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_mtm_riscv_soc.u_mtm_riscv_chip.gpio_dout
+Created probe 1
+xcelium> run
+1000000 ns timestamp
+2000000 ns timestamp
+3000000 ns timestamp
+4000000 ns timestamp
+5000000 ns timestamp
+6000000 ns timestamp
+7000000 ns timestamp
+8000000 ns timestamp
+9000000 ns timestamp
+10000000 ns timestamp
+11000000 ns timestamp
+12000000 ns timestamp
+13000000 ns timestamp
+14000000 ns timestamp
+15000000 ns timestamp
+16000000 ns timestamp
+17000000 ns timestamp
+18000000 ns timestamp
+19000000 ns timestamp
+20000000 ns timestamp
+21000000 ns timestamp
+22000000 ns timestamp
+23000000 ns timestamp
+24000000 ns timestamp
+25000000 ns timestamp
+26000000 ns timestamp
+27000000 ns timestamp
+28000000 ns timestamp
+29000000 ns timestamp
+30000000 ns timestamp
+31000000 ns timestamp
+32000000 ns timestamp
+33000000 ns timestamp
+34000000 ns timestamp
+35000000 ns timestamp
+36000000 ns timestamp
+37000000 ns timestamp
+38000000 ns timestamp
+39000000 ns timestamp
+40000000 ns timestamp
+41000000 ns timestamp
+42000000 ns timestamp
+43000000 ns timestamp
+44000000 ns timestamp
+45000000 ns timestamp
+46000000 ns timestamp
+47000000 ns timestamp
+48000000 ns timestamp
+49000000 ns timestamp
+50000000 ns timestamp
+51000000 ns timestamp
+52000000 ns timestamp
+53000000 ns timestamp
+54000000 ns timestamp
+55000000 ns timestamp
+56000000 ns timestamp
+57000000 ns timestamp
+58000000 ns timestamp
+59000000 ns timestamp
+60000000 ns timestamp
+61000000 ns timestamp
+62000000 ns timestamp
+63000000 ns timestamp
+64000000 ns timestamp
+65000000 ns timestamp
+66000000 ns timestamp
+67000000 ns timestamp
+68000000 ns timestamp
+69000000 ns timestamp
+70000000 ns timestamp
+71000000 ns timestamp
+72000000 ns timestamp
+73000000 ns timestamp
+74000000 ns timestamp
+75000000 ns timestamp
+76000000 ns timestamp
+77000000 ns timestamp
+78000000 ns timestamp
+79000000 ns timestamp
+80000000 ns timestamp
+81000000 ns timestamp
+82000000 ns timestamp
+83000000 ns timestamp
+84000000 ns timestamp
+85000000 ns timestamp
+86000000 ns timestamp
+87000000 ns timestamp
+88000000 ns timestamp
+89000000 ns timestamp
+90000000 ns timestamp
+91000000 ns timestamp
+92000000 ns timestamp
+93000000 ns timestamp
+94000000 ns timestamp
+95000000 ns timestamp
+96000000 ns timestamp
+97000000 ns timestamp
+98000000 ns timestamp
+99000000 ns timestamp
+100000000 ns timestamp
+101000000 ns timestamp
+102000000 ns timestamp
+103000000 ns timestamp
+104000000 ns timestamp
+105000000 ns timestamp
+106000000 ns timestamp
+107000000 ns timestamp
+108000000 ns timestamp
+109000000 ns timestamp
+110000000 ns timestamp
+111000000 ns timestamp
+112000000 ns timestamp
+113000000 ns timestamp
+114000000 ns timestamp
+115000000 ns timestamp
+116000000 ns timestamp
+117000000 ns timestamp
+118000000 ns timestamp
+119000000 ns timestamp
+120000000 ns timestamp
+121000000 ns timestamp
+122000000 ns timestamp
+123000000 ns timestamp
+124000000 ns timestamp
+125000000 ns timestamp
+126000000 ns timestamp
+127000000 ns timestamp
+128000000 ns timestamp
+129000000 ns timestamp
+130000000 ns timestamp
+131000000 ns timestamp
+132000000 ns timestamp
+133000000 ns timestamp
+134000000 ns timestamp
+135000000 ns timestamp
+136000000 ns timestamp
+137000000 ns timestamp
+138000000 ns timestamp
+139000000 ns timestamp
+140000000 ns timestamp
+141000000 ns timestamp
+142000000 ns timestamp
+143000000 ns timestamp
+144000000 ns timestamp
+145000000 ns timestamp
+146000000 ns timestamp
+147000000 ns timestamp
+148000000 ns timestamp
+149000000 ns timestamp
+150000000 ns timestamp
+151000000 ns timestamp
+152000000 ns timestamp
+153000000 ns timestamp
+154000000 ns timestamp
+155000000 ns timestamp
+156000000 ns timestamp
+157000000 ns timestamp
+158000000 ns timestamp
+159000000 ns timestamp
+160000000 ns timestamp
+161000000 ns timestamp
+162000000 ns timestamp
+163000000 ns timestamp
+164000000 ns timestamp
+165000000 ns timestamp
+166000000 ns timestamp
+167000000 ns timestamp
+168000000 ns timestamp
+169000000 ns timestamp
+170000000 ns timestamp
+171000000 ns timestamp
+172000000 ns timestamp
+173000000 ns timestamp
+174000000 ns timestamp
+175000000 ns timestamp
+176000000 ns timestamp
+177000000 ns timestamp
+178000000 ns timestamp
+179000000 ns timestamp
+180000000 ns timestamp
+181000000 ns timestamp
+182000000 ns timestamp
+183000000 ns timestamp
+184000000 ns timestamp
+185000000 ns timestamp
+186000000 ns timestamp
+187000000 ns timestamp
+188000000 ns timestamp
+189000000 ns timestamp
+190000000 ns timestamp
+191000000 ns timestamp
+192000000 ns timestamp
+193000000 ns timestamp
+194000000 ns timestamp
+195000000 ns timestamp
+196000000 ns timestamp
+197000000 ns timestamp
+198000000 ns timestamp
+199000000 ns timestamp
+200000000 ns timestamp
+201000000 ns timestamp
+202000000 ns timestamp
+203000000 ns timestamp
+204000000 ns timestamp
+205000000 ns timestamp
+206000000 ns timestamp
+207000000 ns timestamp
+208000000 ns timestamp
+209000000 ns timestamp
+210000000 ns timestamp
+211000000 ns timestamp
+212000000 ns timestamp
+213000000 ns timestamp
+214000000 ns timestamp
+215000000 ns timestamp
+216000000 ns timestamp
+217000000 ns timestamp
+218000000 ns timestamp
+219000000 ns timestamp
+220000000 ns timestamp
+221000000 ns timestamp
+222000000 ns timestamp
+223000000 ns timestamp
+224000000 ns timestamp
+225000000 ns timestamp
+226000000 ns timestamp
+227000000 ns timestamp
+228000000 ns timestamp
+229000000 ns timestamp
+230000000 ns timestamp
+231000000 ns timestamp
+232000000 ns timestamp
+233000000 ns timestamp
+234000000 ns timestamp
+235000000 ns timestamp
+236000000 ns timestamp
+237000000 ns timestamp
+238000000 ns timestamp
+239000000 ns timestamp
+240000000 ns timestamp
+241000000 ns timestamp
+242000000 ns timestamp
+243000000 ns timestamp
+244000000 ns timestamp
+245000000 ns timestamp
+246000000 ns timestamp
+247000000 ns timestamp
+248000000 ns timestamp
+249000000 ns timestamp
+250000000 ns timestamp
+251000000 ns timestamp
+252000000 ns timestamp
+253000000 ns timestamp
+254000000 ns timestamp
+255000000 ns timestamp
+256000000 ns timestamp
+257000000 ns timestamp
+258000000 ns timestamp
+259000000 ns timestamp
+260000000 ns timestamp
+261000000 ns timestamp
+262000000 ns timestamp
+263000000 ns timestamp
+264000000 ns timestamp
+265000000 ns timestamp
+266000000 ns timestamp
+267000000 ns timestamp
+268000000 ns timestamp
+269000000 ns timestamp
+270000000 ns timestamp
+271000000 ns timestamp
+272000000 ns timestamp
+273000000 ns timestamp
+274000000 ns timestamp
+275000000 ns timestamp
+276000000 ns timestamp
+277000000 ns timestamp
+278000000 ns timestamp
+279000000 ns timestamp
+280000000 ns timestamp
+281000000 ns timestamp
+282000000 ns timestamp
+283000000 ns timestamp
+284000000 ns timestamp
+285000000 ns timestamp
+286000000 ns timestamp
+287000000 ns timestamp
+288000000 ns timestamp
+289000000 ns timestamp
+290000000 ns timestamp
+291000000 ns timestamp
+292000000 ns timestamp
+293000000 ns timestamp
+294000000 ns timestamp
+295000000 ns timestamp
+296000000 ns timestamp
+297000000 ns timestamp
+298000000 ns timestamp
+299000000 ns timestamp
+300000000 ns timestamp
+301000000 ns timestamp
+302000000 ns timestamp
+303000000 ns timestamp
+304000000 ns timestamp
+305000000 ns timestamp
+306000000 ns timestamp
+307000000 ns timestamp
+308000000 ns timestamp
+309000000 ns timestamp
+310000000 ns timestamp
+311000000 ns timestamp
+312000000 ns timestamp
+313000000 ns timestamp
+314000000 ns timestamp
+315000000 ns timestamp
+316000000 ns timestamp
+317000000 ns timestamp
+318000000 ns timestamp
+319000000 ns timestamp
+320000000 ns timestamp
+321000000 ns timestamp
+322000000 ns timestamp
+323000000 ns timestamp
+324000000 ns timestamp
+325000000 ns timestamp
+326000000 ns timestamp
+327000000 ns timestamp
+328000000 ns timestamp
+329000000 ns timestamp
+330000000 ns timestamp
+331000000 ns timestamp
+332000000 ns timestamp
+333000000 ns timestamp
+334000000 ns timestamp
+335000000 ns timestamp
+336000000 ns timestamp
+337000000 ns timestamp
+338000000 ns timestamp
+339000000 ns timestamp
+340000000 ns timestamp
+341000000 ns timestamp
+342000000 ns timestamp
+343000000 ns timestamp
+344000000 ns timestamp
+345000000 ns timestamp
+346000000 ns timestamp
+347000000 ns timestamp
+348000000 ns timestamp
+349000000 ns timestamp
+350000000 ns timestamp
+351000000 ns timestamp
+352000000 ns timestamp
+353000000 ns timestamp
+354000000 ns timestamp
+355000000 ns timestamp
+356000000 ns timestamp
+357000000 ns timestamp
+358000000 ns timestamp
+359000000 ns timestamp
+360000000 ns timestamp
+361000000 ns timestamp
+362000000 ns timestamp
+363000000 ns timestamp
+364000000 ns timestamp
+365000000 ns timestamp
+366000000 ns timestamp
+367000000 ns timestamp
+368000000 ns timestamp
+369000000 ns timestamp
+370000000 ns timestamp
+371000000 ns timestamp
+372000000 ns timestamp
+373000000 ns timestamp
+374000000 ns timestamp
+375000000 ns timestamp
+376000000 ns timestamp
+377000000 ns timestamp
+378000000 ns timestamp
+379000000 ns timestamp
+380000000 ns timestamp
+381000000 ns timestamp
+382000000 ns timestamp
+383000000 ns timestamp
+384000000 ns timestamp
+385000000 ns timestamp
+386000000 ns timestamp
+387000000 ns timestamp
+388000000 ns timestamp
+389000000 ns timestamp
+390000000 ns timestamp
+391000000 ns timestamp
+392000000 ns timestamp
+393000000 ns timestamp
+394000000 ns timestamp
+395000000 ns timestamp
+396000000 ns timestamp
+397000000 ns timestamp
+398000000 ns timestamp
+399000000 ns timestamp
+400000000 ns timestamp
+401000000 ns timestamp
+402000000 ns timestamp
+403000000 ns timestamp
+404000000 ns timestamp
+405000000 ns timestamp
+406000000 ns timestamp
+407000000 ns timestamp
+408000000 ns timestamp
+409000000 ns timestamp
+410000000 ns timestamp
+411000000 ns timestamp
+412000000 ns timestamp
+413000000 ns timestamp
+414000000 ns timestamp
+415000000 ns timestamp
+416000000 ns timestamp
+417000000 ns timestamp
+418000000 ns timestamp
+419000000 ns timestamp
+420000000 ns timestamp
+421000000 ns timestamp
+422000000 ns timestamp
+423000000 ns timestamp
+424000000 ns timestamp
+425000000 ns timestamp
+426000000 ns timestamp
+427000000 ns timestamp
+428000000 ns timestamp
+429000000 ns timestamp
+430000000 ns timestamp
+431000000 ns timestamp
+432000000 ns timestamp
+433000000 ns timestamp
+434000000 ns timestamp
+435000000 ns timestamp
+436000000 ns timestamp
+437000000 ns timestamp
+438000000 ns timestamp
+439000000 ns timestamp
+440000000 ns timestamp
+441000000 ns timestamp
+442000000 ns timestamp
+443000000 ns timestamp
+444000000 ns timestamp
+445000000 ns timestamp
+446000000 ns timestamp
+447000000 ns timestamp
+448000000 ns timestamp
+449000000 ns timestamp
+450000000 ns timestamp
+451000000 ns timestamp
+452000000 ns timestamp
+453000000 ns timestamp
+454000000 ns timestamp
+455000000 ns timestamp
+456000000 ns timestamp
+457000000 ns timestamp
+458000000 ns timestamp
+459000000 ns timestamp
+460000000 ns timestamp
+461000000 ns timestamp
+462000000 ns timestamp
+463000000 ns timestamp
+464000000 ns timestamp
+465000000 ns timestamp
+466000000 ns timestamp
+467000000 ns timestamp
+468000000 ns timestamp
+469000000 ns timestamp
+470000000 ns timestamp
+471000000 ns timestamp
+472000000 ns timestamp
+473000000 ns timestamp
+474000000 ns timestamp
+475000000 ns timestamp
+476000000 ns timestamp
+477000000 ns timestamp
+478000000 ns timestamp
+479000000 ns timestamp
+480000000 ns timestamp
+481000000 ns timestamp
+482000000 ns timestamp
+483000000 ns timestamp
+484000000 ns timestamp
+485000000 ns timestamp
+486000000 ns timestamp
+487000000 ns timestamp
+488000000 ns timestamp
+489000000 ns timestamp
+490000000 ns timestamp
+491000000 ns timestamp
+492000000 ns timestamp
+493000000 ns timestamp
+494000000 ns timestamp
+495000000 ns timestamp
+496000000 ns timestamp
+497000000 ns timestamp
+498000000 ns timestamp
+499000000 ns timestamp
+500000000 ns timestamp
+501000000 ns timestamp
+502000000 ns timestamp
+503000000 ns timestamp
+504000000 ns timestamp
+505000000 ns timestamp
+506000000 ns timestamp
+507000000 ns timestamp
+508000000 ns timestamp
+509000000 ns timestamp
+510000000 ns timestamp
+511000000 ns timestamp
+512000000 ns timestamp
+513000000 ns timestamp
+514000000 ns timestamp
+515000000 ns timestamp
+516000000 ns timestamp
+517000000 ns timestamp
+518000000 ns timestamp
+519000000 ns timestamp
+520000000 ns timestamp
+521000000 ns timestamp
+522000000 ns timestamp
+523000000 ns timestamp
+524000000 ns timestamp
+525000000 ns timestamp
+526000000 ns timestamp
+527000000 ns timestamp
+528000000 ns timestamp
+529000000 ns timestamp
+530000000 ns timestamp
+531000000 ns timestamp
+532000000 ns timestamp
+533000000 ns timestamp
+534000000 ns timestamp
+535000000 ns timestamp
+536000000 ns timestamp
+537000000 ns timestamp
+538000000 ns timestamp
+539000000 ns timestamp
+540000000 ns timestamp
+541000000 ns timestamp
+542000000 ns timestamp
+543000000 ns timestamp
+544000000 ns timestamp
+545000000 ns timestamp
+546000000 ns timestamp
+547000000 ns timestamp
+548000000 ns timestamp
+549000000 ns timestamp
+550000000 ns timestamp
+551000000 ns timestamp
+552000000 ns timestamp
+553000000 ns timestamp
+554000000 ns timestamp
+555000000 ns timestamp
+556000000 ns timestamp
+557000000 ns timestamp
+558000000 ns timestamp
+559000000 ns timestamp
+560000000 ns timestamp
+561000000 ns timestamp
+562000000 ns timestamp
+563000000 ns timestamp
+564000000 ns timestamp
+565000000 ns timestamp
+566000000 ns timestamp
+567000000 ns timestamp
+568000000 ns timestamp
+569000000 ns timestamp
+570000000 ns timestamp
+571000000 ns timestamp
+572000000 ns timestamp
+573000000 ns timestamp
+574000000 ns timestamp
+575000000 ns timestamp
+576000000 ns timestamp
+577000000 ns timestamp
+578000000 ns timestamp
+579000000 ns timestamp
+580000000 ns timestamp
+581000000 ns timestamp
+582000000 ns timestamp
+583000000 ns timestamp
+584000000 ns timestamp
+585000000 ns timestamp
+586000000 ns timestamp
+587000000 ns timestamp
+588000000 ns timestamp
+589000000 ns timestamp
+590000000 ns timestamp
+591000000 ns timestamp
+592000000 ns timestamp
+593000000 ns timestamp
+594000000 ns timestamp
+595000000 ns timestamp
+596000000 ns timestamp
+597000000 ns timestamp
+598000000 ns timestamp
+599000000 ns timestamp
+600000000 ns timestamp
+601000000 ns timestamp
+602000000 ns timestamp
+603000000 ns timestamp
+604000000 ns timestamp
+605000000 ns timestamp
+606000000 ns timestamp
+607000000 ns timestamp
+608000000 ns timestamp
+609000000 ns timestamp
+610000000 ns timestamp
+611000000 ns timestamp
+612000000 ns timestamp
+613000000 ns timestamp
+614000000 ns timestamp
+615000000 ns timestamp
+616000000 ns timestamp
+617000000 ns timestamp
+618000000 ns timestamp
+619000000 ns timestamp
+620000000 ns timestamp
+621000000 ns timestamp
+622000000 ns timestamp
+623000000 ns timestamp
+624000000 ns timestamp
+625000000 ns timestamp
+626000000 ns timestamp
+627000000 ns timestamp
+628000000 ns timestamp
+629000000 ns timestamp
+630000000 ns timestamp
+631000000 ns timestamp
+632000000 ns timestamp
+633000000 ns timestamp
+634000000 ns timestamp
+635000000 ns timestamp
+636000000 ns timestamp
+637000000 ns timestamp
+638000000 ns timestamp
+639000000 ns timestamp
+640000000 ns timestamp
+641000000 ns timestamp
+642000000 ns timestamp
+643000000 ns timestamp
+644000000 ns timestamp
+645000000 ns timestamp
+646000000 ns timestamp
+647000000 ns timestamp
+648000000 ns timestamp
+649000000 ns timestamp
+650000000 ns timestamp
+651000000 ns timestamp
+652000000 ns timestamp
+653000000 ns timestamp
+654000000 ns timestamp
+655000000 ns timestamp
+656000000 ns timestamp
+657000000 ns timestamp
+658000000 ns timestamp
+659000000 ns timestamp
+660000000 ns timestamp
+661000000 ns timestamp
+662000000 ns timestamp
+663000000 ns timestamp
+664000000 ns timestamp
+665000000 ns timestamp
+666000000 ns timestamp
+667000000 ns timestamp
+668000000 ns timestamp
+669000000 ns timestamp
+670000000 ns timestamp
+671000000 ns timestamp
+672000000 ns timestamp
+673000000 ns timestamp
+674000000 ns timestamp
+675000000 ns timestamp
+676000000 ns timestamp
+677000000 ns timestamp
+678000000 ns timestamp
+679000000 ns timestamp
+680000000 ns timestamp
+681000000 ns timestamp
+682000000 ns timestamp
+683000000 ns timestamp
+684000000 ns timestamp
+685000000 ns timestamp
+686000000 ns timestamp
+687000000 ns timestamp
+688000000 ns timestamp
+689000000 ns timestamp
+690000000 ns timestamp
+691000000 ns timestamp
+692000000 ns timestamp
+693000000 ns timestamp
+694000000 ns timestamp
+695000000 ns timestamp
+696000000 ns timestamp
+697000000 ns timestamp
+698000000 ns timestamp
+699000000 ns timestamp
+700000000 ns timestamp
+701000000 ns timestamp
+702000000 ns timestamp
+703000000 ns timestamp
+704000000 ns timestamp
+705000000 ns timestamp
+706000000 ns timestamp
+707000000 ns timestamp
+708000000 ns timestamp
+709000000 ns timestamp
+710000000 ns timestamp
+711000000 ns timestamp
+712000000 ns timestamp
+713000000 ns timestamp
+714000000 ns timestamp
+715000000 ns timestamp
+716000000 ns timestamp
+717000000 ns timestamp
+718000000 ns timestamp
+719000000 ns timestamp
+720000000 ns timestamp
+721000000 ns timestamp
+722000000 ns timestamp
+723000000 ns timestamp
+724000000 ns timestamp
+725000000 ns timestamp
+726000000 ns timestamp
+727000000 ns timestamp
+728000000 ns timestamp
+729000000 ns timestamp
+730000000 ns timestamp
+731000000 ns timestamp
+732000000 ns timestamp
+733000000 ns timestamp
+734000000 ns timestamp
+735000000 ns timestamp
+736000000 ns timestamp
+737000000 ns timestamp
+738000000 ns timestamp
+739000000 ns timestamp
+740000000 ns timestamp
+741000000 ns timestamp
+742000000 ns timestamp
+743000000 ns timestamp
+744000000 ns timestamp
+745000000 ns timestamp
+746000000 ns timestamp
+747000000 ns timestamp
+748000000 ns timestamp
+749000000 ns timestamp
+750000000 ns timestamp
+751000000 ns timestamp
+752000000 ns timestamp
+753000000 ns timestamp
+754000000 ns timestamp
+755000000 ns timestamp
+756000000 ns timestamp
+757000000 ns timestamp
+758000000 ns timestamp
+759000000 ns timestamp
+760000000 ns timestamp
+761000000 ns timestamp
+762000000 ns timestamp
+763000000 ns timestamp
+764000000 ns timestamp
+765000000 ns timestamp
+766000000 ns timestamp
+767000000 ns timestamp
+768000000 ns timestamp
+769000000 ns timestamp
+770000000 ns timestamp
+771000000 ns timestamp
+772000000 ns timestamp
+773000000 ns timestamp
+774000000 ns timestamp
+775000000 ns timestamp
+776000000 ns timestamp
+777000000 ns timestamp
+778000000 ns timestamp
+779000000 ns timestamp
+780000000 ns timestamp
+781000000 ns timestamp
+782000000 ns timestamp
+783000000 ns timestamp
+784000000 ns timestamp
+785000000 ns timestamp
+786000000 ns timestamp
+787000000 ns timestamp
+788000000 ns timestamp
+789000000 ns timestamp
+790000000 ns timestamp
+791000000 ns timestamp
+792000000 ns timestamp
+793000000 ns timestamp
+794000000 ns timestamp
+795000000 ns timestamp
+796000000 ns timestamp
+797000000 ns timestamp
+798000000 ns timestamp
+799000000 ns timestamp
+800000000 ns timestamp
+801000000 ns timestamp
+802000000 ns timestamp
+803000000 ns timestamp
+804000000 ns timestamp
+805000000 ns timestamp
+806000000 ns timestamp
+807000000 ns timestamp
+808000000 ns timestamp
+809000000 ns timestamp
+810000000 ns timestamp
+811000000 ns timestamp
+812000000 ns timestamp
+813000000 ns timestamp
+814000000 ns timestamp
+815000000 ns timestamp
+816000000 ns timestamp
+817000000 ns timestamp
+818000000 ns timestamp
+819000000 ns timestamp
+820000000 ns timestamp
+821000000 ns timestamp
+822000000 ns timestamp
+823000000 ns timestamp
+824000000 ns timestamp
+825000000 ns timestamp
+826000000 ns timestamp
+827000000 ns timestamp
+828000000 ns timestamp
+829000000 ns timestamp
+830000000 ns timestamp
+831000000 ns timestamp
+832000000 ns timestamp
+833000000 ns timestamp
+834000000 ns timestamp
+835000000 ns timestamp
+836000000 ns timestamp
+837000000 ns timestamp
+838000000 ns timestamp
+839000000 ns timestamp
+840000000 ns timestamp
+841000000 ns timestamp
+842000000 ns timestamp
+843000000 ns timestamp
+844000000 ns timestamp
+845000000 ns timestamp
+846000000 ns timestamp
+847000000 ns timestamp
+848000000 ns timestamp
+849000000 ns timestamp
+850000000 ns timestamp
+851000000 ns timestamp
+852000000 ns timestamp
+853000000 ns timestamp
+854000000 ns timestamp
+855000000 ns timestamp
+856000000 ns timestamp
+857000000 ns timestamp
+858000000 ns timestamp
+859000000 ns timestamp
+860000000 ns timestamp
+861000000 ns timestamp
+862000000 ns timestamp
+863000000 ns timestamp
+864000000 ns timestamp
+865000000 ns timestamp
+866000000 ns timestamp
+867000000 ns timestamp
+868000000 ns timestamp
+869000000 ns timestamp
+870000000 ns timestamp
+871000000 ns timestamp
+872000000 ns timestamp
+873000000 ns timestamp
+874000000 ns timestamp
+875000000 ns timestamp
+876000000 ns timestamp
+877000000 ns timestamp
+878000000 ns timestamp
+879000000 ns timestamp
+880000000 ns timestamp
+881000000 ns timestamp
+882000000 ns timestamp
+883000000 ns timestamp
+884000000 ns timestamp
+885000000 ns timestamp
+886000000 ns timestamp
+887000000 ns timestamp
+888000000 ns timestamp
+889000000 ns timestamp
+890000000 ns timestamp
+891000000 ns timestamp
+892000000 ns timestamp
+893000000 ns timestamp
+894000000 ns timestamp
+895000000 ns timestamp
+896000000 ns timestamp
+897000000 ns timestamp
+898000000 ns timestamp
+899000000 ns timestamp
+900000000 ns timestamp
+901000000 ns timestamp
+902000000 ns timestamp
+903000000 ns timestamp
+904000000 ns timestamp
+905000000 ns timestamp
+906000000 ns timestamp
+907000000 ns timestamp
+908000000 ns timestamp
+909000000 ns timestamp
+910000000 ns timestamp
+911000000 ns timestamp
+912000000 ns timestamp
+913000000 ns timestamp
+914000000 ns timestamp
+915000000 ns timestamp
+916000000 ns timestamp
+917000000 ns timestamp
+918000000 ns timestamp
+919000000 ns timestamp
+920000000 ns timestamp
+921000000 ns timestamp
+922000000 ns timestamp
+923000000 ns timestamp
+924000000 ns timestamp
+925000000 ns timestamp
+926000000 ns timestamp
+927000000 ns timestamp
+928000000 ns timestamp
+929000000 ns timestamp
+930000000 ns timestamp
+931000000 ns timestamp
+932000000 ns timestamp
+933000000 ns timestamp
+934000000 ns timestamp
+935000000 ns timestamp
+936000000 ns timestamp
+937000000 ns timestamp
+938000000 ns timestamp
+939000000 ns timestamp
+940000000 ns timestamp
+941000000 ns timestamp
+942000000 ns timestamp
+943000000 ns timestamp
+944000000 ns timestamp
+945000000 ns timestamp
+946000000 ns timestamp
+947000000 ns timestamp
+948000000 ns timestamp
+949000000 ns timestamp
+950000000 ns timestamp
+951000000 ns timestamp
+952000000 ns timestamp
+953000000 ns timestamp
+954000000 ns timestamp
+955000000 ns timestamp
+956000000 ns timestamp
+957000000 ns timestamp
+958000000 ns timestamp
+959000000 ns timestamp
+960000000 ns timestamp
+961000000 ns timestamp
+962000000 ns timestamp
+963000000 ns timestamp
+964000000 ns timestamp
+965000000 ns timestamp
+966000000 ns timestamp
+967000000 ns timestamp
+968000000 ns timestamp
+969000000 ns timestamp
+970000000 ns timestamp
+971000000 ns timestamp
+972000000 ns timestamp
+973000000 ns timestamp
+974000000 ns timestamp
+975000000 ns timestamp
+976000000 ns timestamp
+977000000 ns timestamp
+978000000 ns timestamp
+979000000 ns timestamp
+980000000 ns timestamp
+981000000 ns timestamp
+982000000 ns timestamp
+983000000 ns timestamp
+984000000 ns timestamp
+985000000 ns timestamp
+986000000 ns timestamp
+987000000 ns timestamp
+988000000 ns timestamp
+989000000 ns timestamp
+990000000 ns timestamp
+991000000 ns timestamp
+992000000 ns timestamp
+993000000 ns timestamp
+994000000 ns timestamp
+995000000 ns timestamp
+996000000 ns timestamp
+997000000 ns timestamp
+998000000 ns timestamp
+999000000 ns timestamp
+1000000000 ns timestamp
+1001000000 ns timestamp
+1002000000 ns timestamp
+1003000000 ns timestamp
+1004000000 ns timestamp
+1005000000 ns timestamp
+1006000000 ns timestamp
+1007000000 ns timestamp
+1008000000 ns timestamp
+1009000000 ns timestamp
+1010000000 ns timestamp
+1011000000 ns timestamp
+1012000000 ns timestamp
+1013000000 ns timestamp
+1014000000 ns timestamp
+1015000000 ns timestamp
+1016000000 ns timestamp
+1017000000 ns timestamp
+1018000000 ns timestamp
+1019000000 ns timestamp
+1020000000 ns timestamp
+1021000000 ns timestamp
+1022000000 ns timestamp
+1023000000 ns timestamp
+1024000000 ns timestamp
+1025000000 ns timestamp
+1026000000 ns timestamp
+1027000000 ns timestamp
+1028000000 ns timestamp
+1029000000 ns timestamp
+1030000000 ns timestamp
+1031000000 ns timestamp
+1032000000 ns timestamp
+1033000000 ns timestamp
+1034000000 ns timestamp
+1035000000 ns timestamp
+1036000000 ns timestamp
+1037000000 ns timestamp
+1038000000 ns timestamp
+1039000000 ns timestamp
+1040000000 ns timestamp
+1041000000 ns timestamp
+1042000000 ns timestamp
+1043000000 ns timestamp
+1044000000 ns timestamp
+1045000000 ns timestamp
+1046000000 ns timestamp
+1047000000 ns timestamp
+1048000000 ns timestamp
+1049000000 ns timestamp
+1050000000 ns timestamp
+1051000000 ns timestamp
+1052000000 ns timestamp
+1053000000 ns timestamp
+1054000000 ns timestamp
+1055000000 ns timestamp
+1056000000 ns timestamp
+1057000000 ns timestamp
+1058000000 ns timestamp
+1059000000 ns timestamp
+1060000000 ns timestamp
+1061000000 ns timestamp
+1062000000 ns timestamp
+1063000000 ns timestamp
+1064000000 ns timestamp
+1065000000 ns timestamp
+1066000000 ns timestamp
+1067000000 ns timestamp
+1068000000 ns timestamp
+1069000000 ns timestamp
+1070000000 ns timestamp
+1071000000 ns timestamp
+1072000000 ns timestamp
+1073000000 ns timestamp
+1074000000 ns timestamp
+1075000000 ns timestamp
+1076000000 ns timestamp
+1077000000 ns timestamp
+1078000000 ns timestamp
+1079000000 ns timestamp
+1080000000 ns timestamp
+1081000000 ns timestamp
+1082000000 ns timestamp
+1083000000 ns timestamp
+1084000000 ns timestamp
+1085000000 ns timestamp
+1086000000 ns timestamp
+1087000000 ns timestamp
+1088000000 ns timestamp
+1089000000 ns timestamp
+1090000000 ns timestamp
+1091000000 ns timestamp
+1092000000 ns timestamp
+1093000000 ns timestamp
+1094000000 ns timestamp
+1095000000 ns timestamp
+1096000000 ns timestamp
+1097000000 ns timestamp
+1098000000 ns timestamp
+1099000000 ns timestamp
+1100000000 ns timestamp
+1101000000 ns timestamp
+1102000000 ns timestamp
+1103000000 ns timestamp
+1104000000 ns timestamp
+1105000000 ns timestamp
+1106000000 ns timestamp
+1107000000 ns timestamp
+1108000000 ns timestamp
+1109000000 ns timestamp
+1110000000 ns timestamp
+1111000000 ns timestamp
+1112000000 ns timestamp
+1113000000 ns timestamp
+1114000000 ns timestamp
+1115000000 ns timestamp
+1116000000 ns timestamp
+1117000000 ns timestamp
+1118000000 ns timestamp
+1119000000 ns timestamp
+1120000000 ns timestamp
+1121000000 ns timestamp
+1122000000 ns timestamp
+1123000000 ns timestamp
+1124000000 ns timestamp
+1125000000 ns timestamp
+1126000000 ns timestamp
+1127000000 ns timestamp
+1128000000 ns timestamp
+1129000000 ns timestamp
+1130000000 ns timestamp
+1131000000 ns timestamp
+1132000000 ns timestamp
+1133000000 ns timestamp
+1134000000 ns timestamp
+1135000000 ns timestamp
+1136000000 ns timestamp
+1137000000 ns timestamp
+1138000000 ns timestamp
+1139000000 ns timestamp
+1140000000 ns timestamp
+1141000000 ns timestamp
+1142000000 ns timestamp
+1143000000 ns timestamp
+1144000000 ns timestamp
+1145000000 ns timestamp
+1146000000 ns timestamp
+1147000000 ns timestamp
+1148000000 ns timestamp
+1149000000 ns timestamp
+1150000000 ns timestamp
+1151000000 ns timestamp
+1152000000 ns timestamp
+1153000000 ns timestamp
+1154000000 ns timestamp
+1155000000 ns timestamp
+1156000000 ns timestamp
+1157000000 ns timestamp
+1158000000 ns timestamp
+1159000000 ns timestamp
+1160000000 ns timestamp
+1161000000 ns timestamp
+1162000000 ns timestamp
+1163000000 ns timestamp
+1164000000 ns timestamp
+1165000000 ns timestamp
+1166000000 ns timestamp
+1167000000 ns timestamp
+1168000000 ns timestamp
+1169000000 ns timestamp
+1170000000 ns timestamp
+1171000000 ns timestamp
+1172000000 ns timestamp
+1173000000 ns timestamp
+1174000000 ns timestamp
+1175000000 ns timestamp
+1176000000 ns timestamp
+1177000000 ns timestamp
+1178000000 ns timestamp
+1179000000 ns timestamp
+1180000000 ns timestamp
+1181000000 ns timestamp
+1182000000 ns timestamp
+1183000000 ns timestamp
+1184000000 ns timestamp
+1185000000 ns timestamp
+1186000000 ns timestamp
+1187000000 ns timestamp
+1188000000 ns timestamp
+1189000000 ns timestamp
+1190000000 ns timestamp
+1191000000 ns timestamp
+1192000000 ns timestamp
+1193000000 ns timestamp
+1194000000 ns timestamp
+1195000000 ns timestamp
+1196000000 ns timestamp
+1197000000 ns timestamp
+1198000000 ns timestamp
+1199000000 ns timestamp
+1200000000 ns timestamp
+1201000000 ns timestamp
+1202000000 ns timestamp
+1203000000 ns timestamp
+1204000000 ns timestamp
+1205000000 ns timestamp
+1206000000 ns timestamp
+1207000000 ns timestamp
+1208000000 ns timestamp
+1209000000 ns timestamp
+1210000000 ns timestamp
+1211000000 ns timestamp
+1212000000 ns timestamp
+1213000000 ns timestamp
+1214000000 ns timestamp
+1215000000 ns timestamp
+1216000000 ns timestamp
+1217000000 ns timestamp
+1218000000 ns timestamp
+1219000000 ns timestamp
+1220000000 ns timestamp
+1221000000 ns timestamp
+1222000000 ns timestamp
+1223000000 ns timestamp
+1224000000 ns timestamp
+1225000000 ns timestamp
+1226000000 ns timestamp
+1227000000 ns timestamp
+1228000000 ns timestamp
+1229000000 ns timestamp
+1230000000 ns timestamp
+1231000000 ns timestamp
+1232000000 ns timestamp
+1233000000 ns timestamp
+1234000000 ns timestamp
+1235000000 ns timestamp
+1236000000 ns timestamp
+1237000000 ns timestamp
+1238000000 ns timestamp
+1239000000 ns timestamp
+1240000000 ns timestamp
+1241000000 ns timestamp
+1242000000 ns timestamp
+1243000000 ns timestamp
+1244000000 ns timestamp
+1245000000 ns timestamp
+1246000000 ns timestamp
+1247000000 ns timestamp
+1248000000 ns timestamp
+1249000000 ns timestamp
+1250000000 ns timestamp
+1251000000 ns timestamp
+1252000000 ns timestamp
+1253000000 ns timestamp
+1254000000 ns timestamp
+1255000000 ns timestamp
+1256000000 ns timestamp
+1257000000 ns timestamp
+1258000000 ns timestamp
+1259000000 ns timestamp
+1260000000 ns timestamp
+1261000000 ns timestamp
+1262000000 ns timestamp
+1263000000 ns timestamp
+1264000000 ns timestamp
+1265000000 ns timestamp
+1266000000 ns timestamp
+1267000000 ns timestamp
+1268000000 ns timestamp
+1269000000 ns timestamp
+1270000000 ns timestamp
+1271000000 ns timestamp
+1272000000 ns timestamp
+1273000000 ns timestamp
+1274000000 ns timestamp
+1275000000 ns timestamp
+1276000000 ns timestamp
+1277000000 ns timestamp
+1278000000 ns timestamp
+1279000000 ns timestamp
+1280000000 ns timestamp
+1281000000 ns timestamp
+1282000000 ns timestamp
+1283000000 ns timestamp
+1284000000 ns timestamp
+1285000000 ns timestamp
+1286000000 ns timestamp
+1287000000 ns timestamp
+1288000000 ns timestamp
+1289000000 ns timestamp
+1290000000 ns timestamp
+1291000000 ns timestamp
+1292000000 ns timestamp
+1293000000 ns timestamp
+1294000000 ns timestamp
+1295000000 ns timestamp
+1296000000 ns timestamp
+1297000000 ns timestamp
+1298000000 ns timestamp
+1299000000 ns timestamp
+1300000000 ns timestamp
+1301000000 ns timestamp
+1302000000 ns timestamp
+1303000000 ns timestamp
+1304000000 ns timestamp
+1305000000 ns timestamp
+1306000000 ns timestamp
+1307000000 ns timestamp
+1308000000 ns timestamp
+1309000000 ns timestamp
+1310000000 ns timestamp
+1311000000 ns timestamp
+1312000000 ns timestamp
+1313000000 ns timestamp
+1314000000 ns timestamp
+1315000000 ns timestamp
+1316000000 ns timestamp
+1317000000 ns timestamp
+1318000000 ns timestamp
+1319000000 ns timestamp
+1320000000 ns timestamp
+1321000000 ns timestamp
+1322000000 ns timestamp
+1323000000 ns timestamp
+1324000000 ns timestamp
+1325000000 ns timestamp
+1326000000 ns timestamp
+1327000000 ns timestamp
+1328000000 ns timestamp
+1329000000 ns timestamp
+1330000000 ns timestamp
+1331000000 ns timestamp
+1332000000 ns timestamp
+1333000000 ns timestamp
+1334000000 ns timestamp
+1335000000 ns timestamp
+1336000000 ns timestamp
+1337000000 ns timestamp
+1338000000 ns timestamp
+1339000000 ns timestamp
+1340000000 ns timestamp
+1341000000 ns timestamp
+1342000000 ns timestamp
+1343000000 ns timestamp
+1344000000 ns timestamp
+1345000000 ns timestamp
+1346000000 ns timestamp
+1347000000 ns timestamp
+1348000000 ns timestamp
+1349000000 ns timestamp
+1350000000 ns timestamp
+1351000000 ns timestamp
+1352000000 ns timestamp
+1353000000 ns timestamp
+1354000000 ns timestamp
+1355000000 ns timestamp
+1356000000 ns timestamp
+1357000000 ns timestamp
+1358000000 ns timestamp
+1359000000 ns timestamp
+1360000000 ns timestamp
+1361000000 ns timestamp
+1362000000 ns timestamp
+1363000000 ns timestamp
+1364000000 ns timestamp
+1365000000 ns timestamp
+1366000000 ns timestamp
+1367000000 ns timestamp
+1368000000 ns timestamp
+1369000000 ns timestamp
+1370000000 ns timestamp
+1371000000 ns timestamp
+1372000000 ns timestamp
+1373000000 ns timestamp
+1374000000 ns timestamp
+1375000000 ns timestamp
+1376000000 ns timestamp
+1377000000 ns timestamp
+1378000000 ns timestamp
+1379000000 ns timestamp
+1380000000 ns timestamp
+1381000000 ns timestamp
+1382000000 ns timestamp
+1383000000 ns timestamp
+1384000000 ns timestamp
+1385000000 ns timestamp
+1386000000 ns timestamp
+1387000000 ns timestamp
+1388000000 ns timestamp
+1389000000 ns timestamp
+1390000000 ns timestamp
+1391000000 ns timestamp
+1392000000 ns timestamp
+1393000000 ns timestamp
+1394000000 ns timestamp
+1395000000 ns timestamp
+1396000000 ns timestamp
+1397000000 ns timestamp
+1398000000 ns timestamp
+1399000000 ns timestamp
+1400000000 ns timestamp
+1401000000 ns timestamp
+1402000000 ns timestamp
+1403000000 ns timestamp
+1404000000 ns timestamp
+1405000000 ns timestamp
+1406000000 ns timestamp
+1407000000 ns timestamp
+1408000000 ns timestamp
+1409000000 ns timestamp
+1410000000 ns timestamp
+1411000000 ns timestamp
+1412000000 ns timestamp
+1413000000 ns timestamp
+1414000000 ns timestamp
+1415000000 ns timestamp
+1416000000 ns timestamp
+1417000000 ns timestamp
+1418000000 ns timestamp
+1419000000 ns timestamp
+1420000000 ns timestamp
+1421000000 ns timestamp
+1422000000 ns timestamp
+1423000000 ns timestamp
+1424000000 ns timestamp
+1425000000 ns timestamp
+1426000000 ns timestamp
+1427000000 ns timestamp
+1428000000 ns timestamp
+1429000000 ns timestamp
+1430000000 ns timestamp
+1431000000 ns timestamp
+1432000000 ns timestamp
+1433000000 ns timestamp
+1434000000 ns timestamp
+1435000000 ns timestamp
+1436000000 ns timestamp
+1437000000 ns timestamp
+1438000000 ns timestamp
+1439000000 ns timestamp
+1440000000 ns timestamp
+1441000000 ns timestamp
+1442000000 ns timestamp
+1443000000 ns timestamp
+1444000000 ns timestamp
+1445000000 ns timestamp
+1446000000 ns timestamp
+1447000000 ns timestamp
+1448000000 ns timestamp
+1449000000 ns timestamp
+1450000000 ns timestamp
+1451000000 ns timestamp
+1452000000 ns timestamp
+1453000000 ns timestamp
+1454000000 ns timestamp
+1455000000 ns timestamp
+1456000000 ns timestamp
+1457000000 ns timestamp
+1458000000 ns timestamp
+1459000000 ns timestamp
+1460000000 ns timestamp
+1461000000 ns timestamp
+1462000000 ns timestamp
+1463000000 ns timestamp
+1464000000 ns timestamp
+1465000000 ns timestamp
+1466000000 ns timestamp
+1467000000 ns timestamp
+1468000000 ns timestamp
+1469000000 ns timestamp
+1470000000 ns timestamp
+1471000000 ns timestamp
+1472000000 ns timestamp
+1473000000 ns timestamp
+1474000000 ns timestamp
+1475000000 ns timestamp
+1476000000 ns timestamp
+1477000000 ns timestamp
+1478000000 ns timestamp
+1479000000 ns timestamp
+1480000000 ns timestamp
+1481000000 ns timestamp
+1482000000 ns timestamp
+1483000000 ns timestamp
+1484000000 ns timestamp
+1485000000 ns timestamp
+1486000000 ns timestamp
+1487000000 ns timestamp
+1488000000 ns timestamp
+1489000000 ns timestamp
+1490000000 ns timestamp
+1491000000 ns timestamp
+1492000000 ns timestamp
+1493000000 ns timestamp
+1494000000 ns timestamp
+1495000000 ns timestamp
+1496000000 ns timestamp
+1497000000 ns timestamp
+1498000000 ns timestamp
+1499000000 ns timestamp
+1500000000 ns watchdog timeout!
+Simulation complete via $finish(1) at time 1500 MS + 0
+../common/tb_mtm_riscv_soc.sv:161     $finish;
+xcelium> run
+xmsim: *E,RNFNSH: Cannot continue simulation due to a previous $finish.
+xcelium> ^C
+xcelium> exit
+------------------------------------------------------------------------------
+-- Simlation FAILED led[3:0] waves incorrect (diff: 49). SEED=269
+------------------------------------------------------------------------------
