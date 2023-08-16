@@ -19,17 +19,6 @@ input [3:0]  btn;
 // TODO: replace input pad names with the correct ones
 //------------------------------------------------------------------------------
 
-// was PDIDGZ
-// PDIDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]));
-// PDIDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]));
-// PDIDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]));
-// PDIDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]));
-// PDIDGZ u_clk ( .C(clk_core), .PAD(clk));
-// PDIDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n));
-// PDIDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso));
-// PDIDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin));
-// endmodule
-
 assign oen = 1;
 
 PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]), .OEN(oen));
@@ -44,3 +33,15 @@ endmodule
 
 
 `endif
+
+
+// was PDIDGZ
+// PDIDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]));
+// PDIDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]));
+// PDIDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]));
+// PDIDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]));
+// PDIDGZ u_clk ( .C(clk_core), .PAD(clk));
+// PDIDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n));
+// PDIDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso));
+// PDIDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin));
+// endmodule
