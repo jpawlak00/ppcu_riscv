@@ -6793,19 +6793,32 @@ input [3:0]  btn;
 // TODO: replace input pad names with the correct ones
 //------------------------------------------------------------------------------
 
-PDIDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]));
-PDIDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]));
-PDIDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]));
-PDIDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]));
-PDIDGZ u_clk ( .C(clk_core), .PAD(clk));
-PDIDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n));
-PDIDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso));
-PDIDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin));
+assign oen = 1;
 
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]), .OEN(oen));
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]), .OEN(oen));
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]), .OEN(oen));
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]), .OEN(oen));
+PDB02SDGZ u_clk ( .C(clk_core), .PAD(clk), .OEN(oen));
+PDB02SDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n), .OEN(oen));
+PDB02SDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso), .OEN(oen));
+PDB02SDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin), .OEN(oen));
 endmodule
 
+
 `endif
-// Library - PPCU_VLSI_RISCV, Cell - pads_out, View - schematic
+
+
+// was PDIDGZ
+// PDIDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]));
+// PDIDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]));
+// PDIDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]));
+// PDIDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]));
+// PDIDGZ u_clk ( .C(clk_core), .PAD(clk));
+// PDIDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n));
+// PDIDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso));
+// PDIDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin));
+// endmodule// Library - PPCU_VLSI_RISCV, Cell - pads_out, View - schematic
 // LAST TIME SAVED: Apr  6 13:28:29 2020
 // NETLIST TIME: Apr  6 16:46:17 2020
 `timescale 1ns / 1ns
@@ -6827,16 +6840,17 @@ input  [3:0] led_core;
 //------------------------------------------------------------------------------
 // TODO: replace cell names to the correct ones
 //------------------------------------------------------------------------------
+// was PDO24CDG
 
-PDO24CDG u_led_3_ ( .PAD(led[3]), .I(led_core[3]));
-PDO24CDG u_led_2_ ( .PAD(led[2]), .I(led_core[2]));
-PDO24CDG u_led_1_ ( .PAD(led[1]), .I(led_core[1]));
-PDO24CDG u_led_0_ ( .PAD(led[0]), .I(led_core[0]));
-PDO24CDG u_spi_mosi ( .PAD(spi_mosi), .I(spi_mosi_core));
-PDO24CDG u_spi_sck ( .PAD(spi_sck), .I(spi_sck_core));
-PDO24CDG u_spi_ss ( .PAD(spi_ss), .I(spi_ss_core));
-PDO24CDG u_uart_sout ( .PAD(uart_sout), .I(uart_sout_core));
-PDO24CDG u_boot_sequence_done ( .PAD(boot_sequence_done),
+PDO08CDG u_led_3_ ( .PAD(led[3]), .I(led_core[3]));
+PDO08CDG u_led_2_ ( .PAD(led[2]), .I(led_core[2]));
+PDO08CDG u_led_1_ ( .PAD(led[1]), .I(led_core[1]));
+PDO08CDG u_led_0_ ( .PAD(led[0]), .I(led_core[0]));
+PDO08CDG u_spi_mosi ( .PAD(spi_mosi), .I(spi_mosi_core));
+PDO08CDG u_spi_sck ( .PAD(spi_sck), .I(spi_sck_core));
+PDO08CDG u_spi_ss ( .PAD(spi_ss), .I(spi_ss_core));
+PDO08CDG u_uart_sout ( .PAD(uart_sout), .I(uart_sout_core));
+PDO08CDG u_boot_sequence_done ( .PAD(boot_sequence_done),
     .I(boot_sequence_done_core));
 
 endmodule

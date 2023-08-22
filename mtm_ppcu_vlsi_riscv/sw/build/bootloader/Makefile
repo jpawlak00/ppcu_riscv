@@ -57,10 +57,10 @@ RM = /usr/local/cmake-3.23.0-rc2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw
+CMAKE_SOURCE_DIR = /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build
+CMAKE_BINARY_DIR = /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/bootloader//CMakeFiles/progress.marks
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles 0
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_progress_start /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/bootloader//CMakeFiles/progress.marks
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/clean
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/preinstall
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/preinstall
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bootloader/CMakeFiles/bootloader.dir/rule:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/CMakeFiles/bootloader.dir/rule
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bootloader/CMakeFiles/bootloader.dir/rule
 .PHONY : bootloader/CMakeFiles/bootloader.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ bootloader: bootloader/CMakeFiles/bootloader.dir/rule
 
 # fast build rule for target.
 bootloader/fast:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/build
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/build
 .PHONY : bootloader/fast
 
 crt0.o: crt0.S.o
@@ -135,7 +135,7 @@ crt0.o: crt0.S.o
 
 # target to build an object file
 crt0.S.o:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/crt0.S.o
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/crt0.S.o
 .PHONY : crt0.S.o
 
 src/main.o: src/main.cpp.o
@@ -143,7 +143,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/src/main.cpp.o
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -151,7 +151,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/src/main.cpp.i
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -159,7 +159,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/src/main.cpp.s
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f bootloader/CMakeFiles/bootloader.dir/build.make bootloader/CMakeFiles/bootloader.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -186,6 +186,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

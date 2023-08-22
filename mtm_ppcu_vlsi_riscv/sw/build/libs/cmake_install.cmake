@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs
+# Install script for directory: /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers/cmake_install.cmake")
+  include("/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc/cmake_install.cmake")
+  include("/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc/cmake_install.cmake")
 endif()
 

@@ -57,10 +57,10 @@ RM = /usr/local/cmake-3.23.0-rc2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw
+CMAKE_SOURCE_DIR = /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build
+CMAKE_BINARY_DIR = /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers//CMakeFiles/progress.marks
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles 0
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_progress_start /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers//CMakeFiles/progress.marks
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/clean
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/preinstall
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/preinstall
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/libdrivers/CMakeFiles/libdrivers.dir/rule:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/CMakeFiles/libdrivers.dir/rule
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libdrivers/CMakeFiles/libdrivers.dir/rule
 .PHONY : libs/libdrivers/CMakeFiles/libdrivers.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ libdrivers: libs/libdrivers/CMakeFiles/libdrivers.dir/rule
 
 # fast build rule for target.
 libdrivers/fast:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/build
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/build
 .PHONY : libdrivers/fast
 
 src/code_ram.o: src/code_ram.cpp.o
@@ -135,7 +135,7 @@ src/code_ram.o: src/code_ram.cpp.o
 
 # target to build an object file
 src/code_ram.cpp.o:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.o
 .PHONY : src/code_ram.cpp.o
 
 src/code_ram.i: src/code_ram.cpp.i
@@ -143,7 +143,7 @@ src/code_ram.i: src/code_ram.cpp.i
 
 # target to preprocess a source file
 src/code_ram.cpp.i:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.i
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.i
 .PHONY : src/code_ram.cpp.i
 
 src/code_ram.s: src/code_ram.cpp.s
@@ -151,7 +151,7 @@ src/code_ram.s: src/code_ram.cpp.s
 
 # target to generate assembly for a file
 src/code_ram.cpp.s:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.s
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/code_ram.cpp.s
 .PHONY : src/code_ram.cpp.s
 
 src/common.o: src/common.cpp.o
@@ -159,7 +159,7 @@ src/common.o: src/common.cpp.o
 
 # target to build an object file
 src/common.cpp.o:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.o
 .PHONY : src/common.cpp.o
 
 src/common.i: src/common.cpp.i
@@ -167,7 +167,7 @@ src/common.i: src/common.cpp.i
 
 # target to preprocess a source file
 src/common.cpp.i:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.i
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.i
 .PHONY : src/common.cpp.i
 
 src/common.s: src/common.cpp.s
@@ -175,7 +175,7 @@ src/common.s: src/common.cpp.s
 
 # target to generate assembly for a file
 src/common.cpp.s:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.s
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/common.cpp.s
 .PHONY : src/common.cpp.s
 
 src/gpio.o: src/gpio.cpp.o
@@ -183,7 +183,7 @@ src/gpio.o: src/gpio.cpp.o
 
 # target to build an object file
 src/gpio.cpp.o:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.o
 .PHONY : src/gpio.cpp.o
 
 src/gpio.i: src/gpio.cpp.i
@@ -191,7 +191,7 @@ src/gpio.i: src/gpio.cpp.i
 
 # target to preprocess a source file
 src/gpio.cpp.i:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.i
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.i
 .PHONY : src/gpio.cpp.i
 
 src/gpio.s: src/gpio.cpp.s
@@ -199,7 +199,7 @@ src/gpio.s: src/gpio.cpp.s
 
 # target to generate assembly for a file
 src/gpio.cpp.s:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.s
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/gpio.cpp.s
 .PHONY : src/gpio.cpp.s
 
 src/uart.o: src/uart.cpp.o
@@ -207,7 +207,7 @@ src/uart.o: src/uart.cpp.o
 
 # target to build an object file
 src/uart.cpp.o:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.o
 .PHONY : src/uart.cpp.o
 
 src/uart.i: src/uart.cpp.i
@@ -215,7 +215,7 @@ src/uart.i: src/uart.cpp.i
 
 # target to preprocess a source file
 src/uart.cpp.i:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.i
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.i
 .PHONY : src/uart.cpp.i
 
 src/uart.s: src/uart.cpp.s
@@ -223,7 +223,7 @@ src/uart.s: src/uart.cpp.s
 
 # target to generate assembly for a file
 src/uart.cpp.s:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.s
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libdrivers/CMakeFiles/libdrivers.dir/build.make libs/libdrivers/CMakeFiles/libdrivers.dir/src/uart.cpp.s
 .PHONY : src/uart.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

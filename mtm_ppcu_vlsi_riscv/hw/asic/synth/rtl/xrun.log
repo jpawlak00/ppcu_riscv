@@ -1,5 +1,5 @@
 xrun: 19.09-s003: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
-TOOL:	xrun	19.09-s003: Started on May 24, 2023 at 18:07:09 CEST
+TOOL:	xrun	19.09-s003: Started on Aug 22, 2023 at 19:26:25 CEST
 xrun
 	-elaborate
 	netlist.sv
@@ -10,6 +10,114 @@ xrun
 	-clean
 	-top mtm_riscv_chip
 xrun: *N,CLEAN: Removing existing directory ./xcelium.d.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
 file: netlist.sv
 	package worklib.core_pkg:sv
 		errors: 0, warnings: 0
@@ -75,9 +183,9 @@ file: /cad/dk/PDK_CRN45GS_DGO_11_25/IMEC_RAM_generator/ram/ts1n40lpb4096x32m4m_2
 	module ts1n40lpb4096x32m4m_250a_tt1p1v25c.TS1N40LPB4096X32M4M:v
 		errors: 0, warnings: 0
 file: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v
-	module tpfn40lpgv2od3.PDIDGZ:v
+	module tpfn40lpgv2od3.PDB02SDGZ:v
 		errors: 0, warnings: 0
-	module tpfn40lpgv2od3.PDO24CDG:v
+	module tpfn40lpgv2od3.PDO08CDG:v
 		errors: 0, warnings: 0
 	module tpfn40lpgv2od3.PVDD1DGZ:v
 		errors: 0, warnings: 0
@@ -87,11 +195,107 @@ file: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120
 		errors: 0, warnings: 0
 	module tpfn40lpgv2od3.PVSS3DGZ:v
 		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 6
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xrun: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
 		Caching library 'worklib' ....... Done
 		Caching library 'tpfn40lpgv2od3' ....... Done
 		Caching library 'ts1n40lpb4096x32m4m_250a_tt1p1v25c' ....... Done
+PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]), .OEN(oen));
+                 |
+xmelab: *W,CUVWSI (./netlist.sv,6798|17): 1 input port was not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+
+PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]), .OEN(oen));
+                 |
+xmelab: *W,CUVWSI (./netlist.sv,6799|17): 1 input port was not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+
+PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]), .OEN(oen));
+                 |
+xmelab: *W,CUVWSI (./netlist.sv,6800|17): 1 input port was not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+
+PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]), .OEN(oen));
+                 |
+xmelab: *W,CUVWSI (./netlist.sv,6801|17): 1 input port was not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+
+PDB02SDGZ u_clk ( .C(clk_core), .PAD(clk), .OEN(oen));
+              |
+xmelab: *W,CUVWSI (./netlist.sv,6802|14): 1 input port was not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+
+PDB02SDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n), .OEN(oen));
+                |
+xmelab: *W,CUVWSI (./netlist.sv,6803|16): 1 input port was not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+
+PDB02SDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso), .OEN(oen));
+                   |
+xmelab: *W,CUVWSI (./netlist.sv,6804|19): 1 input port was not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+
+PDB02SDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin), .OEN(oen));
+                   |
+xmelab: *W,CUVWSI (./netlist.sv,6805|19): 1 input port was not connected:
+xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
+
 	Top level design units:
 		core_pkg
 		memory_map
@@ -101,56 +305,80 @@ file: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120
 xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.uart_receiver:sv <0x0d45ec7e>
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,1): cds.lib Invalid environment variable ''.
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,2): cds.lib Invalid environment variable ''.
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,3): cds.lib Invalid environment variable ''.
+DEFINE ahdlLib $CDSHOME/tools/dfII/samples/artist/ahdlLib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,4): cds.lib Invalid environment variable ''.
+DEFINE bmslib $CDSHOME/tools/dfII/samples/artist/bmslib
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,5): cds.lib Invalid environment variable ''.
+DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
+|
+xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
+		worklib.pads_in:sv <0x5a2d9746>
+			streams:   1, words:   140
+		worklib.uart_receiver:sv <0x078de7d2>
 			streams:   8, words:  3962
-		worklib.uart_transmitter:sv <0x2cfc1155>
+		worklib.uart_transmitter:sv <0x23e59444>
 			streams:   8, words:  3753
-		worklib.uart_clock_generator:sv <0x608600cf>
+		worklib.uart_clock_generator:sv <0x5786b096>
 			streams:   4, words:  1756
-		worklib.uart:sv <0x3d2a4981>
+		worklib.uart:sv <0x339133da>
 			streams:  35, words: 17904
-		worklib.gpio:sv <0x1469458f>
+		worklib.gpio:sv <0x22915a72>
 			streams:  16, words:  7594
-		worklib.data_ram:sv <0x12b380aa>
+		worklib.data_ram:sv <0x52dcaae9>
 			streams:  10, words:  1950
-		worklib.ram:sv <0x3160eef9>
+		worklib.ram:sv <0x4511dbde>
 			streams:   5, words:  1173
-		worklib.code_ram:sv <0x22518cba>
+		worklib.code_ram:sv <0x065753c1>
 			streams:   6, words:  4430
-		worklib.boot_mem:sv <0x68ebfa1c>
+		worklib.boot_mem:sv <0x08a047ee>
 			streams:   1, words: 20482
-		worklib.boot_rom:sv <0x00630656>
+		worklib.boot_rom:sv <0x3f82f02a>
 			streams:   5, words:  3322
-		worklib.instr_bus_arbiter:sv <0x3f7da5f8>
+		worklib.instr_bus_arbiter:sv <0x538da74e>
 			streams:  10, words:  9298
-		worklib.data_bus_arbiter:sv <0x3bc7b89d>
+		worklib.data_bus_arbiter:sv <0x471ffcfd>
 			streams:  11, words: 26732
-		worklib.lsu:sv <0x216b2834>
+		worklib.lsu:sv <0x73f2d2a3>
 			streams:  10, words:  9163
-		worklib.alu:sv <0x7025b86b>
+		worklib.alu:sv <0x593d29e2>
 			streams:   2, words:  1502
-		worklib.rf:sv <0x729ea623>
+		worklib.rf:sv <0x1a843fba>
 			streams:   5, words:  2351
-		worklib.cu:sv <0x261588e9>
+		worklib.cu:sv <0x585446d6>
 			streams:  12, words:  8196
-		worklib.idu:sv <0x06cc33f6>
+		worklib.idu:sv <0x5adb59ca>
 			streams:  10, words: 18201
-		worklib.ifu:sv <0x728955c4>
+		worklib.ifu:sv <0x15c9ea02>
 			streams:  10, words:  5430
-		worklib.core:sv <0x0480aa21>
+		worklib.core:sv <0x249b57c2>
 			streams:  50, words: 10745
-		worklib.soc:sv <0x59f3827f>
+		worklib.soc:sv <0x5a605fae>
 			streams:   0, words:     0
-		worklib.mtm_riscv_chip:sv <0x5a817583>
+		worklib.mtm_riscv_chip:sv <0x045fb853>
 			streams:   8, words:  1575
-		worklib.memory_map:sv <0x5eef3587>
+		worklib.memory_map:sv <0x190553a4>
 			streams:  10, words:  4742
-		worklib.gpio_csr:sv <0x251ff624>
+		worklib.gpio_csr:sv <0x12811a81>
 			streams:   2, words:   946
-		worklib.uart_csr:sv <0x4dfce08d>
+		worklib.uart_csr:sv <0x0f2bc0b8>
 			streams:   7, words:  3321
 		ts1n40lpb4096x32m4m_250a_tt1p1v25c.TS1N40LPB4096X32M4M:v <0x1694b8e5>
 			streams:  27, words: 43822
+		tpfn40lpgv2od3.PDB02SDGZ:v <0x20bfeb59>
+			streams:   1, words:   831
+		tpfn40lpgv2od3.PDB02SDGZ:v <0x0b0bd7d2>
+			streams:   1, words:   831
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -158,19 +386,19 @@ xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-
 		Modules:                51      31
 		Interfaces:              9       2
 		Verilog packages:        4       4
-		Primitives:            254       3
-		Timing outputs:         71      33
+		Primitives:            262       4
+		Timing outputs:         79      35
 		Registers:             406     286
-		Scalar wires:          165       -
+		Scalar wires:          174       -
 		Expanded wires:        340      17
 		Vectored wires:         84       -
 		Named events:            4       4
-		Always blocks:          97      88
+		Always blocks:         105      89
 		Initial blocks:         25      24
-		Cont. assignments:      23      31
+		Cont. assignments:      24      32
 		Pseudo assignments:     81      77
 		Timing checks:         632     165
 		Assertions:              4       4
 		Simulation timescale:  1ps
 	Writing initial simulation snapshot: worklib.mtm_riscv_chip:sv
-TOOL:	xrun	19.09-s003: Exiting on May 24, 2023 at 18:07:10 CEST  (total: 00:00:01)
+TOOL:	xrun	19.09-s003: Exiting on Aug 22, 2023 at 19:26:26 CEST  (total: 00:00:01)

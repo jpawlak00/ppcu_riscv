@@ -22,15 +22,15 @@ input  [3:0] led_core;
 //------------------------------------------------------------------------------
 // was PDO24CDG
 
-PDO02CDG u_led_3_ ( .PAD(led[3]), .I(led_core[3]));
-PDO02CDG u_led_2_ ( .PAD(led[2]), .I(led_core[2]));
-PDO02CDG u_led_1_ ( .PAD(led[1]), .I(led_core[1]));
-PDO02CDG u_led_0_ ( .PAD(led[0]), .I(led_core[0]));
-PDO02CDG u_spi_mosi ( .PAD(spi_mosi), .I(spi_mosi_core));
-PDO02CDG u_spi_sck ( .PAD(spi_sck), .I(spi_sck_core));
-PDO02CDG u_spi_ss ( .PAD(spi_ss), .I(spi_ss_core));
-PDO02CDG u_uart_sout ( .PAD(uart_sout), .I(uart_sout_core));
-PDO24CDG u_boot_sequence_done ( .PAD(boot_sequence_done),
+PDO08CDG u_led_3_ ( .PAD(led[3]), .I(led_core[3]));
+PDO08CDG u_led_2_ ( .PAD(led[2]), .I(led_core[2]));
+PDO08CDG u_led_1_ ( .PAD(led[1]), .I(led_core[1]));
+PDO08CDG u_led_0_ ( .PAD(led[0]), .I(led_core[0]));
+PDO08CDG u_spi_mosi ( .PAD(spi_mosi), .I(spi_mosi_core));
+PDO08CDG u_spi_sck ( .PAD(spi_sck), .I(spi_sck_core));
+PDO08CDG u_spi_ss ( .PAD(spi_ss), .I(spi_ss_core));
+PDO08CDG u_uart_sout ( .PAD(uart_sout), .I(uart_sout_core));
+PDO08CDG u_boot_sequence_done ( .PAD(boot_sequence_done),
     .I(boot_sequence_done_core));
 
 endmodule

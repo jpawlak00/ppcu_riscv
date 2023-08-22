@@ -57,6 +57,7 @@ DSEM2009
 DSEMEL
 -NOWARN
 ZROMCW
+-LINEDEBUG
 -CDSLIB
 ./xcelium.d/run.lnx8664.19.09.d/cdsrun.lib
 -HDLVAR
