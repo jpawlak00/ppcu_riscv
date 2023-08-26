@@ -8,7 +8,7 @@ delete_all_floorplan_objs
 # TODO: initialize floorplan to the required size
 # Menu: Floorplan -> Specify Floorplan...
 # Function: create_floorplan
-
+create_floorplan -site core -box_size 0.0 0.0 1182.02 1182.02 189.98 189.98 992.04 992.04 291.06 291.06 890.96 890.96
 
 # TODO: Generate template for IO placement:
 # Menu: File -> Save -> IO File... , check the boxes: sequence, Generate template IO File"
