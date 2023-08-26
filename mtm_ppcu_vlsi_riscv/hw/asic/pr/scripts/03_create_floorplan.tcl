@@ -23,6 +23,7 @@ create_floorplan -site core -box_size 0.0 0.0 1182.02 1182.02 189.98 189.98 992.
 # TODO: Read created IO configuration. You can do this many times
 # Menu: File -> Load -> I/O File...
 # Function: read_io_file
+read_io_file mtm_riscv_chip.io
 
 
 # TODO: Add 12um placement halo around blocks to reserve the place for the power ring
