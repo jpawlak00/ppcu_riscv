@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/bootloader/crt0.S
+/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/bootloader/crt0.S
 

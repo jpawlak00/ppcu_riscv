@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/bootloader/crt0.S" "/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/bootloader/CMakeFiles/bootloader.dir/crt0.S.o"
+  "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/bootloader/crt0.S" "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/bootloader/CMakeFiles/bootloader.dir/crt0.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -20,13 +20,13 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/bootloader/src/main.cpp" "bootloader/CMakeFiles/bootloader.dir/src/main.cpp.o" "gcc" "bootloader/CMakeFiles/bootloader.dir/src/main.cpp.o.d"
+  "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/bootloader/src/main.cpp" "bootloader/CMakeFiles/bootloader.dir/src/main.cpp.o" "gcc" "bootloader/CMakeFiles/bootloader.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc/CMakeFiles/libmisc.dir/DependInfo.cmake"
-  "/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers/CMakeFiles/libdrivers.dir/DependInfo.cmake"
+  "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc/CMakeFiles/libmisc.dir/DependInfo.cmake"
+  "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libdrivers/CMakeFiles/libdrivers.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

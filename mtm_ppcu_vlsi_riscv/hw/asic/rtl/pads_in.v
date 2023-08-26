@@ -19,16 +19,14 @@ input [3:0]  btn;
 // TODO: replace input pad names with the correct ones
 //------------------------------------------------------------------------------
 
-assign oen = 1;
-
-PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]), .OEN(oen));
-PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]), .OEN(oen));
-PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]), .OEN(oen));
-PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]), .OEN(oen));
-PDB02SDGZ u_clk ( .C(clk_core), .PAD(clk), .OEN(oen));
-PDB02SDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n), .OEN(oen));
-PDB02SDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso), .OEN(oen));
-PDB02SDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin), .OEN(oen));
+PDISDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]) );
+PDISDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]) );
+PDISDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]) );
+PDISDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]) );
+PDISDGZ u_clk ( .C(clk_core), .PAD(clk) );
+PDISDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n) );
+// PDB02SDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso), .OEN(oen));
+PDISDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin) );
 endmodule
 
 

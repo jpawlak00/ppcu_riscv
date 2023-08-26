@@ -6793,16 +6793,14 @@ input [3:0]  btn;
 // TODO: replace input pad names with the correct ones
 //------------------------------------------------------------------------------
 
-assign oen = 1;
-
-PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]), .OEN(oen));
-PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]), .OEN(oen));
-PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]), .OEN(oen));
-PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]), .OEN(oen));
-PDB02SDGZ u_clk ( .C(clk_core), .PAD(clk), .OEN(oen));
-PDB02SDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n), .OEN(oen));
-PDB02SDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso), .OEN(oen));
-PDB02SDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin), .OEN(oen));
+PDISDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]) );
+PDISDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]) );
+PDISDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]) );
+PDISDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]) );
+PDISDGZ u_clk ( .C(clk_core), .PAD(clk) );
+PDISDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n) );
+// PDB02SDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso), .OEN(oen));
+PDISDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin) );
 endmodule
 
 
@@ -6842,16 +6840,16 @@ input  [3:0] led_core;
 //------------------------------------------------------------------------------
 // was PDO24CDG
 
-PDO08CDG u_led_3_ ( .PAD(led[3]), .I(led_core[3]));
-PDO08CDG u_led_2_ ( .PAD(led[2]), .I(led_core[2]));
-PDO08CDG u_led_1_ ( .PAD(led[1]), .I(led_core[1]));
-PDO08CDG u_led_0_ ( .PAD(led[0]), .I(led_core[0]));
-PDO08CDG u_spi_mosi ( .PAD(spi_mosi), .I(spi_mosi_core));
-PDO08CDG u_spi_sck ( .PAD(spi_sck), .I(spi_sck_core));
-PDO08CDG u_spi_ss ( .PAD(spi_ss), .I(spi_ss_core));
-PDO08CDG u_uart_sout ( .PAD(uart_sout), .I(uart_sout_core));
-PDO08CDG u_boot_sequence_done ( .PAD(boot_sequence_done),
-    .I(boot_sequence_done_core));
+PDO12CDG u_led_3_ ( .PAD(led[3]), .I(led_core[3]));
+PDO12CDG u_led_2_ ( .PAD(led[2]), .I(led_core[2]));
+PDO12CDG u_led_1_ ( .PAD(led[1]), .I(led_core[1]));
+PDO12CDG u_led_0_ ( .PAD(led[0]), .I(led_core[0]));
+// PDO12CDG u_spi_mosi ( .PAD(spi_mosi), .I(spi_mosi_core));
+// PDO12CDG u_spi_sck ( .PAD(spi_sck), .I(spi_sck_core));
+// PDO12CDG u_spi_ss ( .PAD(spi_ss), .I(spi_ss_core));
+PDO12CDG u_uart_sout ( .PAD(uart_sout), .I(uart_sout_core));
+// PDO12CDG u_boot_sequence_done ( .PAD(boot_sequence_done),
+//    .I(boot_sequence_done_core));
 
 endmodule
 
@@ -6879,13 +6877,15 @@ PVDD1DGZ VDD1_1_ ( .VDD() );
 PVDD1DGZ VDD1_0_ ( .VDD() );
     
 // io vdd    
-PVDD2DGZ VDD2_1_ ( .VDDPST() );
+// PVDD2DGZ VDD2_1_ ( .VDDPST() );
 PVDD2DGZ VDD2_0_ ( .VDDPST() );
     
 // io power on control (only one)
 PVDD2POC VDD2POC ( .VDDPST() );
     
-// common ground    
+// common ground 
+PVSS3DGZ VSS3_3_ ( .VSS() );
+PVSS3DGZ VSS3_2_ ( .VSS() );   
 PVSS3DGZ VSS3_1_ ( .VSS() );
 PVSS3DGZ VSS3_0_ ( .VSS() );
 

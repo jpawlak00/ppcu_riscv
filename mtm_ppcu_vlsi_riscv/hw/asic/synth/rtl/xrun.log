@@ -1,5 +1,5 @@
 xrun: 19.09-s003: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
-TOOL:	xrun	19.09-s003: Started on Aug 22, 2023 at 19:26:25 CEST
+TOOL:	xrun	19.09-s003: Started on Aug 25, 2023 at 20:09:01 CEST
 xrun
 	-elaborate
 	netlist.sv
@@ -183,9 +183,9 @@ file: /cad/dk/PDK_CRN45GS_DGO_11_25/IMEC_RAM_generator/ram/ts1n40lpb4096x32m4m_2
 	module ts1n40lpb4096x32m4m_250a_tt1p1v25c.TS1N40LPB4096X32M4M:v
 		errors: 0, warnings: 0
 file: /cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v
-	module tpfn40lpgv2od3.PDB02SDGZ:v
+	module tpfn40lpgv2od3.PDISDGZ:v
 		errors: 0, warnings: 0
-	module tpfn40lpgv2od3.PDO08CDG:v
+	module tpfn40lpgv2od3.PDO12CDG:v
 		errors: 0, warnings: 0
 	module tpfn40lpgv2od3.PVDD1DGZ:v
 		errors: 0, warnings: 0
@@ -256,46 +256,6 @@ xmelab: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.li
 		Caching library 'worklib' ....... Done
 		Caching library 'tpfn40lpgv2od3' ....... Done
 		Caching library 'ts1n40lpb4096x32m4m_250a_tt1p1v25c' ....... Done
-PDB02SDGZ u_btn_3_ ( .C(btn_core[3]), .PAD(btn[3]), .OEN(oen));
-                 |
-xmelab: *W,CUVWSI (./netlist.sv,6798|17): 1 input port was not connected:
-xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
-
-PDB02SDGZ u_btn_2_ ( .C(btn_core[2]), .PAD(btn[2]), .OEN(oen));
-                 |
-xmelab: *W,CUVWSI (./netlist.sv,6799|17): 1 input port was not connected:
-xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
-
-PDB02SDGZ u_btn_1_ ( .C(btn_core[1]), .PAD(btn[1]), .OEN(oen));
-                 |
-xmelab: *W,CUVWSI (./netlist.sv,6800|17): 1 input port was not connected:
-xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
-
-PDB02SDGZ u_btn_0_ ( .C(btn_core[0]), .PAD(btn[0]), .OEN(oen));
-                 |
-xmelab: *W,CUVWSI (./netlist.sv,6801|17): 1 input port was not connected:
-xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
-
-PDB02SDGZ u_clk ( .C(clk_core), .PAD(clk), .OEN(oen));
-              |
-xmelab: *W,CUVWSI (./netlist.sv,6802|14): 1 input port was not connected:
-xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
-
-PDB02SDGZ u_rst_n ( .C(rst_n_core), .PAD(rst_n), .OEN(oen));
-                |
-xmelab: *W,CUVWSI (./netlist.sv,6803|16): 1 input port was not connected:
-xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
-
-PDB02SDGZ u_spi_miso ( .C(spi_miso_core), .PAD(spi_miso), .OEN(oen));
-                   |
-xmelab: *W,CUVWSI (./netlist.sv,6804|19): 1 input port was not connected:
-xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
-
-PDB02SDGZ u_uart_sin ( .C(uart_sin_core), .PAD(uart_sin), .OEN(oen));
-                   |
-xmelab: *W,CUVWSI (./netlist.sv,6805|19): 1 input port was not connected:
-xmelab: (/cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v,64): I
-
 	Top level design units:
 		core_pkg
 		memory_map
@@ -323,8 +283,6 @@ xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds
 DEFINE sample $CDSHOME/tools/dfII/samples/cdslib/sample
 |
 xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds.lib,6): cds.lib Invalid environment variable ''.
-		worklib.pads_in:sv <0x5a2d9746>
-			streams:   1, words:   140
 		worklib.uart_receiver:sv <0x078de7d2>
 			streams:   8, words:  3962
 		worklib.uart_transmitter:sv <0x23e59444>
@@ -365,7 +323,7 @@ xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds
 			streams:  50, words: 10745
 		worklib.soc:sv <0x5a605fae>
 			streams:   0, words:     0
-		worklib.mtm_riscv_chip:sv <0x045fb853>
+		worklib.mtm_riscv_chip:sv <0x5a817583>
 			streams:   8, words:  1575
 		worklib.memory_map:sv <0x190553a4>
 			streams:  10, words:  4742
@@ -375,30 +333,26 @@ xmvlog_cg: *W,DLCVAR (/cad/dk/tsmc130/tsmc130_1p8m_5X1Z1U_CURDL_25v_15fF_MIM/cds
 			streams:   7, words:  3321
 		ts1n40lpb4096x32m4m_250a_tt1p1v25c.TS1N40LPB4096X32M4M:v <0x1694b8e5>
 			streams:  27, words: 43822
-		tpfn40lpgv2od3.PDB02SDGZ:v <0x20bfeb59>
-			streams:   1, words:   831
-		tpfn40lpgv2od3.PDB02SDGZ:v <0x0b0bd7d2>
-			streams:   1, words:   831
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
 		                 Instances  Unique
-		Modules:                51      31
+		Modules:                47      31
 		Interfaces:              9       2
 		Verilog packages:        4       4
-		Primitives:            262       4
-		Timing outputs:         79      35
+		Primitives:            250       3
+		Timing outputs:         71      33
 		Registers:             406     286
-		Scalar wires:          174       -
+		Scalar wires:          165       -
 		Expanded wires:        340      17
 		Vectored wires:         84       -
 		Named events:            4       4
-		Always blocks:         105      89
+		Always blocks:          97      88
 		Initial blocks:         25      24
-		Cont. assignments:      24      32
+		Cont. assignments:      23      31
 		Pseudo assignments:     81      77
 		Timing checks:         632     165
 		Assertions:              4       4
 		Simulation timescale:  1ps
 	Writing initial simulation snapshot: worklib.mtm_riscv_chip:sv
-TOOL:	xrun	19.09-s003: Exiting on Aug 22, 2023 at 19:26:26 CEST  (total: 00:00:01)
+TOOL:	xrun	19.09-s003: Exiting on Aug 25, 2023 at 20:09:02 CEST  (total: 00:00:01)

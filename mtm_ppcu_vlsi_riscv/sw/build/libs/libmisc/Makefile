@@ -57,10 +57,10 @@ RM = /usr/local/cmake-3.23.0-rc2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw
+CMAKE_SOURCE_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build
+CMAKE_BINARY_DIR = /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_progress_start /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc//CMakeFiles/progress.marks
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles 0
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/libs/libmisc//CMakeFiles/progress.marks
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/clean
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/preinstall
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/preinstall
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/libmisc/CMakeFiles/libmisc.dir/rule:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/CMakeFiles/libmisc.dir/rule
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/libmisc/CMakeFiles/libmisc.dir/rule
 .PHONY : libs/libmisc/CMakeFiles/libmisc.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ libmisc: libs/libmisc/CMakeFiles/libmisc.dir/rule
 
 # fast build rule for target.
 libmisc/fast:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libmisc/CMakeFiles/libmisc.dir/build.make libs/libmisc/CMakeFiles/libmisc.dir/build
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libmisc/CMakeFiles/libmisc.dir/build.make libs/libmisc/CMakeFiles/libmisc.dir/build
 .PHONY : libmisc/fast
 
 src/delay.o: src/delay.cpp.o
@@ -135,7 +135,7 @@ src/delay.o: src/delay.cpp.o
 
 # target to build an object file
 src/delay.cpp.o:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libmisc/CMakeFiles/libmisc.dir/build.make libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libmisc/CMakeFiles/libmisc.dir/build.make libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.o
 .PHONY : src/delay.cpp.o
 
 src/delay.i: src/delay.cpp.i
@@ -143,7 +143,7 @@ src/delay.i: src/delay.cpp.i
 
 # target to preprocess a source file
 src/delay.cpp.i:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libmisc/CMakeFiles/libmisc.dir/build.make libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.i
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libmisc/CMakeFiles/libmisc.dir/build.make libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.i
 .PHONY : src/delay.cpp.i
 
 src/delay.s: src/delay.cpp.s
@@ -151,7 +151,7 @@ src/delay.s: src/delay.cpp.s
 
 # target to generate assembly for a file
 src/delay.cpp.s:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libmisc/CMakeFiles/libmisc.dir/build.make libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.s
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(MAKE) $(MAKESILENT) -f libs/libmisc/CMakeFiles/libmisc.dir/build.make libs/libmisc/CMakeFiles/libmisc.dir/src/delay.cpp.s
 .PHONY : src/delay.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

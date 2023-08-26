@@ -21,13 +21,15 @@ PVDD1DGZ VDD1_1_ ( .VDD() );
 PVDD1DGZ VDD1_0_ ( .VDD() );
     
 // io vdd    
-PVDD2DGZ VDD2_1_ ( .VDDPST() );
+// PVDD2DGZ VDD2_1_ ( .VDDPST() );
 PVDD2DGZ VDD2_0_ ( .VDDPST() );
     
 // io power on control (only one)
 PVDD2POC VDD2POC ( .VDDPST() );
     
-// common ground    
+// common ground 
+PVSS3DGZ VSS3_3_ ( .VSS() );
+PVSS3DGZ VSS3_2_ ( .VSS() );   
 PVSS3DGZ VSS3_1_ ( .VSS() );
 PVSS3DGZ VSS3_0_ ( .VSS() );
 

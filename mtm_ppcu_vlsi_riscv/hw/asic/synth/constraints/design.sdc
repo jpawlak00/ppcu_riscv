@@ -17,7 +17,7 @@ create_clock [get_pins u_pads_in/u_clk/C] -name clk1 -period 20 -waveform {0 10}
 
 # TODO: Specify the uncertainty on the clock network (setup: 0.1 Tclk,
 # hold: 4-5x or T_hold_dff, e.g. 50ps)
-set_clock_uncertainty -setup 0.1 [get_clocks clk1]
+set_clock_uncertainty -setup 2.0 [get_clocks clk1]
 set_clock_uncertainty -hold 0.05 [get_clocks clk1]
 
 # TODO: Specify the clock transition (slew) on the specified clock (100 ps for TSMC 40n)

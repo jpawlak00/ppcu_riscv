@@ -4,7 +4,7 @@
 # compile CXX with /opt/riscv/bin/riscv32-unknown-elf-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include -I/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include/libdrivers
+CXX_INCLUDES = -I/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include -I/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/sw/libs/libdrivers/include/libdrivers
 
 CXX_FLAGS =      -fno-common     -fno-exceptions     -fno-non-call-exceptions     -fno-rtti     -fno-use-cxa-atexit     -fvisibility=hidden     -march=rv32i     -mabi=ilp32     -mcmodel=medany     -nostdlib     -Os     -Wall     -Wextra     -Werror  -std=gnu++2a
 
