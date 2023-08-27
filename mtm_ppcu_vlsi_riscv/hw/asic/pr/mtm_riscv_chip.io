@@ -16,7 +16,7 @@
     )
     (top
 	(inst  name="u_pads_in/u_btn_0_"	place_status=placed offset = 190)
-	(inst  name="u_pads_pwr/VDD1_0_"	place_status=placed space = 163.005)
+	(inst  name="u_pads_pwr/VSS3_2_"	place_status=placed space = 163.005)
 	(inst  name="u_pads_in/u_clk"	place_status=placed )
 	(inst  name="u_pads_pwr/VSS3_0_"	place_status=placed )
 	(inst  name="u_pads_out/u_led_0_"	place_status=placed )
@@ -26,9 +26,9 @@
     )
     (left
 	(inst  name="u_pads_in/u_btn_3_"	place_status=placed offset = 190)
-	(inst  name="u_pads_pwr/VDD2POC"	place_status=placed space = 163.005)
+	(inst  name="u_pads_pwr/VDD1_0_"	place_status=placed space = 163.005) 
 	(inst  name="u_pads_in/u_btn_2_"	place_status=placed )
-	(inst  name="u_pads_pwr/VSS3_2_"	place_status=placed )
+	(inst  name="u_pads_pwr/VDD2POC"	place_status=placed )
 	(inst  name="u_pads_in/u_btn_1_"	place_status=placed )
     )
     (bottomleft
