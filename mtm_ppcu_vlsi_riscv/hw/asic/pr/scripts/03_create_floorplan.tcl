@@ -41,7 +41,7 @@ set_db $myram0 .location {431.755 362.465}
 
 # TODO: Set the desired location of the data RAM
 set myram1 [get_cells u_soc/u_data_ram/u_ram/u_TS1N40LPB4096X32M4M]
-set_db $myram1 .location {634.6715 362.465}
+set_db $myram1 .location {634.670 362.465}
 
 
 # TODO: Cut core rows to placement halo
@@ -109,7 +109,7 @@ add_stripes -direction horizontal -layer M7 -nets {VDD VSS} -set_to_set_distance
 # Advanced -> Pad Pins -> Number of connections to Multiple Geometries = All
 # Function: route_special
 set_db route_special_via_connect_to_shape { noshape }
-route_special -connect {pad_pin} -layer_change_range { M1(1) AP(9) } -block_pin_target {nearest_target} -pad_pin_port_connect {all_port all_geom} -pad_pin_target {nearest_target} -allow_jogging 1 -crossover_via_layer_range { M1(1) AP(9) } -nets { VSS VDDPST VDD } -allow_layer_change 0 -target_via_layer_range { M1(1) AP(9) }
+route_special -connect {pad_pin} -layer_change_range { M1(1) AP(9) } -block_pin_target {nearest_target} -pad_pin_port_connect {all_port all_geom} -pad_pin_target {nearest_target} -allow_jogging 1 -crossover_via_layer_range { M1(1) AP(9) } -nets { VSS VDD } -allow_layer_change 0 -target_via_layer_range { M1(1) AP(9) }
 
 # TODO: Connect RAM block powers
 # Menu: Route -> Special route...
@@ -117,6 +117,9 @@ route_special -connect {pad_pin} -layer_change_range { M1(1) AP(9) } -block_pin_
 # Basic -> Allow Layer Change = Off
 # Advanced -> Block Pins -> Pin selection = All Pins
 # Function: route_special
+#set_db route_special_via_connect_to_shape { noshape }
+route_special -connect {block_pin} -layer_change_range { M1(1) AP(9) } -block_pin_target {nearest_target} -allow_jogging 1 -crossover_via_layer_range { M1(1) AP(9) } -nets { VDD VSS } -allow_layer_change 0 -block_pin all -target_via_layer_range { M1(1) AP(9) }
+
 
 
 # TODO: Connect standard cell power
@@ -125,6 +128,9 @@ route_special -connect {pad_pin} -layer_change_range { M1(1) AP(9) } -block_pin_
 # Basic -> Allow Layer Change = Off
 # Via Generation -> Make Via Connection to: = Core Ring, Stripe
 # Functions: set_db, route_special
+set_db route_special_via_connect_to_shape { ring stripe }
+route_special -connect {core_pin} -layer_change_range { M1(1) AP(9) } -block_pin_target {nearest_target} -core_pin_target {first_after_row_end} -allow_jogging 1 -crossover_via_layer_range { M1(1) AP(9) } -nets { VSS VDD } -allow_layer_change 0 -target_via_layer_range { M1(1) AP(9) }
 
 # save database
 write_db $saveDir/${DESIGN}_03_floorplan.db
+
