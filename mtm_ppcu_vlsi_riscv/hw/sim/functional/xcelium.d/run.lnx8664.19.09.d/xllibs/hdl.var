@@ -2,7 +2,3 @@ define LIB_MAP ( $LIB_MAP \
 , ../../../../../../../../../../../../cad/dk/PDK_CRN45GS_DGO_11_25/IMEC_RAM_generator/ram/ts1n40lpb4096x32m4m_250a/VERILOG/ts1n40lpb4096x32m4m_250a_tt1p1v25c.v => ts1n40lpb4096x32m4m_250a_tt1p1v25c \
 , ../../../../../../../../../../../../cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v => tpfn40lpgv2od3 \
 )
-define LIB_MAP ( $LIB_MAP \
-, ../../../../../../../../../../../../cad/dk/PDK_CRN45GS_DGO_11_25/IMEC_RAM_generator/ram/ts1n40lpb4096x32m4m_250a/VERILOG/ts1n40lpb4096x32m4m_250a_tt1p1v25c.v => ts1n40lpb4096x32m4m_250a_tt1p1v25c \
-, ../../../../../../../../../../../../cad/dk/PDK_CRN45GS_DGO_11_25/digital/Front_End/verilog/tpfn40lpgv2od3_120a/tpfn40lpgv2od3.v => tpfn40lpgv2od3 \
-)

@@ -11098,14 +11098,14 @@
 "type":"instance"},
 
 {"index": "1", 
- "date": "Fri Aug 25 20:13:30 CEST 2023",
- "seconds": 1692987210.996564,
+ "date": "Tue Aug 29 18:14:55 CEST 2023",
+ "seconds": 1693325695.497829,
  "netlist": "./LEC/fv_map.v.gz", 
  "design_name": "mtm_riscv_chip", 
  "synth_workdir": "/home/student/jpawlak/PROJEKT_JP_2023/ppcu_riscv/mtm_ppcu_vlsi_riscv/hw/asic/synth", 
  "synthesis_command":"",
  "current_label": "fv_map", 
  "previous_label": "rtl", 
- "write_verif_file_runtime": 1.668161 
+ "write_verif_file_runtime": 1.85058 
  }
 ]

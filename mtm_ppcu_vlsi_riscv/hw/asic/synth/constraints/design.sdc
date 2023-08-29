@@ -24,7 +24,9 @@ set_clock_uncertainty -hold 0.05 [get_clocks clk1]
 set_clock_transition 0.1 [get_clocks clk1]
 
 # TODO: Specify the rise/fall time of 0.5 ns for all the input signals except the clock
-set_input_transition 0.5 [all_inputs]
+set_input_transition -rise 0.5 [all_inputs -no_clocks]
+set_input_transition -fall 0.5 [all_inputs -no_clocks]
+
 
 # TODO: Constrain input ports within the desing relative to the clock edge (try 1/4 of Tclk)
 set_input_delay -clock clk1 5 [all_inputs]
