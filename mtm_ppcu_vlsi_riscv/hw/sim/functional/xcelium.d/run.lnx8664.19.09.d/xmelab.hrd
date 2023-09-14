@@ -5,6 +5,3 @@
 -timescale
 1ns/1ps
 -XMINITIALIZE
-+FSMDEBUG
--ACCESS
-+r
